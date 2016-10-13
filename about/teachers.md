@@ -1,0 +1,197 @@
+---
+layout: default
+title: Teachers - Children of Hope | Child Development Center
+permalink: /about/teachers-and-staff
+---
+
+Teachers & Staff
+===
+
+
+<h3 class="ui header">
+  Lynn Hockenberger (Mrs. H)
+  <div class="sub header">Preschool Director</div>
+</h3>
+
+<p>
+  Hello! My name is Lynn Hockenberger and it is a true joy for me to come to work every day at Children of Hope Preschool! I have been privileged to serve as Director of this wonderful school since 2009 and have been a teacher here since the school opened in 2007. I have enjoyed being an early childhood educator since moving to the valley in 2000.
+</p>
+
+<p>
+  I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a minor in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I am looking into obtaining my Master’s Degree in Early Childhood Administration. I currently hold the Faith Representative seat on the First Things First East Maricopa Regional Council and am a member of both the Evangelical Lutheran Education Association (ELEA) and the National Association for the Education of Young Children (NAEYC).
+</p>
+
+<p>
+  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two children, Laura, a senior at the University of Arizona, and Jake, a freshman at Pima Community College. Both of our children are proud members of the Pride of Arizona Marching Band at the UofA. Bear down!
+</p>
+
+<p>
+  I am so proud to be a part of this wonderful preschool and to work with such a great staff. I so believe in this special ministry and am very thankful to work with God’s precious children.
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Karin Kammerzell (Mrs. K)
+  <div class="sub header">Lead Teacher</div>
+</h3>
+
+<p>
+  Hi!  My name is Karin Kammerzell.  I am very excited to be teaching at Children of Hope
+  for the 10th year. I feel blessed to have found such a wonderful place to work with a great
+  bunch of teachers, children and parents.
+</p>
+
+<p>
+  I grew up in beautiful Colorado and graduated from Colorado State University with a B.S.
+  degree in Child Development. I have several years of experience working in Early Childhood
+  Education.
+</p>
+
+<p>
+  My family moved to Ahwatukee in January 2000. My husband Kevin and I have two wonderful
+  children. Tori is a junior nursing major at NAU and our son Trevor will be a senior at
+  Desert Vista. I enjoy spending time with my family, friends, reading and watching football
+  (Go Broncos!). I am looking forward to my time with your children and helping them to
+  experience an exciting year.
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Karen Quenzer (Mrs. Q)
+  <div class="sub header">Assistant Teacher</div>
+</h3>
+
+<p>
+  This is my 9th year at Children of Hope and I’m very excited to be assisting Mrs. K again
+  this year with both the 2 year old class and the 3 year old class.  Prior to working at
+  Children of Hope I worked in the Kyrene School District for 2 years.
+</p>
+
+<p>
+  My family moved from upstate New York in 2005 when my husband was transferred for work.
+  We have 2 children; Rick is a senior at NAU and my daughter Julia is a sophomore at Desert Vista.
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Amy Angilletta
+  <div class="sub header">Assistant Teacher</div>
+</h3>
+
+<p>
+  My name is Amy Angilletta and it is a joy for me to work at Children of Hope! This will be my third year at Hope and I am looking forward to seeing some familiar faces, as well as meeting all our new friends.  Again this year I will have the privilege of working with our 2 year olds as well as our Pre-K kiddos.
+</p>
+
+<p>
+  Prior to coming to Children of Hope, I worked at the elementary school level, for several years, as a substitute teacher, special education assistant, and most recently as a K-3 Instructional Assistant at Estrella. 
+</p>
+
+<p>
+  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree in Biology and a minor in Psychology.  I have been married to my husband, Mike, for 23 years and have two children, Taylor, age 18 and Kyle, age 13.  Taylor will be heading to ASU this fall to study music therapy. Kyle will be in 8 th grade at Akimel, keeping busy with his percussion playing with both Akimel and Desert Vista bands. I keep busy as a proud booster of both the Desert Vista Thunder Marching Band and the Akimel A-al Rattler Band.  As a family, we enjoy traveling, hiking, movies and music. We moved to Ahwatukee in the summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! I am looking forward to a wonderful year getting to know and nurture your children!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Lisa Krach
+  <div class="sub header">Lead Teacher</div>
+</h3>
+
+<p>
+  My name is Lisa Krach and the easiest way to pronounce my last name is by saying the first
+  syllable in “crocodile”. I have lived in Arizona for the past sixteen years with my husband
+  and twenty year old daughter.
+</p>
+
+<p>
+  I taught kindergarten and first grade for eight years and then became a reading specialist
+  my final year in California. I earned my Master’s Degree in early childhood reading in 1996.
+  I left teaching and moved to Texas when my daughter was born. I taught preschool for two years
+  in Texas then we moved here to Arizona. I taught the last nine years here at Children of Hope
+  and I am looking forward to another exciting year.
+</p>
+
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Pati Hammer
+  <div class="sub header">Lead Teacher</div>
+</h3>
+
+<p>
+  My name is Patricia Hammer. I was born and raised in San Diego, California and lived there
+  until our move here twenty years ago. I attended Southwestern College and SDSU; where my
+  major was Bilingual Elementary Education. I have taught and tutored conversational Spanish
+  from my home and I am currently in my seventh year teaching the Spanish after-school enrichment
+  program at five schools in the Kyrene Elementary School District. I have also taught Spanish,
+  cooking, and art in the enrichment programs here at Children of Hope.
+</p>
+
+<p>
+  I have been blessed with two wonderful children. My daughter Jessica will be attending Tufts
+  University in Massachusetts in their graduate program for veterinary medicine. My son Mitchell
+  attends Princeton, where he will start his senior year and is majoring in English Literature
+  and Spanish. I have been married for almost twenty-five years to my best friend Mike. In my
+  spare time I enjoy cooking, baking, crafting, traveling, garage sales, and spending time with
+  my beautiful family.
+</p>
+
+<p>
+  This is my fifth year here at Children of Hope Child Development Center. Before joining the staff
+  here I taught at God’s Garden CDC for eight years, where I was a lead teacher for the 2’s, 3’s
+  and Pre-K programs. Being part of the staff here at COH has been such a rewarding experience and
+  I consider myself blessed to be teaching in such a peaceful and wonderful school. I am looking
+  forward to being a part of your child’s educational and spiritual journey. I can’t wait to experience
+  each one of their individual personalities and watch them blossom into future Kindergartners.
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Lori Palomaa
+  <div class="sub header">Assistant Teacher</div>
+</h3>
+
+<p>
+  My name is Lori Palomaa and I am a rarity: a native Arizonan, born and raised in Phoenix. While this is my 5th year at Children of Hope working with Mrs. Hammer, I have been an active member of Esperanza Lutheran Church for 25 years. I have been married to my high school sweetheart, Ray, for 37 years, and we were blessed with two wonderful children: Our son, Eric (who works at The Brookings Institution) and his wife, Colleen, live and work in Washington, D.C. Our daughter Kimberly, a high school Math teacher at Monarch High School in the Boulder Valley School District, lives in Denver with her new husband, Quentin. The sparks did fly on the 3 rd of July as we celebrated their beautiful wedding in Boulder this summer.
+</p>
+
+<p>
+  My greatest joy is working with children, and I have taught You & Me Baby (pre-natal/post partum & infant exercise classes), taught Sunday School (preschool-elementary), was the Sunday School coordinator for several years, taught Vacation Bible School, volunteered in my children’s classrooms and activities, coordinated (3 yrs) and taught (6 yrs) the Masterpiece Art program at Kyrene Monte Vista, worked extensively in the Kyrene School District as an Instructional Assistant at Monte Vista, a Resource Instructional Assistant at Colina, and as a Substitute Teacher at various schools within the Kyrene District. I worked for Mathnasium of Chandler at several Title I schools across the Valley, tutoring math as part of the No Child Left Behind Supplemental Education Services program. For several years, I have taught a Masterpiece Art Enrichment program for our Children of Hope Preschoolers, as well as at our Children of Hope Summer Camps. This past year I taught a Handwriting & Math Without Tears class & Enrichment on Fridays, and I am excited about this year’s program.
+</p>
+
+<p>
+  As you can see, I love working with children! They are a gift from God, and there is nothing better than helping a child reach their potential and to share in their joy and excitement. I look forward to a fabulous year watching your child blossom and grow. Thank you for sharing all of them with us.
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  Marcela Erramuzpe (Mrs. E)
+  <div class="sub header">Assistant Teacher</div>
+</h3>
+
+<p>
+My name is Marcela Erramuzpe and I am very excited to work with your children during this school year! This will be my sixth year working as an assistant teacher at Children of Hope CDC. For four years, I worked with the 3’s class on Tuesdays and Thursdays and this will be my second year working with the Pre-K classes.
+</p>
+
+<p>
+I grew up in Colombia in a big family of 9, with 3 sisters and 5 brothers and in 1986 I graduated from college at “Colegio Mayor de Cundinamarca” as a Bacteriologist and Clinical Laboratorist. I worked there for several years in various hospitals. I came to the United States in 1988 to study Intensive English as a Second Language at the University of Reno-Nevada and then I returned to Colombia.
+</p>
+
+<p>
+I moved back here in 1999 to continue learning English as my Second Language and to get my license to work here as a Bacteriologist. In 2000 I took English classes at Arizona State University. A few months later I met my husband Frank, who is a native of Phoenix, where we were married. We have two beautiful daughters, Sarah is a sophomore and Sophia is a freshman, both at Desert Vista High School.
+</p>
+
+<p>
+For four years, I enjoyed working as a volunteer at Kyrene Monte Vista. Also, I have been working on-call with the Tempe School District as an Interpreter for Spanish- English and English-Spanish since 2011. I have been working for a year as a Spanish teacher for kindergarten at Dayspring Preschool and Kindergarten in Tempe. I worked for 3 years on-call with New Directions Institute with the program for Infants Brain Development as a consultant adjunct faculty as well.
+</p>
+
+<p>
+In my free time I enjoy spending time with my family, attending conferences for continued education, reading, cooking, sewing and exercising. I really love working with children and helping them learn. I’m looking forward to a great and exciting year!
+</p>
+

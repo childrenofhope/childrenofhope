@@ -1,0 +1,10 @@
+
+body { background-color: #FFFFFF !important; }
+body > .ui.container { padding: 1em 1em 5em !important; min-height: 620px; }
+.footer { padding: 2em 0; background-color: #EFEFEF; font-size: 0.8em; }
+h1,h2,h3 { color: #444 !important; }
+p { font-size: 1.1em; }
+.ui.list .item { font-size: 1.1em; }
+.ui.events.table { margin: 2em 0; }
+.ui.announcement.divider { margin: 2em 0 1em; }
+.ui.media.list .item .header { margin-bottom: 0.25em; }
