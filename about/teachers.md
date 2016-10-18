@@ -9,8 +9,12 @@ Teachers & Staff
 
 
 <h3 class="ui header">
-  Lynn Hockenberger (Mrs. H)
-  <div class="sub header">Preschool Director</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/lynn_hockenberger.png"
+    alt="Lynn Hockenberger" class="ui tiny circular image" />
+  <div class="content">
+    Lynn Hockenberger (Mrs. H)
+    <div class="sub header">Preschool Director</div>
+  </div>
 </h3>
 
 <p>
@@ -32,8 +36,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Karin Kammerzell (Mrs. K)
-  <div class="sub header">Lead Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/karin_kammerzell.png"
+    alt="Karin Kammerzell (Mrs. K)" class="ui tiny circular image" />
+  <div class="content">
+    Karin Kammerzell (Mrs. K)
+    <div class="sub header">Lead Teacher</div>
+  </div>
 </h3>
 
 <p>
@@ -59,8 +67,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Karen Quenzer (Mrs. Q)
-  <div class="sub header">Assistant Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/karen_quenzer.png"
+    alt="Karen Quenzer (Mrs. Q)" class="ui tiny circular image" />
+  <div class="content">
+    Karen Quenzer (Mrs. Q)
+    <div class="sub header">Assistant Teacher</div>
+  </div>
 </h3>
 
 <p>
@@ -77,8 +89,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Amy Angilletta
-  <div class="sub header">Assistant Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/amy_angilletta.png"
+    alt="Amy Angilletta" class="ui tiny circular image" />
+  <div class="content">
+    Amy Angilletta
+    <div class="sub header">Assistant Teacher</div>
+  </div>
 </h3>
 
 <p>
@@ -96,8 +112,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Lisa Krach
-  <div class="sub header">Lead Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/lisa_krach.png"
+    alt="Lisa Krach" class="ui tiny circular image" />
+  <div class="content">
+    Lisa Krach
+    <div class="sub header">Lead Teacher</div>
+  </div>
 </h3>
 
 <p>
@@ -118,8 +138,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Pati Hammer
-  <div class="sub header">Lead Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/pati_hammer.png"
+    alt="Pati Hammer" class="ui tiny circular image" />
+  <div class="content">
+    Pati Hammer
+    <div class="sub header">Lead Teacher</div>
+  </div>
 </h3>
 
 <p>
@@ -152,8 +176,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Lori Palomaa
-  <div class="sub header">Assistant Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/lori_palomaa.png"
+    alt="Lori Palomaa" class="ui tiny circular image" />
+  <div class="content">
+    Lori Palomaa
+    <div class="sub header">Assistant Teacher</div>
+  </div>
 </h3>
 
 <p>
@@ -171,8 +199,12 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  Marcela Erramuzpe (Mrs. E)
-  <div class="sub header">Assistant Teacher</div>
+  <img src="{{ site.baseurl }}/assets/images/teachers/marcela_erramuzpe.png"
+    alt="Marcela Erramuzpe (Mrs. E)" class="ui tiny circular image" />
+  <div class="content">
+    Marcela Erramuzpe (Mrs. E)
+    <div class="sub header">Assistant Teacher</div>
+  </div>
 </h3>
 
 <p>
