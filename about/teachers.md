@@ -134,6 +134,33 @@ Teachers & Staff
   and I am looking forward to another exciting year.
 </p>
 
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.png"
+    alt="Lisa Krach" class="ui tiny circular image" />
+  <div class="content">
+    Cindy Gerrish
+    <div class="sub header">Assistant Teacher</div>
+  </div>
+</h3>
+
+<p>
+  It has been my pleasure to work in the Krach-o-dile class at Children of Hope for seven
+  years, I have also been a member of Esperanza Lutheran Church for over 20 years.
+</p>
+
+<p>
+  I am originally from New Mexico. I grew up on the Navajo reservation where my parents were
+  missionaries. I received a BBA from UNM and moved to the Phoenix area with my husband Paul
+  in 1988. I worked at the American Cancer Society until my daughter Heidi was born, at which
+  time I became a stay-at-home-mom. I have three children: Heidi, a graduate of U of A, Julie,
+  a graduate at ASU, and Stephen, a junior at ASU.
+</p>
+
+<p>
+  I have always loved being a mom—and now I love being a teacher too!
+</p>
 
 <div class="ui section divider"></div>
 
