@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - Children of Hope | Child Development Center
+title: Home - Children of Hope | Child Development Center Preschool
 ---
 
 

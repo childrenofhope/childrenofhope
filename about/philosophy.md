@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our Philosophy - Children of Hope | Child Development Center
+title: Our Philosophy - Children of Hope | Child Development Center Preschool
 permalink: /about/philosophy
 ---
 

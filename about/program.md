@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our Program - Children of Hope | Child Development Center
+title: Our Program - Children of Hope | Child Development Center Preschool
 permalink: /about/program
 ---
 

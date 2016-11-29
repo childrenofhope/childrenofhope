@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Media - Children of Hope | Child Development Center
+title: Media - Children of Hope | Child Development Center Preschool
 permalink: /about/media
 ---
 

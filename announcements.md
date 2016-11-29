@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Announcements - Children of Hope | Child Development Center
+title: Announcements - Children of Hope | Child Development Center Preschool
 ---
 
 Announcements

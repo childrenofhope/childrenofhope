@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Calendar - Children of Hope | Child Development Center
+title: Calendar - Children of Hope | Child Development Center Preschool
 permalink: /calendar
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Us - Children of Hope | Child Development Center
+title: Contact Us - Children of Hope | Child Development Center Preschool
 permalink: /contact
 ---
 

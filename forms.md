@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Forms - Children of Hope | Child Development Center
+title: Forms - Children of Hope | Child Development Center Preschool
 permalink: /forms
 ---
 

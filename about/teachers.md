@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teachers - Children of Hope | Child Development Center
+title: Teachers - Children of Hope | Child Development Center Preschool
 permalink: /about/teachers-and-staff
 ---
 

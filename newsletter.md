@@ -1,6 +1,6 @@
 ---
 layout: default
-title: News - Children of Hope | Child Development Center
+title: News - Children of Hope | Child Development Center Preschool
 permalink: /newsletter
 ---
 
