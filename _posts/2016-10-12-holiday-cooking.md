@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <h3 class="ui header">
   Holiday Cooking Enrichment Class Starts This Friday
   <div class="sub header">

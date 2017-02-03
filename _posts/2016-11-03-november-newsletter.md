@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <h3 class="ui header">
   November Preschool Newsletter
   <div class="sub header">
