@@ -17,7 +17,9 @@ Announcements
   {{ post }}
 {% endfor %}
 
+
 <div class="ui announcement divider"></div>
+
 
 <a href="{{ site.baseurl }}/announcements">
 View all announcements
