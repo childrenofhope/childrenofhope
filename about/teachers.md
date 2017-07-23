@@ -165,40 +165,22 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/pati_hammer.png"
-    alt="Pati Hammer" class="ui tiny circular image" />
+  <img src="{{ site.baseurl }}/assets/images/teachers/marianne_luken.png"
+    alt="Marianne Luken" class="ui tiny circular image" />
   <div class="content">
-    Pati Hammer
+    Marianne Luken
     <div class="sub header">Lead Teacher</div>
   </div>
 </h3>
 
 <p>
-  My name is Patricia Hammer. I was born and raised in San Diego, California and lived there
-  until our move here twenty years ago. I attended Southwestern College and SDSU; where my
-  major was Bilingual Elementary Education. I have taught and tutored conversational Spanish
-  from my home and I am currently in my seventh year teaching the Spanish after-school enrichment
-  program at five schools in the Kyrene Elementary School District. I have also taught Spanish,
-  cooking, and art in the enrichment programs here at Children of Hope.
+  Hello!  My name is Marianne Luken!  I am originally from Piscataway, NJ, known for being the home of Rutger’s College.  I escaped the big city to attend college in Notre Dame, Indiana, at Saint Mary’s College where I earned a BA in Elementary Education with a minor in Math and a Computer Science Endorsement.  After college, I moved to North Carolina where I taught in the public schools of Nash County for four years.  I moved to Phoenix in 2003 and when my youngest turned three I taught at God’s Garden Preschool for 6 years in three year old and Pre-K classrooms.
 </p>
 
 <p>
-  I have been blessed with two wonderful children. My daughter Jessica will be attending Tufts
-  University in Massachusetts in their graduate program for veterinary medicine. My son Mitchell
-  attends Princeton, where he will start his senior year and is majoring in English Literature
-  and Spanish. I have been married for almost twenty-five years to my best friend Mike. In my
-  spare time I enjoy cooking, baking, crafting, traveling, garage sales, and spending time with
-  my beautiful family.
+  I have four children:  Emma Elisabeth (Junior at Seton Catholic), Jack David (8th grade at Altadena), Clare Marie (6th grade at Altadena), and Joseph Michael (4th grade at Sierra).  We are a very busy family (to say the least).  All four kids swim competitively which helps me tour the pools of the valley.  As for me, I am an avid crafter, I love to play sports, I read daily, and I love going on adventures with my kids.  I am thrilled to join the staff and happily anticipating the new school year.  I can guarantee we will have fun, laugh, learn, and be together in the best environment I can create!
 </p>
 
-<p>
-  This is my fifth year here at Children of Hope Child Development Center. Before joining the staff
-  here I taught at God’s Garden CDC for eight years, where I was a lead teacher for the 2’s, 3’s
-  and Pre-K programs. Being part of the staff here at COH has been such a rewarding experience and
-  I consider myself blessed to be teaching in such a peaceful and wonderful school. I am looking
-  forward to being a part of your child’s educational and spiritual journey. I can’t wait to experience
-  each one of their individual personalities and watch them blossom into future Kindergartners.
-</p>
 
 <div class="ui section divider"></div>
 
