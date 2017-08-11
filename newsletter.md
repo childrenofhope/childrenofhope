@@ -10,6 +10,16 @@ Newsletters
 <h3 class="ui header">Current School Year</h3>
 
 <div class="ui newsletter list">
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/COH August 2017 Newsletter.pdf">
+    August 2017
+  </a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<h3 class="ui header">Archive</h3>
+
+<div class="ui newsletter archive list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/COH May 2017 Newsletter.pdf">
     May 2017
   </a>
@@ -37,13 +47,6 @@ Newsletters
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/COH August 2016 Newsletter.pdf">
     August 2016
   </a>
-</div>
-
-<div class="ui hidden divider"></div>
-
-<h3 class="ui header">Archive</h3>
-
-<div class="ui newsletter archive list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/COH February 2016 Newsletter.pdf">
     February 2016
   </a>
