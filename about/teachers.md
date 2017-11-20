@@ -205,34 +205,4 @@ Teachers & Staff
   As you can see, I love working with children! They are a gift from God, and there is nothing better than helping a child reach their potential and to share in their joy and excitement. I look forward to a fabulous year watching your child blossom and grow. Thank you for sharing all of them with us.
 </p>
 
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/marcela_erramuzpe.png"
-    alt="Marcela Erramuzpe (Mrs. E)" class="ui tiny circular image" />
-  <div class="content">
-    Marcela Erramuzpe (Mrs. E)
-    <div class="sub header">Assistant Teacher</div>
-  </div>
-</h3>
-
-<p>
-My name is Marcela Erramuzpe and I am very excited to work with your children during this school year! This will be my sixth year working as an assistant teacher at Children of Hope CDC. For four years, I worked with the 3’s class on Tuesdays and Thursdays and this will be my second year working with the Pre-K classes.
-</p>
-
-<p>
-I grew up in Colombia in a big family of 9, with 3 sisters and 5 brothers and in 1986 I graduated from college at “Colegio Mayor de Cundinamarca” as a Bacteriologist and Clinical Laboratorist. I worked there for several years in various hospitals. I came to the United States in 1988 to study Intensive English as a Second Language at the University of Reno-Nevada and then I returned to Colombia.
-</p>
-
-<p>
-I moved back here in 1999 to continue learning English as my Second Language and to get my license to work here as a Bacteriologist. In 2000 I took English classes at Arizona State University. A few months later I met my husband Frank, who is a native of Phoenix, where we were married. We have two beautiful daughters, Sarah is a sophomore and Sophia is a freshman, both at Desert Vista High School.
-</p>
-
-<p>
-For four years, I enjoyed working as a volunteer at Kyrene Monte Vista. Also, I have been working on-call with the Tempe School District as an Interpreter for Spanish- English and English-Spanish since 2011. I have been working for a year as a Spanish teacher for kindergarten at Dayspring Preschool and Kindergarten in Tempe. I worked for 3 years on-call with New Directions Institute with the program for Infants Brain Development as a consultant adjunct faculty as well.
-</p>
-
-<p>
-In my free time I enjoy spending time with my family, attending conferences for continued education, reading, cooking, sewing and exercising. I really love working with children and helping them learn. I’m looking forward to a great and exciting year!
-</p>
 
