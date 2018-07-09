@@ -40,7 +40,7 @@ Teachers & Staff
     alt="Kathy Dolny" class="ui tiny circular image" />
   <div class="content">
     Kathy Dolny (Mrs. Dolny)
-    <div class="sub header">Lead Teacher</div>
+    <div class="sub header">Lead Teacher (Toddler)</div>
   </div>
 </h3>
 
@@ -82,7 +82,7 @@ Teachers & Staff
     alt="Karin Kammerzell (Mrs. K)" class="ui tiny circular image" />
   <div class="content">
     Karin Kammerzell (Mrs. K)
-    <div class="sub header">Lead Teacher</div>
+    <div class="sub header">Lead Teacher (3's) / Assistant Teacher (Toddler)</div>
   </div>
 </h3>
 
