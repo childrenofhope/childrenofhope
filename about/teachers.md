@@ -36,6 +36,48 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/kathy_dolny.png"
+    alt="Kathy Dolny" class="ui tiny circular image" />
+  <div class="content">
+    Kathy Dolny (Mrs. Dolny)
+    <div class="sub header">Lead Teacher</div>
+  </div>
+</h3>
+
+<p>
+  The adventure continues…and this school year it begins with precious two year olds! Talkative,
+  tender, tenacious, tiny, timid, trusting, and thoughtful make this teacher very thankful for
+  the opportunity to work with your children.
+</p>
+
+<p>
+  I was born in Goose Bay, Canada and 6 weeks later moved to Texas.  I grew up mainly in the south
+  and for three years lived in Okinawa, Japan where my dad was stationed. I graduated from Stephen
+  F. Austin in Nacogdoches, TX with a Bachelor of Science in Interdisciplinary Studies (Early Childhood).
+  I’ve enjoyed teaching Kindergarten, 2nd grade, 4th grade, and pre-school (4’s).
+</p>
+
+<p>
+  Bill and I celebrated our 20th anniversary in January.  His job has moved us to Phoenix, Fort Worth,
+  Ahwatukee, Singapore, and back to Ahwatukee.  As you can see Arizona keeps pulling us back.  We have
+  3 amazing children. Emily will be a sophomore attending Purdue University and Robert and Billy (twins)
+  will be starting their junior year at Desert Vista.
+</p>
+
+<p>
+  I enjoy volunteering for the band boosters, cheering on the Dallas Cowboys, baking, book club, and
+  most of all watching my kids doing what they enjoy.  The fall is full of marching band shows (the boys)
+  and the spring has many rowing regattas (Emily).
+</p>
+
+<p>
+  I’m very excited and blessed to be a part of the Children of Hope staff and look forward to watching
+  your children flourish in our class.
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/karin_kammerzell.png"
     alt="Karin Kammerzell (Mrs. K)" class="ui tiny circular image" />
   <div class="content">
