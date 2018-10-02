@@ -10,6 +10,9 @@ Newsletters
 <h3 class="ui header">Current School Year</h3>
 
 <div class="ui newsletter list">
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/COH October 2018 Newsletter.pdf">
+    October 2018
+  </a>
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/COH August 2018 Newsletter.pdf">
     August 2018
   </a>
