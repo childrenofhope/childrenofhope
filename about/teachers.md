@@ -17,6 +17,8 @@ Teachers & Staff
   </div>
 </h3>
 
+<div class="ui hidden divider"></div>
+
 <p>
   Hello! My name is Lynn Hockenberger and it is a true joy for me to come to work every day at Children of Hope Preschool! I have been privileged to serve as Director of this wonderful school since 2009 and have been a teacher here since the school opened in 2007. I have enjoyed being an early childhood educator since moving to the valley in 2000.
 </p>
@@ -43,6 +45,8 @@ Teachers & Staff
     <div class="sub header">Lead Teacher (Toddler)</div>
   </div>
 </h3>
+
+<div class="ui hidden divider"></div>
 
 <p>
   The adventure continues…and this school year it begins with precious two year olds! Talkative,
@@ -78,6 +82,29 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/holly_montgomery.png"
+    alt="Holly Montgomery" class="ui tiny circular image" />
+  <div class="content">
+    Holly Montgomery
+    <div class="sub header">Assistant Teacher (Toddler)</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  My name is Holly Montgomery, an Arizona native, and have lived all over the Phoenix Metropolitan area. I moved to Ahwatukee with my husband and 2 year old son in 2016. I graduated from high school in Mesa, then went on to receive my Bachelor’s Degree in Music Therapy from Arizona State University, and six years later earned my Associate’s Degree as an Occupational Therapy Assistant. I have worked with children with special needs as a Music Therapist for over 5 years and currently work with the geriatric population as an OTA for the past 6 years.
+</p>
+<p>
+  Besides being a mother and a wife, my happy place is playing in my three piece cover band, singing backup, playing my fiddle, electric bass, and guitar.
+</p>
+<p>
+  I am so excited to help out in the 2’s classroom this year, bringing in my musical background and my current experiences as a new mother to a two year old! I can’t wait to share stories with you! Let’s nurture these children together!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/karin_kammerzell.png"
     alt="Karin Kammerzell (Mrs. K)" class="ui tiny circular image" />
   <div class="content">
@@ -85,6 +112,8 @@ Teachers & Staff
     <div class="sub header">Lead Teacher (3's) / Assistant Teacher (Toddler)</div>
   </div>
 </h3>
+
+<div class="ui hidden divider"></div>
 
 <p>
   Hi!  My name is Karin Kammerzell.  I am very excited to be teaching at Children of Hope
@@ -117,6 +146,8 @@ Teachers & Staff
   </div>
 </h3>
 
+<div class="ui hidden divider"></div>
+
 <p>
   This is my 9th year at Children of Hope and I’m very excited to be assisting Mrs. K again
   this year with both the 2 year old class and the 3 year old class.  Prior to working at
@@ -138,6 +169,8 @@ Teachers & Staff
     <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
+
+<div class="ui hidden divider"></div>
 
 <p>
   My name is Amy Angilletta and it is a joy for me to work at Children of Hope! This will be my third year at Hope and I am looking forward to seeing some familiar faces, as well as meeting all our new friends.  Again this year I will have the privilege of working with our 2 year olds as well as our Pre-K kiddos.
@@ -161,6 +194,8 @@ Teachers & Staff
     <div class="sub header">Lead Teacher</div>
   </div>
 </h3>
+
+<div class="ui hidden divider"></div>
 
 <p>
   My name is Lisa Krach and the easiest way to pronounce my last name is by saying the first
@@ -186,6 +221,8 @@ Teachers & Staff
     <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
+
+<div class="ui hidden divider"></div>
 
 <p>
   It has been my pleasure to work in the Krach-o-dile class at Children of Hope for seven
@@ -215,6 +252,8 @@ Teachers & Staff
   </div>
 </h3>
 
+<div class="ui hidden divider"></div>
+
 <p>
   Hello!  My name is Marianne Luken!  I am originally from Piscataway, NJ, known for being the home of Rutger’s College.  I escaped the big city to attend college in Notre Dame, Indiana, at Saint Mary’s College where I earned a BA in Elementary Education with a minor in Math and a Computer Science Endorsement.  After college, I moved to North Carolina where I taught in the public schools of Nash County for four years.  I moved to Phoenix in 2003 and when my youngest turned three I taught at God’s Garden Preschool for 6 years in three year old and Pre-K classrooms.
 </p>
@@ -234,6 +273,8 @@ Teachers & Staff
     <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
+
+<div class="ui hidden divider"></div>
 
 <p>
   My name is Lori Palomaa and I am a rarity: a native Arizonan, born and raised in Phoenix. While this is my 5th year at Children of Hope working with Mrs. Hammer, I have been an active member of Esperanza Lutheran Church for 25 years. I have been married to my high school sweetheart, Ray, for 37 years, and we were blessed with two wonderful children: Our son, Eric (who works at The Brookings Institution) and his wife, Colleen, live and work in Washington, D.C. Our daughter Kimberly, a high school Math teacher at Monarch High School in the Boulder Valley School District, lives in Denver with her new husband, Quentin. The sparks did fly on the 3 rd of July as we celebrated their beautiful wedding in Boulder this summer.
