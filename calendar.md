@@ -4,7 +4,7 @@ title: Calendar - Children of Hope | Child Development Center Preschool
 permalink: /calendar
 ---
 
-Preschool Calendar 2017 - 2018
+Preschool Calendar 2018 - 2019
 ===
 
 The following is a list of notable days and holidays for the preschool academic year.
