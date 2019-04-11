@@ -11,79 +11,51 @@ The following is a list of notable days and holidays for the preschool academic 
 
 <table class="ui basic events table">
   <tr>
-    <td><b>August 8 & 9</b></td>
+    <td><b>August 7 & 8</b></td>
     <td>First Day of Classes</td>
   </tr>
   <tr>
-    <td><b>September 4</b></td>
+    <td><b>September 3</b></td>
     <td><b>No School</b> &mdash; Labor Day</td>
   </tr>
   <tr>
-    <td><b>September 5</b></td>
-    <td>Show & Tell Night</td>
-  </tr>
-  <tr>
-    <td><b>October 6 - 16</b></td>
+    <td><b>October 5 - 15</b></td>
     <td><b>No School</b> &mdash; Fall Break</td>
   </tr>
   <tr>
-    <td><b>October 30 & 31</b></td>
-    <td>Halloween Party</td>
-  </tr>
-  <tr>
-    <td><b>November 10</b></td>
+    <td><b>November 12</b></td>
     <td><b>No School</b> &mdash; Veteran's Day</td>
   </tr>
   <tr>
-    <td><b>November 21 & 22</b></td>
-    <td>Thanksgiving Feast</td>
-  </tr>
-  <tr>
-    <td><b>November 23 & 24</b></td>
+    <td><b>November 22 & 23</b></td>
     <td><b>No School</b> &mdash; Thanksgiving Holiday</td>
   </tr>
   <tr>
-    <td><b>December 2</b></td>
-    <td>Breakfast with Santa</td>
-  </tr>
-  <tr>
-    <td><b>December 12</b></td>
-    <td>Evening Christmas Program</td>
-  </tr>
-  <tr>
-    <td><b>Dec. 21 - Jan. 5</b></td>
+    <td><b>Dec. 21 - Jan. 4</b></td>
     <td><b>No School</b> &mdash; Christmas Break</td>
   </tr>
   <tr>
-    <td><b>January 8 & 9</b></td>
+    <td><b>January 7 & 8</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
-    <td><b>January 15</b></td>
+    <td><b>January 21</b></td>
     <td><b>No School</b> &mdash; Martin Luther King Jr. Holiday</td>
   </tr>
   <tr>
-    <td><b>February 19</b></td>
+    <td><b>February 18</b></td>
     <td><b>No School</b> &mdash; President’s Day</td>
   </tr>
   <tr>
-    <td><b>March 12 - 19</b></td>
+    <td><b>March 11 - 18</b></td>
     <td><b>No School</b> &mdash; Spring Break</td>
   </tr>
   <tr>
-    <td><b>March 28 & 29</b></td>
-    <td>Easter Egg Hunt</td>
-  </tr>
-  <tr>
-    <td><b>March 30</b></td>
+    <td><b>April 19</b></td>
     <td><b>No School</b> &mdash; Good Friday</td>
   </tr>
   <tr>
-    <td><b>May 9 - 11</b></td>
-    <td>Mother's Day Tea</td>
-  </tr>
-  <tr>
-    <td><b>May 17 & 18</b></td>
+    <td><b>May 15 & 16</b></td>
     <td>Last Day of Preschool</td>
   </tr>
 </table>
