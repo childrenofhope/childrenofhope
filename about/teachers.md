@@ -82,29 +82,6 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/holly_montgomery.png"
-    alt="Holly Montgomery" class="ui tiny circular image" />
-  <div class="content">
-    Holly Montgomery
-    <div class="sub header">Assistant Teacher (Toddler)</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  My name is Holly Montgomery, an Arizona native, and have lived all over the Phoenix Metropolitan area. I moved to Ahwatukee with my husband and 2 year old son in 2016. I graduated from high school in Mesa, then went on to receive my Bachelor’s Degree in Music Therapy from Arizona State University, and six years later earned my Associate’s Degree as an Occupational Therapy Assistant. I have worked with children with special needs as a Music Therapist for over 5 years and currently work with the geriatric population as an OTA for the past 6 years.
-</p>
-<p>
-  Besides being a mother and a wife, my happy place is playing in my three piece cover band, singing backup, playing my fiddle, electric bass, and guitar.
-</p>
-<p>
-  I am so excited to help out in the 2’s classroom this year, bringing in my musical background and my current experiences as a new mother to a two year old! I can’t wait to share stories with you! Let’s nurture these children together!
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/karin_kammerzell.png"
     alt="Karin Kammerzell (Mrs. K)" class="ui tiny circular image" />
   <div class="content">
