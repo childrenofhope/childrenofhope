@@ -27,7 +27,7 @@ Curriculum activities include dramatic play, open-ended creative and sensory exp
 3-Year-Old Program
 ---
 
-Our three year old classes meet for 3 hours each day, two or three days per week. The class works toward helping the children verbalize their feelings and needs and in developing positive social relations. “Tell him how you feel” is heard often with three-year-olds.
+Our three year old classes meet for 3 hours each day, three days per week. The class works toward helping the children verbalize their feelings and needs and in developing positive social relations. “Tell him how you feel” is heard often with three-year-olds.
 
 At three, there is more role-play and more cooperative play. By the end of the year, playgroups have often increased in size with four or five children interacting in the housekeeping corner or on the playground with imaginative play. There are group times, which include songs, stories, finger plays, art, music, and fun body movement activities. In addition, basic introduction into early childhood academics is explored.
 
@@ -36,6 +36,16 @@ At three, there is more role-play and more cooperative play. By the end of the y
 4-Year-Old Program (Pre-K)
 ---
 
-Our four year old pre-kindergarten classes meet for a three-hour block of time and includes a wide variety of school experiences made possible by 3 or 4 school days per week. All children in this group, by age, will be eligible for Kindergarten the following year.
+Our four year old pre-kindergarten classes meet for a three-hour block of time and includes a wide variety of school experiences made possible by 4 school days per week. All children in this group, by age, will be eligible for Kindergarten the following year.
 
 A typical day in this program will provide developmentally appropriate experiences in all domains: cognitive, social, emotional, physical and spiritual. This theme and center-based program allows children to utilize materials in more complex and extended ways. Near the end of the year, the staff discusses with the parents their perception of the children’s readiness for Kindergarten.
+
+<div class="ui hidden divider"></div>
+
+Project Based Learning (Optional Friday Class for Pre-K Students)
+---
+
+In this optional class, offered on Fridays in one month blocks, teachers will guide the children through in-depth investigation of one single topic of their choosing. For example, if a child is interested in dinosaurs or flowers or camping, these ideas would be discussed and together the class will choose a topic to explore. Through research, hands-on activities and investigation the children will work together to learn more about this single topic. The collaboration will grow each week, culminating in a final outcome in the 4 th week.
+
+This approach to learning enables the children to dig deeper and ask more questions about topics that really interest them. These skills help them become independent thinkers and eager lifelong learners.
+
