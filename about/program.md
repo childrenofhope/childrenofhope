@@ -42,8 +42,9 @@ A typical day in this program will provide developmentally appropriate experienc
 
 <div class="ui hidden divider"></div>
 
-Project Based Learning (Optional Friday Class for Pre-K Students)
+Project Based Learning
 ---
+_(Optional Friday Class for Pre-K Students)_
 
 In this optional class, offered on Fridays in one month blocks, teachers will guide the children through in-depth investigation of one single topic of their choosing. For example, if a child is interested in dinosaurs or flowers or camping, these ideas would be discussed and together the class will choose a topic to explore. Through research, hands-on activities and investigation the children will work together to learn more about this single topic. The collaboration will grow each week, culminating in a final outcome in the 4 th week.
 
