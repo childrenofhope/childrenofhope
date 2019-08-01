@@ -164,6 +164,44 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/rebecca_paterson.png"
+    alt="Rebecca Paterson" class="ui tiny circular image" />
+  <div class="content">
+    Rebecca Paterson
+    <div class="sub header">Assistant Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  I am excited to join Children of Hope as an Assistant Teacher in the Toddler Class.
+  I truly adore this age as it is full of colorful imagination, amazing discovery and
+  growing independence.
+</p>
+<p>
+  My husband Todd and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with
+  the beautiful state of Arizona ever since. We have two children; Our son Brody is 14 and
+  entering Desert Vista High School and our daughter Sophie is entering the 3rd grade at Monte
+  Vista. Sophie is a proud alumni of Children of Hope! She started in the Toddler Class and was
+  a part of the preschool all the way through Mrs. Krach and Gerrish’s Pre-K Class. Children of
+  Hope has always held a special place in our family’s heart, and we have so many wonderful
+  memories of when Sophie attended.
+</p>
+<p>
+  I hold a B.S. from Southern Illinois University in Management Information Systems and was a
+  software developer for Anheuser-Busch Corporation. Upon moving to Arizona I was a Group Home
+  Manager which allowed me the opportunity to collaborate with Arizona Social Services and
+  Foster Care Services. I have enjoyed being an active volunteer in the Kyrene school system as well.
+</p>
+<p>
+  I am thankful for the opportunity to be a part of all the exciting experiences your child will
+  enjoy this year and I look forward to helping make wonderful memories for your child and family!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/lisa_krach.png"
     alt="Lisa Krach" class="ui tiny circular image" />
   <div class="content">
