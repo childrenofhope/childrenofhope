@@ -38,7 +38,7 @@ School District or we might make.
     <td><b>No School</b> &mdash; Christmas Break</td>
   </tr>
   <tr>
-    <td><b>January 7 & 8</b></td>
+    <td><b>January 6 & 7</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
