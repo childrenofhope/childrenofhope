@@ -28,7 +28,7 @@ Teachers & Staff
 </p>
 
 <p>
-  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two children, Laura, a senior at the University of Arizona, and Jake, a freshman at Pima Community College. Both of our children are proud members of the Pride of Arizona Marching Band at the UofA. Bear down!
+  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children.  Our daughter Laura graduated from The University of Arizona and is now a Physician Assistant graduate student at The University of Charleston in West Virginia.  Our son Jake is studying to be a school counselor at The University of Arizona – Bear Down!
 </p>
 
 <p>
