@@ -10,13 +10,29 @@ In The News
 <div class="ui hidden divider"></div>
 
 <div class="ui media very relaxed divided list">
-<div class="item">
+  <div class="item">
+    <div class="header">
+      <a target="_blank" href="https://www.ahwatukee.com/community_focus/article_dd27ea8a-fa9f-11e9-9712-2b3cd478b933.html">
+        Pastor Steve retires from Esperanza Lutheran
+      </a>
+    </div>
+    <i><b>November 5, 2019</b> - Ahwatukee Foothills News</i>
+  </div>
+  <div class="item">
+    <div class="header">
+      <a target="_blank" href="https://www.ahwatukee.com/community_focus/article_69fc1d60-febc-11e6-b5b7-173c3a7bb9f6.html">
+        Children of Hope preschool marks a decade
+      </a>
+    </div>
+    <i><b>March 5, 2017</b> - Ahwatukee Foothills News</i>
+  </div>
+  <div class="item">
     <div class="header">
       <a target="_blank" href="http://www.ahwatukee.com/community_focus/article_8c3248b0-917e-11e6-8a2b-27c24d7fafe0.html">
         Children of Hope preschool celebrating 10 years in Ahwatukee
       </a>
     </div>
-    <i><b>Friday, October 14, 2016</b> - Ahwatukee Foothills News</i>
+    <i><b>October 14, 2016</b> - Ahwatukee Foothills News</i>
   </div>
   <div class="item">
     <div class="header">
@@ -24,6 +40,6 @@ In The News
         Young Ahwatukee green thumbs, community garden benefit from 2 grants
       </a>
     </div>
-    <i><b>Saturday, September 24, 2016</b> - Ahwatukee Foothills News</i>
+    <i><b>September 24, 2016</b> - Ahwatukee Foothills News</i>
   </div>
 </div>
