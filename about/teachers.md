@@ -240,20 +240,22 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  It has been my pleasure to work in the Krach-o-dile class at Children of Hope for seven
-  years, I have also been a member of Esperanza Lutheran Church for over 20 years.
+  It has been my pleasure to work at Children of Hope in Mrs. Krach’s class for ten years.
+  I also enjoy teaching a Science Enrichment class in the spring.
 </p>
 
 <p>
-  I am originally from New Mexico. I grew up on the Navajo reservation where my parents were
-  missionaries. I received a BBA from UNM and moved to the Phoenix area with my husband Paul
-  in 1988. I worked at the American Cancer Society until my daughter Heidi was born, at which
-  time I became a stay-at-home-mom. I have three children: Heidi, a graduate of U of A, Julie,
-  a graduate at ASU, and Stephen, a junior at ASU.
+  I have been a member of Esperanza Lutheran Church for over 20 years and have enjoyed working
+  with our Sunday School and Vacation Bible School programs through the years. I am originally from
+  New Mexico; I grew up on the Navajo Reservation where my parents were missionaries for the
+  Christian Reformed Church.
 </p>
 
 <p>
-  I have always loved being a mom—and now I love being a teacher too!
+  I received a BS from the University of New Mexico and have lived in the Phoenix area with my
+  husband Paul for many years. I worked at the American Cancer Society until my first daughter was
+  born.  I have three grown children, Heidi (married to Miguel), Julie and Stephen. I love teaching
+  little children and watching them grow and learn.
 </p>
 
 <div class="ui section divider"></div>
