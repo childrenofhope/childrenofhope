@@ -294,15 +294,35 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  My name is Lori Palomaa and I am a rarity: a native Arizonan, born and raised in Phoenix. While this is my 5th year at Children of Hope working with Mrs. Hammer, I have been an active member of Esperanza Lutheran Church for 25 years. I have been married to my high school sweetheart, Ray, for 37 years, and we were blessed with two wonderful children: Our son, Eric (who works at The Brookings Institution) and his wife, Colleen, live and work in Washington, D.C. Our daughter Kimberly, a high school Math teacher at Monarch High School in the Boulder Valley School District, lives in Denver with her new husband, Quentin. The sparks did fly on the 3 rd of July as we celebrated their beautiful wedding in Boulder this summer.
+  My name is Lori Palomaa and I am a rarity: a native Arizonan, born and raised in
+  Phoenix. While I have worked at Children of Hope since 2012, I have been an
+  active member of Esperanza Lutheran Church for 29 years. I have been married
+  to my high school sweetheart, Ray, for 40 years, and we were blessed with two
+  wonderful children. Our son, Eric, and his wife, Colleen, recently moved to
+  Denver, CO where our daughter Kimberly, (a high school Math teacher) lives with
+  her husband, Quentin. (No grandchildren so far… just grandpuppies.)
 </p>
 
 <p>
-  My greatest joy is working with children, and I have taught You & Me Baby (pre-natal/post partum & infant exercise classes), taught Sunday School (preschool-elementary), was the Sunday School coordinator for several years, taught Vacation Bible School, volunteered in my children’s classrooms and activities, coordinated (3 yrs) and taught (6 yrs) the Masterpiece Art program at Kyrene Monte Vista, worked extensively in the Kyrene School District as an Instructional Assistant at Monte Vista, a Resource Instructional Assistant at Colina, and as a Substitute Teacher at various schools within the Kyrene District. I worked for Mathnasium of Chandler at several Title I schools across the Valley, tutoring math as part of the No Child Left Behind Supplemental Education Services program. For several years, I have taught a Masterpiece Art Enrichment program for our Children of Hope Preschoolers, as well as at our Children of Hope Summer Camps. This past year I taught a Handwriting & Math Without Tears class & Enrichment on Fridays, and I am excited about this year’s program.
+  My greatest joy is working with children. Over the years, I have taught You &amp; Me
+  Baby (pre-natal/post partum &amp; infant exercise classes), Sunday School
+  (preschool-elementary), was the Sunday School coordinator for several years,
+  taught Vacation Bible School, volunteered in my children’s classrooms and
+  activities, coordinated (3 yrs) and taught (6 yrs) the Masterpiece Art program at
+  Kyrene Monte Vista, worked extensively in the Kyrene School District as an
+  Instructional Assistant at Monte Vista, a Resource Instructional Assistant at
+  Colina, and as a Substitute Teacher at various schools within the Kyrene District.
+  I worked for Mathnasium of Chandler at several Title I schools across the Valley,
+  tutoring math as part of the No Child Left Behind Supplemental Education
+  Services program. You can find me assisting in the 3’s and Pre-K classes, as
+  well as teaching the Art Enrichment program for our Children of Hope
+  Preschoolers, and, more recently, our Get Set For School (Handwriting &amp; Math)
+  Enrichment class.
 </p>
 
 <p>
-  As you can see, I love working with children! They are a gift from God, and there is nothing better than helping a child reach their potential and to share in their joy and excitement. I look forward to a fabulous year watching your child blossom and grow. Thank you for sharing all of them with us.
+  As you can see, I love working with children! They are a gift from God, and there
+  is nothing better than helping children reach their potential and to share in their
+  joy and excitement. I look forward to a fabulous year watching your children
+  blossom and grow. Thank you for sharing all of them with us.
 </p>
-
-
