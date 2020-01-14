@@ -150,15 +150,26 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  My name is Amy Angilletta and it is a joy for me to work at Children of Hope! This will be my third year at Hope and I am looking forward to seeing some familiar faces, as well as meeting all our new friends.  Again this year I will have the privilege of working with our 2 year olds as well as our Pre-K kiddos.
+  My name is Amy Angilletta and it is an absolute joy for me to work at Children of Hope! I have
+  been an assistant teacher here at Hope since 2014 and have had the privilege to work with all our
+  littles, from the 2’s through the Pre-K classes. Currently, I get to spend my days with Mrs.
+  Luken and our Pre-K Llamas.
 </p>
-
 <p>
-  Prior to coming to Children of Hope, I worked at the elementary school level, for several years, as a substitute teacher, special education assistant, and most recently as a K-3 Instructional Assistant at Estrella. 
+  Prior to coming to Children of Hope, I worked at the elementary school level, for several years,
+  as a substitute teacher, special education assistant, and most recently as a K-3 Instructional
+  Assistant at Estrella. 
 </p>
-
 <p>
-  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree in Biology and a minor in Psychology.  I have been married to my husband, Mike, for 23 years and have two children, Taylor, age 18 and Kyle, age 13.  Taylor will be heading to ASU this fall to study music therapy. Kyle will be in 8 th grade at Akimel, keeping busy with his percussion playing with both Akimel and Desert Vista bands. I keep busy as a proud booster of both the Desert Vista Thunder Marching Band and the Akimel A-al Rattler Band.  As a family, we enjoy traveling, hiking, movies and music. We moved to Ahwatukee in the summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! I am looking forward to a wonderful year getting to know and nurture your children!
+  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree
+  in Biology and a minor in Psychology.  My husband, Mike and I have two great, almost adult, kids.
+  Our daughter Taylor will graduate from ASU in May 2020 with a degree in Music Therapy. Our son Kyle
+  is a Junior at Desert Vista with a passion for all things drumming. We moved to Ahwatukee in the
+  summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! I enjoy volunteering for
+  the band boosters, traveling, movies, attending live music events and watching my kids performances.
+</p>
+<p>
+  I look forward to another wonderful year getting to know and nurture your children!
 </p>
 
 <div class="ui section divider"></div>
