@@ -38,11 +38,47 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/amy_angilletta.png"
+    alt="Amy Angilletta" class="ui tiny circular image" />
+  <div class="content">
+    Amy Angilletta
+    <div class="sub header">Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  My name is Amy Angilletta and it is an absolute joy for me to work at Children of Hope! I have
+  been an assistant teacher here at Hope since 2014 and have had the privilege to work with all our
+  littles, from the 2’s through the Pre-K classes. Currently, I get to spend my days with Mrs.
+  Luken and our Pre-K Llamas.
+</p>
+<p>
+  Prior to coming to Children of Hope, I worked at the elementary school level, for several years,
+  as a substitute teacher, special education assistant, and most recently as a K-3 Instructional
+  Assistant at Estrella. 
+</p>
+<p>
+  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree
+  in Biology and a minor in Psychology.  My husband, Mike and I have two great, almost adult, kids.
+  Our daughter Taylor will graduate from ASU in May 2020 with a degree in Music Therapy. Our son Kyle
+  is a Junior at Desert Vista with a passion for all things drumming. We moved to Ahwatukee in the
+  summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! I enjoy volunteering for
+  the band boosters, traveling, movies, attending live music events and watching my kids performances.
+</p>
+<p>
+  I look forward to another wonderful year getting to know and nurture your children!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/kathy_dolny.png"
     alt="Kathy Dolny" class="ui tiny circular image" />
   <div class="content">
     Kathy Dolny (Mrs. Dolny)
-    <div class="sub header">Lead Teacher (Toddler)</div>
+    <div class="sub header">Teacher</div>
   </div>
 </h3>
 
@@ -82,169 +118,11 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/karin_kammerzell.png"
-    alt="Karin Kammerzell (Mrs. K)" class="ui tiny circular image" />
-  <div class="content">
-    Karin Kammerzell (Mrs. K)
-    <div class="sub header">Lead Teacher (3's) / Assistant Teacher (Toddler)</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  Hi!  My name is Karin Kammerzell.  I am very excited to be teaching at Children of Hope
-  for the 10th year. I feel blessed to have found such a wonderful place to work with a great
-  bunch of teachers, children and parents.
-</p>
-
-<p>
-  I grew up in beautiful Colorado and graduated from Colorado State University with a B.S.
-  degree in Child Development. I have several years of experience working in Early Childhood
-  Education.
-</p>
-
-<p>
-  My family moved to Ahwatukee in January 2000. My husband Kevin and I have two wonderful
-  children. Tori is a junior nursing major at NAU and our son Trevor will be a senior at
-  Desert Vista. I enjoy spending time with my family, friends, reading and watching football
-  (Go Broncos!). I am looking forward to my time with your children and helping them to
-  experience an exciting year.
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/karen_quenzer.png"
-    alt="Karen Quenzer (Mrs. Q)" class="ui tiny circular image" />
-  <div class="content">
-    Karen Quenzer (Mrs. Q)
-    <div class="sub header">Assistant Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  This is my 9th year at Children of Hope and I’m very excited to be assisting Mrs. K again
-  this year with both the 2 year old class and the 3 year old class.  Prior to working at
-  Children of Hope I worked in the Kyrene School District for 2 years.
-</p>
-
-<p>
-  My family moved from upstate New York in 2005 when my husband was transferred for work.
-  We have 2 children; Rick is a senior at NAU and my daughter Julia is a sophomore at Desert Vista.
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/amy_angilletta.png"
-    alt="Amy Angilletta" class="ui tiny circular image" />
-  <div class="content">
-    Amy Angilletta
-    <div class="sub header">Assistant Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  My name is Amy Angilletta and it is an absolute joy for me to work at Children of Hope! I have
-  been an assistant teacher here at Hope since 2014 and have had the privilege to work with all our
-  littles, from the 2’s through the Pre-K classes. Currently, I get to spend my days with Mrs.
-  Luken and our Pre-K Llamas.
-</p>
-<p>
-  Prior to coming to Children of Hope, I worked at the elementary school level, for several years,
-  as a substitute teacher, special education assistant, and most recently as a K-3 Instructional
-  Assistant at Estrella. 
-</p>
-<p>
-  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree
-  in Biology and a minor in Psychology.  My husband, Mike and I have two great, almost adult, kids.
-  Our daughter Taylor will graduate from ASU in May 2020 with a degree in Music Therapy. Our son Kyle
-  is a Junior at Desert Vista with a passion for all things drumming. We moved to Ahwatukee in the
-  summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! I enjoy volunteering for
-  the band boosters, traveling, movies, attending live music events and watching my kids performances.
-</p>
-<p>
-  I look forward to another wonderful year getting to know and nurture your children!
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/rebecca_paterson.png"
-    alt="Rebecca Paterson" class="ui tiny circular image" />
-  <div class="content">
-    Rebecca Paterson
-    <div class="sub header">Assistant Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  I am excited to join Children of Hope as an Assistant Teacher in the Toddler Class.
-  I truly adore this age as it is full of colorful imagination, amazing discovery and
-  growing independence.
-</p>
-<p>
-  My husband Todd and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with
-  the beautiful state of Arizona ever since. We have two children; Our son Brody is 14 and
-  entering Desert Vista High School and our daughter Sophie is entering the 3rd grade at Monte
-  Vista. Sophie is a proud alumni of Children of Hope! She started in the Toddler Class and was
-  a part of the preschool all the way through Mrs. Krach and Gerrish’s Pre-K Class. Children of
-  Hope has always held a special place in our family’s heart, and we have so many wonderful
-  memories of when Sophie attended.
-</p>
-<p>
-  I hold a B.S. from Southern Illinois University in Management Information Systems and was a
-  software developer for Anheuser-Busch Corporation. Upon moving to Arizona I was a Group Home
-  Manager which allowed me the opportunity to collaborate with Arizona Social Services and
-  Foster Care Services. I have enjoyed being an active volunteer in the Kyrene school system as well.
-</p>
-<p>
-  I am thankful for the opportunity to be a part of all the exciting experiences your child will
-  enjoy this year and I look forward to helping make wonderful memories for your child and family!
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/lisa_krach.png"
-    alt="Lisa Krach" class="ui tiny circular image" />
-  <div class="content">
-    Lisa Krach
-    <div class="sub header">Lead Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  My name is Lisa Krach and the easiest way to pronounce my last name is by saying the first
-  syllable in “crocodile”. I have lived in Arizona for the past sixteen years with my husband
-  and twenty year old daughter.
-</p>
-
-<p>
-  I taught kindergarten and first grade for eight years and then became a reading specialist
-  my final year in California. I earned my Master’s Degree in early childhood reading in 1996.
-  I left teaching and moved to Texas when my daughter was born. I taught preschool for two years
-  in Texas then we moved here to Arizona. I taught the last nine years here at Children of Hope
-  and I am looking forward to another exciting year.
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.png"
     alt="Lisa Krach" class="ui tiny circular image" />
   <div class="content">
     Cindy Gerrish
-    <div class="sub header">Assistant Teacher</div>
+    <div class="sub header">Teacher</div>
   </div>
 </h3>
 
@@ -272,23 +150,92 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/marianne_luken.png"
-    alt="Marianne Luken" class="ui tiny circular image" />
+  <img src="{{ site.baseurl }}/assets/images/teachers/denise_johnson.png"
+    alt="Denise Johnson" class="ui tiny circular image" />
   <div class="content">
-    Marianne Luken
-    <div class="sub header">Lead Teacher</div>
+    Denise Johnson
+    <div class="sub header">Teacher</div>
   </div>
 </h3>
 
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello!  My name is Marianne Luken!  I am originally from Piscataway, NJ, known for being the home of Rutger’s College.  I escaped the big city to attend college in Notre Dame, Indiana, at Saint Mary’s College where I earned a BA in Elementary Education with a minor in Math and a Computer Science Endorsement.  After college, I moved to North Carolina where I taught in the public schools of Nash County for four years.  I moved to Phoenix in 2003 and when my youngest turned three I taught at God’s Garden Preschool for 6 years in three year old and Pre-K classrooms.
+  Hello! My name is Denise Johnson and I am so excited to be teaching Pre-K at Children of Hope!
+  As an early childhood teacher, I am thrilled to provide a child centered, hands-on learning
+  environment for your child. I hope to foster creativity, problem solving and compassion in your
+  child and encourage a love of learning that will last a lifetime.
+</p>
+<p>
+  I have taught elementary school for eighteen years. I taught fourth grade in Mesa Public Schools,
+  kindergarten at Sierra in the Kyrene School District, kindergarten as well as first grade at
+  Magical Journey Learning Center and kindergarten at Bright Beginnings School. By teaching Pre-K,
+  I am excited to have the opportunity to prepare your children for their kindergarten year.
+</p>
+<p>
+  I met my husband, Mike, at ASU many years ago and we have been so happy living in Arizona ever
+  since. We love hiking and adventuring in this beautiful desert. Our daughter, Maria, is
+  twenty-nine and will be teaching Marine Conservation for Prescott College at their field station
+  in Kino Bay, Mexico in the fall. She also loves to create beautiful artwork, focusing on animals,
+  nature and conservation. Our son, Taylor, is twenty-six and is a corporate trainer for Five Guys.
+  He has enjoyed the opportunity to travel around the world as he is opening up new stores for
+  Five Guys. We have a silly cat named Weeble that the kids will hear all about!
+</p>
+<p>
+  I am so excited to have the opportunity to teach at Children of Hope and look forward to being
+  your child’s teacher! The early years in education are such a special time in a child’s life and
+  I can’t wait to be a part of that experience with you and your child.
 </p>
 
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/kaitlin_murray.png"
+    alt="Kaitlin Murray" class="ui tiny circular image" />
+  <div class="content">
+    Kaitlin Murray
+    <div class="sub header">Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
 <p>
-  I have four children:  Emma Elisabeth (Junior at Seton Catholic), Jack David (8th grade at Altadena), Clare Marie (6th grade at Altadena), and Joseph Michael (4th grade at Sierra).  We are a very busy family (to say the least).  All four kids swim competitively which helps me tour the pools of the valley.  As for me, I am an avid crafter, I love to play sports, I read daily, and I love going on adventures with my kids.  I am thrilled to join the staff and happily anticipating the new school year.  I can guarantee we will have fun, laugh, learn, and be together in the best environment I can create!
+  My name is Kaitlin Murray and I am so excited to be teaching in the Pre-K classroom at Children
+  of Hope this year. I recently graduated Summa Cum Laude from Northern Arizona University with a
+  Bachelor's Degree in Elementary Education. During this time, I was a student teacher at Kyrene
+  Monte Vista. This was an incredible experience working within the community at an A+ school of
+  excellence, and learning from some of the best educators in Arizona.
 </p>
+<p>
+  I am currently pursuing my Master’s Degree in Instructional Leadership at Northern Arizona
+  University. Go Lumberjacks! Prior to attending NAU, I worked as a teacher’s assistant for several
+  years at Discovery Kids Learning Center. I have always had a passion for working with young
+  children. It is an amazing gift to get to watch the growth and development that occurs from the
+  beginning of the year to the end.
+</p>
+<p>
+  I was born and raised in a small town called Grand Junction, Colorado. I grew up on a lake where
+  I spent the summers water skiing, swimming, and soaking in the sunshine. During the winter months
+  I enjoyed snowboarding, skiing, and making snow angels. I also had the opportunity to work as a
+  ski and snowboard instructor with children ranging from 4 to 6 years of age. Watching those kids
+  grow in confidence and capability was a wonderful experience that helped to solidify my interest
+  in teaching young children.
+</p>
+<p>
+ I moved to Arizona for a new adventure in 2011 where I met my wonderful husband, Steven. He’s
+ currently working at Intel as a Research and Development Engineer. In 2015 we welcomed our first
+ daughter, Maisie, into the world. Shortly after in 2017, we were blessed with another beautiful
+ daughter named Kynlee. Both of our girls attended Children of Hope last year and we fell in love
+ with the school, the staff, and the community that surrounds it.
+</p>
+<p>
+  In my free time I enjoy spending time with my friends and family, reading, crafting, and shopping.
+  I am very excited for the opportunity to work as a teacher at Children of Hope. I look forward to
+  getting to know both the students and their families throughout this school year. We are going to
+  have a lot of fun together as we learn and grow.
+</p>
+
 
 
 <div class="ui section divider"></div>
@@ -298,7 +245,7 @@ Teachers & Staff
     alt="Lori Palomaa" class="ui tiny circular image" />
   <div class="content">
     Lori Palomaa
-    <div class="sub header">Assistant Teacher</div>
+    <div class="sub header">Teacher</div>
   </div>
 </h3>
 
@@ -337,3 +284,84 @@ Teachers & Staff
   joy and excitement. I look forward to a fabulous year watching your children
   blossom and grow. Thank you for sharing all of them with us.
 </p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/rebecca_paterson.png"
+    alt="Rebecca Paterson" class="ui tiny circular image" />
+  <div class="content">
+    Rebecca Paterson
+    <div class="sub header">Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  I am excited to join Children of Hope as an Assistant Teacher in the Toddler Class.
+  I truly adore this age as it is full of colorful imagination, amazing discovery and
+  growing independence.
+</p>
+<p>
+  My husband Todd and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with
+  the beautiful state of Arizona ever since. We have two children; Our son Brody is 14 and
+  entering Desert Vista High School and our daughter Sophie is entering the 3rd grade at Monte
+  Vista. Sophie is a proud alumni of Children of Hope! She started in the Toddler Class and was
+  a part of the preschool all the way through Mrs. Krach and Gerrish’s Pre-K Class. Children of
+  Hope has always held a special place in our family’s heart, and we have so many wonderful
+  memories of when Sophie attended.
+</p>
+<p>
+  I hold a B.S. from Southern Illinois University in Management Information Systems and was a
+  software developer for Anheuser-Busch Corporation. Upon moving to Arizona I was a Group Home
+  Manager which allowed me the opportunity to collaborate with Arizona Social Services and
+  Foster Care Services. I have enjoyed being an active volunteer in the Kyrene school system as well.
+</p>
+<p>
+  I am thankful for the opportunity to be a part of all the exciting experiences your child will
+  enjoy this year and I look forward to helping make wonderful memories for your child and family!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/jess_pierce.png"
+    alt="Jess Pierce" class="ui tiny circular image" />
+  <div class="content">
+    Jess Pierce
+    <div class="sub header">Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  I am originally from Iowa, although I did spend some of my elementary years in Ahwatukee. I
+  earned my BA in Exercise Science/Athletic Training from Central College in Pella, IA, in 2004
+  and my MS in Athletic Training from UNI in Cedar Falls, IA, in 2006. I moved to Phoenix in 2006
+  and worked as an athletic trainer at Mountain Pointe High School in Ahwatukee for 10 years.
+</p>
+<p>
+  During that time, I also earned my teaching certificate and taught Sports Medicine and a few PE
+  classes for 4 of those years. In October of 2007, I found a new preschool that was looking for
+  teachers and I started working at Children of Hope in the 2s class. I stayed for 7 years with
+  Mrs. K in the 2s and 3s classes until my oldest son was born in 2014 and I took on more hours
+  at the high school. Then I returned as a parent in 2016! The past 2 years I have served on the
+  preschool board. I truly love this school and want to see all the best for this little place!
+</p>
+<p>
+  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. Chase is almost
+  6 and will be in 1st grade at Monte Vista next year. He attended Children of Hope for 3 years.
+  He made some best friends for life in his time there. Charlie will be 4 in August and will be in
+  the Pre-K extended day class next year. It will be a sad day to have no more kids of my own at
+  Children of Hope after this year, but I am excited to meet new friends in my own classroom!!
+</p>
+<p>
+  Outside of the classroom, I also am a consultant for Usborne Books & More because I love their
+  books so much! I also have coached both boys in Little League for the past 3 years with many of
+  the Children of Hope friends. As a family, we love to get out of the heat and enjoy some time in
+  the mountains exploring and trying to burn off the never-ending boy energy we have!! We also like
+  to take a summer trip to Iowa for the boys to have extended time with grandparents and cousins!
+</p>
+
