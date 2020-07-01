@@ -25,6 +25,12 @@ The following forms are included for your convenience to download and print as n
     </td>
   </tr>
   <tr>
+      <td><b>Calendar 2020 - 2021</b></td>
+      <td>
+        <a href="{{ site.baseurl }}/assets/forms/COH Calendar 2020 - 2021.pdf">Download</a>
+      </td>
+  </tr>
+  <tr>
     <td><b>Schedule and Fees 2020 - 2021</b></td>
     <td>
       <a href="{{ site.baseurl }}/assets/forms/COH Schedule and Fees 2020.pdf">Download</a>
