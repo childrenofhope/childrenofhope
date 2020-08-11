@@ -190,57 +190,6 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/kaitlin_murray.png"
-    alt="Kaitlin Murray" class="ui tiny circular image" />
-  <div class="content">
-    Kaitlin Murray
-    <div class="sub header">Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  My name is Kaitlin Murray and I am so excited to be teaching in the Pre-K classroom at Children
-  of Hope this year. I recently graduated Summa Cum Laude from Northern Arizona University with a
-  Bachelor's Degree in Elementary Education. During this time, I was a student teacher at Kyrene
-  Monte Vista. This was an incredible experience working within the community at an A+ school of
-  excellence, and learning from some of the best educators in Arizona.
-</p>
-<p>
-  I am currently pursuing my Master’s Degree in Instructional Leadership at Northern Arizona
-  University. Go Lumberjacks! Prior to attending NAU, I worked as a teacher’s assistant for several
-  years at Discovery Kids Learning Center. I have always had a passion for working with young
-  children. It is an amazing gift to get to watch the growth and development that occurs from the
-  beginning of the year to the end.
-</p>
-<p>
-  I was born and raised in a small town called Grand Junction, Colorado. I grew up on a lake where
-  I spent the summers water skiing, swimming, and soaking in the sunshine. During the winter months
-  I enjoyed snowboarding, skiing, and making snow angels. I also had the opportunity to work as a
-  ski and snowboard instructor with children ranging from 4 to 6 years of age. Watching those kids
-  grow in confidence and capability was a wonderful experience that helped to solidify my interest
-  in teaching young children.
-</p>
-<p>
- I moved to Arizona for a new adventure in 2011 where I met my wonderful husband, Steven. He’s
- currently working at Intel as a Research and Development Engineer. In 2015 we welcomed our first
- daughter, Maisie, into the world. Shortly after in 2017, we were blessed with another beautiful
- daughter named Kynlee. Both of our girls attended Children of Hope last year and we fell in love
- with the school, the staff, and the community that surrounds it.
-</p>
-<p>
-  In my free time I enjoy spending time with my friends and family, reading, crafting, and shopping.
-  I am very excited for the opportunity to work as a teacher at Children of Hope. I look forward to
-  getting to know both the students and their families throughout this school year. We are going to
-  have a lot of fun together as we learn and grow.
-</p>
-
-
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/lori_palomaa.png"
     alt="Lori Palomaa" class="ui tiny circular image" />
   <div class="content">
