@@ -14,24 +14,16 @@ School District or we might make.
 
 <table class="ui basic events table">
   <tr>
-    <td><b>August 19 & 20</b></td>
+    <td><b>September 8 & 9</b></td>
     <td>First Day of Classes (later than Kyrene)</td>
-  </tr>
-  <tr>
-    <td><b>September 7</b></td>
-    <td><b>No School</b> &mdash; Labor Day</td>
-  </tr>
-  <tr>
-    <td><b>October 5 - 12</b></td>
-    <td><b>No School</b> &mdash; Fall Break</td>
   </tr>
   <tr>
     <td><b>November 11</b></td>
     <td><b>No School</b> &mdash; Veteran's Day</td>
   </tr>
   <tr>
-    <td><b>November 26 & 27</b></td>
-    <td><b>No School</b> &mdash; Thanksgiving Holiday</td>
+    <td><b>November 23 - 30</b></td>
+    <td><b>No School</b> &mdash; Thanksgiving Holiday Break</td>
   </tr>
   <tr>
     <td><b>Dec. 18 - Jan. 3</b></td>
