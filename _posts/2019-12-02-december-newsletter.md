@@ -10,4 +10,4 @@ layout: null
 </h3>
 
 Check out our preschool newsletter for
-<a href="{{ site.baseurl }}/assets/newsletters/COH December 2019 Newsletter.pdf">December 2019</a>.
+<a href="{{ site.baseurl }}/assets/newsletters/2019-2020/COH_December_2019_Newsletter.pdf">December 2019</a>.
