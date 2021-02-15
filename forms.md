@@ -13,40 +13,40 @@ The following forms are included for your convenience to download and print as n
 
 <table class="ui basic forms table">
   <tr>
-    <td><b>Enrollment Information Packet 2020 - 2021 </b></td>
+    <td><b>Enrollment Information Packet 2021 - 2022 </b></td>
     <td>
-      <a href="{{ site.baseurl }}/assets/forms/COH Enrollment Packet 2020 - 2021.pdf">Download</a>
+      <a href="{{ site.baseurl }}/assets/forms/2021-2022/COH_Enrollment_Packet_2021-2022.pdf">Download</a>
     </td>
   </tr>
   <tr>
-    <td><b>Registration Form 2020 - 2021</b></td>
+    <td><b>Registration Form 2021 - 2022</b></td>
     <td>
-      <a href="{{ site.baseurl }}/assets/forms/COH Registration Form 2020.pdf">Download</a>
+      <a href="{{ site.baseurl }}/assets/forms/2021-2022/COH_Registration_Form_2021-2022.pdf">Download</a>
     </td>
   </tr>
   <tr>
-      <td><b>Calendar 2020 - 2021</b></td>
+      <td><b>Calendar 2021 - 2022</b></td>
       <td>
-        <a href="{{ site.baseurl }}/assets/forms/COH Calendar 2020 - 2021.pdf">Download</a>
+        <a href="{{ site.baseurl }}/assets/forms/2021-2022/COH_Calendar_2021-2022.pdf">Download</a>
       </td>
   </tr>
   <tr>
-    <td><b>Schedule and Fees 2020 - 2021</b></td>
+    <td><b>Schedule and Fees 2021 - 2022</b></td>
     <td>
-      <a href="{{ site.baseurl }}/assets/forms/COH Schedule and Fees 2020.pdf">Download</a>
+      <a href="{{ site.baseurl }}/assets/forms/2021-2022/COH_Schedule_and_Fees_2021-2022.pdf">Download</a>
     </td>
   </tr>
   <tr>
-    <td><b>Parent Participation Agreement 2020 - 2021</b></td>
+    <td><b>Parent Participation Agreement 2021 - 2022</b></td>
     <td>
-      <a href="{{ site.baseurl }}/assets/forms/COH Parent Participation Agreement 2020.pdf">Download</a>
+      <a href="{{ site.baseurl }}/assets/forms/2021-2022/COH_Parent_Participation_Agreement_2021-2022.pdf">Download</a>
     </td>
   </tr>
 
   <tr>
-    <td><b>Photography Release</b></td>
+    <td><b>Photography Release 2021 - 2022</b></td>
     <td>
-      <a href="{{ site.baseurl }}/assets/forms/COH Photo Release Form 2020.pdf">Download</a>
+      <a href="{{ site.baseurl }}/assets/forms/2021-2022/COH_Photo_Release_Form_2021-2022.pdf">Download</a>
     </td>
   </tr>
 
