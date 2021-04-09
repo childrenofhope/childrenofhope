@@ -12,6 +12,14 @@ In The News
 <div class="ui media very relaxed divided list">
   <div class="item">
     <div class="header">
+      <a target="_blank" href="https://www.abc15.com/news/state-of-education/following-covid-19-protocols-is-key-to-keeping-preschool-open-in-ahwatukee">
+        Following COVID-19 protocols ‘is key’ to keeping preschool open in Ahwatukee
+      </a>
+    </div>
+    <i><b>February 17, 2021</b> - ABC 15 News Arizona</i>
+  </div>
+  <div class="item">
+    <div class="header">
       <a target="_blank" href="https://www.ahwatukee.com/community_focus/article_dd27ea8a-fa9f-11e9-9712-2b3cd478b933.html">
         Pastor Steve retires from Esperanza Lutheran
       </a>
