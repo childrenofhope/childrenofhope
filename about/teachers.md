@@ -9,7 +9,7 @@ Teachers & Staff
 
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/lynn_hockenberger.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/lynn_hockenberger.webp"
     alt="Lynn Hockenberger" class="ui tiny circular image" />
   <div class="content">
     Lynn Hockenberger (Mrs. H)
@@ -20,25 +20,22 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! My name is Lynn Hockenberger and it is a true joy for me to come to work every day at Children of Hope Preschool! I have been privileged to serve as Director of this wonderful school since 2009 and have been a teacher here since the school opened in 2007. I have enjoyed being an early childhood educator since moving to the valley in 2000.
+  Hello! My name is Lynn Hockenberger and it is a true joy for me to come to work every day at Children of Hope Preschool! I have been privileged to serve as Director of this wonderful school since 2009 and have been a teacher here since the school opened in 2007. I have enjoyed being an early childhood educator since moving to the Valley in 2000.
 </p>
-
 <p>
-  I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a minor in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I am looking into obtaining my Master’s Degree in Early Childhood Administration. I currently hold the Faith Representative seat on the First Things First East Maricopa Regional Council and am a member of both the Evangelical Lutheran Education Association (ELEA) and the National Association for the Education of Young Children (NAEYC).
+  I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a focus in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I am looking into obtaining my Master’s Degree in Early Childhood Administration. I currently hold the Faith Representative seat on the First Things First East Maricopa Regional Council and am a member of the Evangelical Lutheran Education Association (ELEA), the Christian Directors of the East Valley, and the National Association for the Education of Young Children (NAEYC).
 </p>
-
 <p>
-  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children.  Our daughter Laura graduated from The University of Arizona and is now a Physician Assistant graduate student at The University of Charleston in West Virginia.  Our son Jake is studying to be a school counselor at The University of Arizona – Bear Down!
+  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children. Our daughter Laura graduated from The University of Arizona and The University of Charleston in West Virginia and is now a Physician Assistant at a local family practice. Our son Jake is studying to be a school counselor at The University of Arizona – Bear Down! He is employed by the Tucson Unified School District and volunteers at a Tucson Boys & Girls’ Club.
 </p>
-
 <p>
-  I am so proud to be a part of this wonderful preschool and to work with such a great staff. I so believe in this special ministry and am very thankful to work with God’s precious children.
+  I am so proud to be a part of this wonderful preschool and to work with such a great staff. I so believe in this special ministry and am very thankful to have the opportunity to work with God’s precious children each day.
 </p>
 
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/amy_angilletta.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/amy_angilletta.webp"
     alt="Amy Angilletta" class="ui tiny circular image" />
   <div class="content">
     Amy Angilletta
@@ -74,7 +71,7 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/kathy_dolny.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/kathy_dolny.webp"
     alt="Kathy Dolny" class="ui tiny circular image" />
   <div class="content">
     Kathy Dolny (Mrs. Dolny)
@@ -118,7 +115,7 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.webp"
     alt="Lisa Krach" class="ui tiny circular image" />
   <div class="content">
     Cindy Gerrish
@@ -150,7 +147,7 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/denise_johnson.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/denise_johnson.webp"
     alt="Denise Johnson" class="ui tiny circular image" />
   <div class="content">
     Denise Johnson
@@ -190,10 +187,10 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/lori_palomaa.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/jessica_mueller.jpg"
     alt="Lori Palomaa" class="ui tiny circular image" />
   <div class="content">
-    Lori Palomaa
+    Jessica Mueller
     <div class="sub header">Teacher</div>
   </div>
 </h3>
@@ -201,43 +198,33 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  My name is Lori Palomaa and I am a rarity: a native Arizonan, born and raised in
-  Phoenix. While I have worked at Children of Hope since 2012, I have been an
-  active member of Esperanza Lutheran Church for 29 years. I have been married
-  to my high school sweetheart, Ray, for 40 years, and we were blessed with two
-  wonderful children. Our son, Eric, and his wife, Colleen, recently moved to
-  Denver, CO where our daughter Kimberly, (a high school Math teacher) lives with
-  her husband, Quentin. (No grandchildren so far… just grandpuppies.)
+  Hello! I am very excited to be part of the Ducklings class, 2’s will be a new and fun adventure
+  for me. I was a 3’s lead teacher for the previous 12 years and a middle school teacher before that.
 </p>
-
 <p>
-  My greatest joy is working with children. Over the years, I have taught You &amp; Me
-  Baby (pre-natal/post partum &amp; infant exercise classes), Sunday School
-  (preschool-elementary), was the Sunday School coordinator for several years,
-  taught Vacation Bible School, volunteered in my children’s classrooms and
-  activities, coordinated (3 yrs) and taught (6 yrs) the Masterpiece Art program at
-  Kyrene Monte Vista, worked extensively in the Kyrene School District as an
-  Instructional Assistant at Monte Vista, a Resource Instructional Assistant at
-  Colina, and as a Substitute Teacher at various schools within the Kyrene District.
-  I worked for Mathnasium of Chandler at several Title I schools across the Valley,
-  tutoring math as part of the No Child Left Behind Supplemental Education
-  Services program. You can find me assisting in the 3’s and Pre-K classes, as
-  well as teaching the Art Enrichment program for our Children of Hope
-  Preschoolers, and, more recently, our Get Set For School (Handwriting &amp; Math)
-  Enrichment class.
+  I was born and raised in the great state of Oregon before coming to Arizona to play basketball at NAU.
+  I earned my degree in Elementary Education with an emphasis in Health, PE and Coaching.
+  Once I retired from playing basketball I began teaching and coaching.
 </p>
-
 <p>
-  As you can see, I love working with children! They are a gift from God, and there
-  is nothing better than helping children reach their potential and to share in their
-  joy and excitement. I look forward to a fabulous year watching your children
-  blossom and grow. Thank you for sharing all of them with us.
+  I am currently a basketball coach at Desert Vista. I spend my mornings with my littles and head over
+  to high school in the afternoon with my big girls. I love both age groups!
+</p>
+<p>
+  My husband, Tyler, is also from Oregon though we didn’t know each other when we both lived there.
+  We met at NAU. We have two children, Grace is my volleyball player and a senior at DV and Ryan is my
+  baseball guy and a sophomore at DV. In my very sparse minutes of free time I love to take pictures
+  and make cards.
+</p>
+<p>
+  I look forward to getting to know the little ducklings and families this year. It will be fun watching
+  them learn and it should be a great place to grow!
 </p>
 
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/rebecca_paterson.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/rebecca_paterson.jpg"
     alt="Rebecca Paterson" class="ui tiny circular image" />
   <div class="content">
     Rebecca Paterson
@@ -246,36 +233,29 @@ Teachers & Staff
 </h3>
 
 <div class="ui hidden divider"></div>
-
+<p>
+  Hello Parents! My name is Rebecca Paterson and I am excited to return for my third year at Children of Hope as an Assistant Teacher. I truly adore working with preschool aged kiddos as each day is full of colorful imagination, growing independence and amazing discovery.
+</p>
+<p>
+  My husband, Todd, and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with the beautiful state of Arizona ever since. We have two children, Brody and Sophie. Brody is a Junior at Desert Vista and Sophie is entering the 5th grade at Monte Vista. Sophie is a proud alumni of Children of Hope. She started in the Toddler Class (Mrs. Pierce was a teacher in her class☺) and continued until graduating from Pre-K. Children of Hope has always held a very special place in our family’s heart, and we have so many fond memories of when Sophie attended.
+</p>
+<p>
+  I hold a B.S. from Southern Illinois University in Management Information Systems and was a software developer for Anheuser-Busch Corporation. Upon moving to Arizona, I pivoted into Social Work and became a Group Home Manager which allowed me the opportunity to work with individuals of all ages with different abilities and collaborate with several State agencies such as Arizona Social Services and Foster Care Services. Once I had children I became a stay at home mom and avid school volunteer until I started at Children of Hope as an assistant teacher.
+</p>
+<p>
+  I am thankful for the opportunity to be a part of all the exciting experiences your child will enjoy this year and I look forward to helping create wonderful memories for your child and family!
+</p>
 <p>
   I am excited to join Children of Hope as an Assistant Teacher in the Toddler Class.
   I truly adore this age as it is full of colorful imagination, amazing discovery and
   growing independence.
 </p>
-<p>
-  My husband Todd and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with
-  the beautiful state of Arizona ever since. We have two children; Our son Brody is 14 and
-  entering Desert Vista High School and our daughter Sophie is entering the 3rd grade at Monte
-  Vista. Sophie is a proud alumni of Children of Hope! She started in the Toddler Class and was
-  a part of the preschool all the way through Mrs. Krach and Gerrish’s Pre-K Class. Children of
-  Hope has always held a special place in our family’s heart, and we have so many wonderful
-  memories of when Sophie attended.
-</p>
-<p>
-  I hold a B.S. from Southern Illinois University in Management Information Systems and was a
-  software developer for Anheuser-Busch Corporation. Upon moving to Arizona I was a Group Home
-  Manager which allowed me the opportunity to collaborate with Arizona Social Services and
-  Foster Care Services. I have enjoyed being an active volunteer in the Kyrene school system as well.
-</p>
-<p>
-  I am thankful for the opportunity to be a part of all the exciting experiences your child will
-  enjoy this year and I look forward to helping make wonderful memories for your child and family!
-</p>
+
 
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/jess_pierce.png"
+  <img src="{{ site.baseurl }}/assets/images/teachers/jess_pierce.webp"
     alt="Jess Pierce" class="ui tiny circular image" />
   <div class="content">
     Jess Pierce
