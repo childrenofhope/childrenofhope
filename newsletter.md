@@ -10,6 +10,16 @@ Newsletters
 <h3 class="ui header">Current School Year</h3>
 
 <div class="ui newsletter list">
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2021-2022/COH_August_2021_Newsletter.pdf">
+    August 2021
+  </a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<h3 class="ui header">Archive</h3>
+
+<div class="ui newsletter archive list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2020-2021/COH_May_2021_Newsletter.pdf">
     May 2021
   </a>
@@ -34,13 +44,6 @@ Newsletters
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2020-2021/COH_September_2020_Newsletter.pdf">
     September 2020
   </a>
-</div>
-
-<div class="ui hidden divider"></div>
-
-<h3 class="ui header">Archive</h3>
-
-<div class="ui newsletter archive list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2019-2020/COH_March_2020_Newsletter.pdf">
     March 2020
   </a>
