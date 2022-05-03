@@ -11,6 +11,9 @@ Newsletters
 
 <div class="ui newsletter list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2021-2022/COH_April_2022_Newsletter.pdf">
+    May 2022
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2021-2022/COH_April_2022_Newsletter.pdf">
     April 2022
   </a>
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2021-2022/COH_March_2022_Newsletter.pdf">
