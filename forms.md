@@ -26,10 +26,10 @@ The following forms are included for your convenience to download and print as n
     </td>
   </tr>
   <tr>
-      <td><b>Calendar 2022 - 2023</b></td>
-      <td>
-        <a href="{{ site.baseurl }}/assets/forms/2022-2023/COH_Calendar_2022-2023.pdf">Download</a>
-      </td>
+    <td><b>Calendar 2022 - 2023</b></td>
+    <td>
+      <a href="{{ site.baseurl }}/assets/forms/2022-2023/COH_Calendar_2022-2023.pdf">Download</a>
+    </td>
   </tr>
   <tr>
     <td><b>Schedule and Fees 2022 - 2023</b></td>
