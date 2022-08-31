@@ -147,41 +147,46 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/denise_johnson.webp"
-    alt="Denise Johnson" class="ui tiny circular image" />
+  <img src="{{ site.baseurl }}/assets/images/teachers/connie_rose-kamprath.jpg"
+    alt="Connie Rose-Kamprath" class="ui tiny circular image" />
   <div class="content">
-    Denise Johnson
-    <div class="sub header">Teacher</div>
+    Connie Rose-Kamprath
+    <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
 
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! My name is Denise Johnson and I am so excited to be teaching Pre-K at Children of Hope!
-  As an early childhood teacher, I am thrilled to provide a child centered, hands-on learning
-  environment for your child. I hope to foster creativity, problem solving and compassion in your
-  child and encourage a love of learning that will last a lifetime.
+  Hello! I am thrilled about being a part of the Children of Hope Preschool.  I am an assistant
+  teacher in the Duckling class.  Children bring such joy and adventure. I look forward to
+  watching your amazing children grow.
 </p>
+
 <p>
-  I have taught elementary school for eighteen years. I taught fourth grade in Mesa Public Schools,
-  kindergarten at Sierra in the Kyrene School District, kindergarten as well as first grade at
-  Magical Journey Learning Center and kindergarten at Bright Beginnings School. By teaching Pre-K,
-  I am excited to have the opportunity to prepare your children for their kindergarten year.
+  I was born in Chicago, Illinois and moved to Arizona when I was 12. I left Arizona to attend
+  California Lutheran University and received a Bachelor of Science degree in Sociology and Religion.
+  I continued my education at the Lutheran School of Theology at Chicago and received a Masters degree
+  in Theology.  I spent 30 years in youth and family ministry in the Evangelical Lutheran Church.
+  In 2015 I joined the staff of Creative Arts School for Youth teaching 3-year-olds through Pre-K.
+  In 2020 I joined the staff of Esperanza Lutheran as the Children's Ministry Director.
 </p>
+
 <p>
-  I met my husband, Mike, at ASU many years ago and we have been so happy living in Arizona ever
-  since. We love hiking and adventuring in this beautiful desert. Our daughter, Maria, is
-  twenty-nine and will be teaching Marine Conservation for Prescott College at their field station
-  in Kino Bay, Mexico in the fall. She also loves to create beautiful artwork, focusing on animals,
-  nature and conservation. Our son, Taylor, is twenty-six and is a corporate trainer for Five Guys.
-  He has enjoyed the opportunity to travel around the world as he is opening up new stores for
-  Five Guys. We have a silly cat named Weeble that the kids will hear all about!
+  My Husband Peter and I have three wonderful children.  Joel is a pediatric resident in Austin Texas,
+  Caleb a college student studying education at Scottsdale Community College, and Johanna a 2nd grade
+  teacher at Redfield Elementary in Scottsdale, Arizona.
 </p>
+
 <p>
-  I am so excited to have the opportunity to teach at Children of Hope and look forward to being
-  your child’s teacher! The early years in education are such a special time in a child’s life and
-  I can’t wait to be a part of that experience with you and your child.
+  We are sports people! We cheer for the St. Louis Cardinals baseball, University of Michigan football
+  and love to watch golf.  I enjoy hiking and exploring the beautiful state of Arizona. One of my
+  favorite things is to play pickleball with my family.
+</p>
+
+<p>
+  I am very excited to be part of an amazing Duckling team with Mrs. Dolny and Mrs. Angilletta,
+  it is going to be a great year!
 </p>
 
 <div class="ui section divider"></div>
