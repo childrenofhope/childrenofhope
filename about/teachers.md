@@ -39,33 +39,23 @@ Teachers & Staff
     alt="Amy Angilletta" class="ui tiny circular image" />
   <div class="content">
     Amy Angilletta
-    <div class="sub header">Teacher</div>
+    <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
 
 <div class="ui hidden divider"></div>
 
 <p>
-  My name is Amy Angilletta and it is an absolute joy for me to work at Children of Hope! I have
-  been an assistant teacher here at Hope since 2014 and have had the privilege to work with all our
-  littles, from the 2’s through the Pre-K classes. Currently, I get to spend my days with Mrs.
-  Luken and our Pre-K Llamas.
+  My name is Amy Angilletta and it is an absolute joy for me to work at Children of Hope! I have been an assistant teacher here at Hope since 2014 and have had the privilege of working with all our littles, from the Toddlers through the Pre-K classes.
 </p>
 <p>
-  Prior to coming to Children of Hope, I worked at the elementary school level, for several years,
-  as a substitute teacher, special education assistant, and most recently as a K-3 Instructional
-  Assistant at Estrella. 
+  Prior to coming to Children of Hope, I worked at the elementary school level, for several years, as a substitute teacher, special education assistant, and a K-3 Instructional Assistant at Estrella.
 </p>
 <p>
-  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree
-  in Biology and a minor in Psychology.  My husband, Mike and I have two great, almost adult, kids.
-  Our daughter Taylor will graduate from ASU in May 2020 with a degree in Music Therapy. Our son Kyle
-  is a Junior at Desert Vista with a passion for all things drumming. We moved to Ahwatukee in the
-  summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! I enjoy volunteering for
-  the band boosters, traveling, movies, attending live music events and watching my kids performances.
+  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree in Biology and a minor in Psychology.  My husband, Mike and I have two great adult kids.  Our daughter Taylor graduated from ASU in May 2020 and is currently working as a licensed Music Therapist here in the East Valley.  Our son Kyle is starting his junior year at ASU this fall majoring in Jazz Performance (drum set) with a business minor. We moved to Ahwatukee in the summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! In my spare time I enjoy traveling, hiking, spending time with my girlfriends, attending live music events and watching my kids performances.
 </p>
 <p>
-  I look forward to another wonderful year getting to know and nurture your children!
+  I look forward to another wonderful year getting to know and nurture our little Ducklings!
 </p>
 
 <div class="ui section divider"></div>
@@ -74,42 +64,31 @@ Teachers & Staff
   <img src="{{ site.baseurl }}/assets/images/teachers/kathy_dolny.webp"
     alt="Kathy Dolny" class="ui tiny circular image" />
   <div class="content">
-    Kathy Dolny (Mrs. Dolny)
-    <div class="sub header">Teacher</div>
+    Kathy Dolny
+    <div class="sub header">Toddler Lead Teacher</div>
   </div>
 </h3>
 
 <div class="ui hidden divider"></div>
 
 <p>
-  The adventure continues…and this school year it begins with precious two year olds! Talkative,
-  tender, tenacious, tiny, timid, trusting, and thoughtful make this teacher very thankful for
-  the opportunity to work with your children.
+  Hello! I’m Kathy Dolny and I absolutely adore Toddlers! Talkative, tender, tenacious, tiny, timid, trusting, and thoughtful two-year olds make this teacher very thankful for the opportunity to work with your children.  This is my sixth year teaching at Children of Hope in the Toddler room.
 </p>
 
 <p>
-  I was born in Goose Bay, Canada and 6 weeks later moved to Texas.  I grew up mainly in the south
-  and for three years lived in Okinawa, Japan where my dad was stationed. I graduated from Stephen
-  F. Austin in Nacogdoches, TX with a Bachelor of Science in Interdisciplinary Studies (Early Childhood).
-  I’ve enjoyed teaching Kindergarten, 2nd grade, 4th grade, and pre-school (4’s).
+  I was born in Goose Bay, Canada and 6 weeks later moved to Texas.  I grew up mainly in the south and for three years lived in Japan where my dad was stationed in the Air Force. I graduated from Stephen F. Austin in Nacogdoches, TX with a Bachelor of Science in Interdisciplinary Studies (Early Childhood).  In adddition to my years at COH, I’ve also enjoyed teaching Kindergarten, 2nd grade, 4th grade, and Pre-K (4’s).
 </p>
 
 <p>
-  Bill and I celebrated our 20th anniversary in January.  His job has moved us to Phoenix, Fort Worth,
-  Ahwatukee, Singapore, and back to Ahwatukee.  As you can see Arizona keeps pulling us back.  We have
-  3 amazing children. Emily will be a sophomore attending Purdue University and Robert and Billy (twins)
-  will be starting their junior year at Desert Vista.
+  Bill and I celebrated our 25th  anniversary in January.  His job has moved us to Phoenix, Fort Worth, Ahwatukee, Singapore, and back to Ahwatukee.  As you can see Arizona keeps pulling us back.  We have 3 amazing children. Emily is employed by Caterpillar and lives in Illinios. Robert and Billy (twins) will be starting their senior years at Arizona State University and University of Arizona.
 </p>
 
 <p>
-  I enjoy volunteering for the band boosters, cheering on the Dallas Cowboys, baking, book club, and
-  most of all watching my kids doing what they enjoy.  The fall is full of marching band shows (the boys)
-  and the spring has many rowing regattas (Emily).
+  I enjoy spending time with friends, cheering on the Dallas Cowboys, baking, hiking, eating at “foodie” restaurants, and traveling with our family.
 </p>
 
 <p>
-  I’m very excited and blessed to be a part of the Children of Hope staff and look forward to watching
-  your children flourish in our class.
+  I’m very excited and blessed to be a part of the Children of Hope staff and look forward to watching your children flourish in our class.
 </p>
 
 <div class="ui section divider"></div>
@@ -158,35 +137,23 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! I am thrilled about being a part of the Children of Hope Preschool.  I am an assistant
-  teacher in the Duckling class.  Children bring such joy and adventure. I look forward to
-  watching your amazing children grow.
+  Hello! I am thrilled about being a part of the Children of Hope Preschool.  I will be an assistant teacher in the Duckling class.  Children bring such joy and adventure. I look forward to watching your amazing children grow.
 </p>
 
 <p>
-  I was born in Chicago, Illinois and moved to Arizona when I was 12. I left Arizona to attend
-  California Lutheran University and received a Bachelor of Science degree in Sociology and Religion.
-  I continued my education at the Lutheran School of Theology at Chicago and received a Masters degree
-  in Theology.  I spent 30 years in youth and family ministry in the Evangelical Lutheran Church.
-  In 2015 I joined the staff of Creative Arts School for Youth teaching 3-year-olds through Pre-K.
-  In 2020 I joined the staff of Esperanza Lutheran as the Children's Ministry Director.
+  I was born in Chicago, Illinois and moved to Arizona when I was 12. I left Arizona to attend California Lutheran University and received a Bachelor of Science degree in Sociology and Religion. I continued my education at the Lutheran School of Theology at Chicago and received a Masters degree in Theology.  I spent 30 years in youth and family ministry in the Evangelical Lutheran Church.  In 2015 I joined the staff of Creative Arts School for Youth teaching 3-year-olds through Pre-K.  In 2020 I joined the staff of Esperanza Lutheran as the Children's Ministry Director.
 </p>
 
 <p>
-  My Husband Peter and I have three wonderful children.  Joel is a pediatric resident in Austin Texas,
-  Caleb a college student studying education at Scottsdale Community College, and Johanna a 2nd grade
-  teacher at Redfield Elementary in Scottsdale, Arizona.
+  My Husband Peter and I have three wonderful children.  Joel is a pediatric resident in Austin Texas, Caleb a college student studying education at Scottsdale Community College, and Johanna a 2nd grade teacher at Redfield Elementary in Scottsdale, Arizona.
 </p>
 
 <p>
-  We are sports people! We cheer for the St. Louis Cardinals baseball, University of Michigan football
-  and love to watch golf.  I enjoy hiking and exploring the beautiful state of Arizona. One of my
-  favorite things is to play pickleball with my family.
+  We are sports people! We cheer for the St. Louis Cardinals baseball, University of Michigan football and love to watch golf.  I enjoy hiking and exploring the beautiful state of Arizona. One of my favorite things is to play pickleball with my family.
 </p>
 
 <p>
-  I am very excited to be part of an amazing Duckling team with Mrs. Dolny and Mrs. Angilletta,
-  it is going to be a great year!
+  I am very excited to be part of an amazing Duckling team with Mrs. Dolny and Mrs. Angilletta, it is going to be a great year!
 </p>
 
 <div class="ui section divider"></div>
