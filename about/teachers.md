@@ -26,7 +26,7 @@ Teachers & Staff
   I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a focus in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I am looking into obtaining my Master’s Degree in Early Childhood Administration. I currently hold the Faith Representative seat on the First Things First East Maricopa Regional Council and am a member of the Evangelical Lutheran Education Association (ELEA), the Christian Directors of the East Valley, and the National Association for the Education of Young Children (NAEYC).
 </p>
 <p>
-  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children. Our daughter Laura graduated from The University of Arizona and The University of Charleston in West Virginia and is now a Physician Assistant at a local family practice. Our son Jake is studying to be a school counselor at The University of Arizona – Bear Down! He is employed by the Tucson Unified School District and volunteers at a Tucson Boys & Girls’ Club.
+  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children. Our daughter Laura graduated from The University of Arizona and The University of Charleston in West Virginia and is now a Physician Assistant at a local ENT practice. Our son Jake, also a graduate of The University of Arizona, is studying to be a teacher at Grand Canyon University while working as a teacher's aide at a Title 1 elementary school in Tucson.
 </p>
 <p>
   I am so proud to be a part of this wonderful preschool and to work with such a great staff. I so believe in this special ministry and am very thankful to have the opportunity to work with God’s precious children each day.
@@ -98,7 +98,7 @@ Teachers & Staff
     alt="Lisa Krach" class="ui tiny circular image" />
   <div class="content">
     Cindy Gerrish
-    <div class="sub header">Teacher</div>
+    <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
 
@@ -117,10 +117,7 @@ Teachers & Staff
 </p>
 
 <p>
-  I received a BS from the University of New Mexico and have lived in the Phoenix area with my
-  husband Paul for many years. I worked at the American Cancer Society until my first daughter was
-  born.  I have three grown children, Heidi (married to Miguel), Julie and Stephen. I love teaching
-  little children and watching them grow and learn.
+  I received a BS from the University of New Mexico and have lived in the Phoenix area with my husband Paul for many years. I worked at the American Cancer Society until my first daughter was born. I have three grown children, Heidi, Julie and Stephen (married to Kat). I love teaching little children and watching them grow and learn.
 </p>
 
 <div class="ui section divider"></div>
@@ -163,34 +160,26 @@ Teachers & Staff
     alt="Lori Palomaa" class="ui tiny circular image" />
   <div class="content">
     Jessica Mueller
-    <div class="sub header">Teacher</div>
+    <div class="sub header">Pre-K Lead dTeacher</div>
   </div>
 </h3>
 
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! I am very excited to be part of the Ducklings class, 2’s will be a new and fun adventure
-  for me. I was a 3’s lead teacher for the previous 12 years and a middle school teacher before that.
+  Hello! I am very excited to be the Lead Teacher in the Frog Pre-K classroom! I originally helped in the Ducklings class when I first came to COH. I was a 3’s lead teacher for the previous 12 years and a middle school teacher before that.
 </p>
 <p>
-  I was born and raised in the great state of Oregon before coming to Arizona to play basketball at NAU.
-  I earned my degree in Elementary Education with an emphasis in Health, PE and Coaching.
-  Once I retired from playing basketball I began teaching and coaching.
+  I was born and raised in the great state of Oregon before coming to Arizona to play basketball at NAU. I earned my degree in Elementary Education with an emphasis in Health, PE and Coaching. Once I retired from playing basketball I began teaching and coaching.
 </p>
 <p>
-  I am currently a basketball coach at Desert Vista. I spend my mornings with my littles and head over
-  to high school in the afternoon with my big girls. I love both age groups!
+  I am currently a basketball coach at Desert Vista. I spend my mornings with my littles and head over to high school in the afternoon with my big girls. I love both age groups!
 </p>
 <p>
-  My husband, Tyler, is also from Oregon though we didn’t know each other when we both lived there.
-  We met at NAU. We have two children, Grace is my volleyball player and a senior at DV and Ryan is my
-  baseball guy and a sophomore at DV. In my very sparse minutes of free time I love to take pictures
-  and make cards.
+  My husband, Tyler, is also from Oregon though we didn’t know each other when we both lived there. We met at NAU. We have two children, Grace is my volleyball player and currently attends The University of New England in Maine. My son, Ryan is my baseball and golf guy and a senior at DV. In my very sparse minutes of free time, I love to take pictures and make cards.
 </p>
 <p>
-  I look forward to getting to know the little ducklings and families this year. It will be fun watching
-  them learn and it should be a great place to grow!
+  I look forward to a wonderful year with our Froggies, watching them learn and grow!
 </p>
 
 <div class="ui section divider"></div>
@@ -200,7 +189,7 @@ Teachers & Staff
     alt="Rebecca Paterson" class="ui tiny circular image" />
   <div class="content">
     Rebecca Paterson
-    <div class="sub header">Teacher</div>
+    <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
 
@@ -209,7 +198,7 @@ Teachers & Staff
   Hello Parents! My name is Rebecca Paterson and I am excited to return for my third year at Children of Hope as an Assistant Teacher. I truly adore working with preschool aged kiddos as each day is full of colorful imagination, growing independence and amazing discovery.
 </p>
 <p>
-  My husband, Todd, and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with the beautiful state of Arizona ever since. We have two children, Brody and Sophie. Brody is a Junior at Desert Vista and Sophie is entering the 5th grade at Monte Vista. Sophie is a proud alumni of Children of Hope. She started in the Toddler Class (Mrs. Pierce was a teacher in her class☺) and continued until graduating from Pre-K. Children of Hope has always held a very special place in our family’s heart, and we have so many fond memories of when Sophie attended.
+  My husband, Todd, and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with the beautiful state of Arizona ever since. We have two children, Brody and Sophie. Brody is a Freshman at ASU and Sophie is in 7th grade at Altadena Middle School. Sophie is a proud alumni of Children of Hope. She started in the Toddler Class (Mrs. Pierce was a teacher in her class☺) and continued until graduating from Pre-K. Children of Hope has always held a very special place in our family’s heart, and we have so many fond memories of when Sophie attended.
 </p>
 <p>
   I hold a B.S. from Southern Illinois University in Management Information Systems and was a software developer for Anheuser-Busch Corporation. Upon moving to Arizona, I pivoted into Social Work and became a Group Home Manager which allowed me the opportunity to work with individuals of all ages with different abilities and collaborate with several State agencies such as Arizona Social Services and Foster Care Services. Once I had children I became a stay at home mom and avid school volunteer until I started at Children of Hope as an assistant teacher.
@@ -231,7 +220,7 @@ Teachers & Staff
     alt="Jess Pierce" class="ui tiny circular image" />
   <div class="content">
     Jess Pierce
-    <div class="sub header">Teacher</div>
+    <div class="sub header">3's Lead Teacher</div>
   </div>
 </h3>
 
@@ -252,11 +241,7 @@ Teachers & Staff
   preschool board. I truly love this school and want to see all the best for this little place!
 </p>
 <p>
-  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. Chase is almost
-  6 and will be in 1st grade at Monte Vista next year. He attended Children of Hope for 3 years.
-  He made some best friends for life in his time there. Charlie will be 4 in August and will be in
-  the Pre-K extended day class next year. It will be a sad day to have no more kids of my own at
-  Children of Hope after this year, but I am excited to meet new friends in my own classroom!!
+  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. Chase is 9 years old and a 4th grader at Monte Vista. He attended Children of Hope for 3 years. He made some best friends for life in his time there. Charlie is 7 and is in 2nd grade at Monte Vista. He also attended COH for 3 years. Both boys play baseball and I enjoy coaching their teams.
 </p>
 <p>
   Outside of the classroom, I also am a consultant for Usborne Books & More because I love their
@@ -266,3 +251,19 @@ Teachers & Staff
   to take a summer trip to Iowa for the boys to have extended time with grandparents and cousins!
 </p>
 
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/caleb_rose-kamprath.jpg"
+    alt="Caleb Rose-Kamprath" class="ui tiny circular image" />
+  <div class="content">
+    Caleb Rose-Kamprath
+    <div class="sub header">Assistant Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  I am happy to be an assistant teacher in the Penguin and Frog classrooms. I started at COH in January 2023 and enjoy watching the children grow and learn. I graduated from Arcadia High School and am taking education classes at Scottsdale Community College. My mom and I, Deacon Connie, enjoy doing Lunch Bunch together on Tuesdays as we play games like Doggie, Doggie Where's Your Bone? and Musical Chairs. It's great to learn from these wonderful teachers and be part of the team.
+</p>
