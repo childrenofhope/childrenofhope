@@ -251,19 +251,3 @@ Teachers & Staff
   to take a summer trip to Iowa for the boys to have extended time with grandparents and cousins!
 </p>
 
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/caleb_rose-kamprath.jpg"
-    alt="Caleb Rose-Kamprath" class="ui tiny circular image" />
-  <div class="content">
-    Caleb Rose-Kamprath
-    <div class="sub header">Assistant Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  I am happy to be an assistant teacher in the Penguin and Frog classrooms. I started at COH in January 2023 and enjoy watching the children grow and learn. I graduated from Arcadia High School and am taking education classes at Scottsdale Community College. My mom and I, Deacon Connie, enjoy doing Lunch Bunch together on Tuesdays as we play games like Doggie, Doggie Where's Your Bone? and Musical Chairs. It's great to learn from these wonderful teachers and be part of the team.
-</p>
