@@ -23,7 +23,7 @@ Teachers & Staff
   Hello! My name is Lynn Hockenberger and it is a true joy for me to come to work every day at Children of Hope Preschool! I have been privileged to serve as Director of this wonderful school since 2009 and have been a teacher here since the school opened in 2007. I have enjoyed being an early childhood educator since moving to the Valley in 2000.
 </p>
 <p>
-  I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a focus in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I am looking into obtaining my Master’s Degree in Early Childhood Administration. I currently hold the Faith Representative seat on the First Things First East Maricopa Regional Council and am a member of the Evangelical Lutheran Education Association (ELEA), the Christian Directors of the East Valley, and the National Association for the Education of Young Children (NAEYC).
+  I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a focus in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I serve as the Faith Representative on the First Things First East Maricopa Regional Council, I am the Secretary of the Evangelical Lutheran Education Association (ELEA) Board, and am a Member-at-Large on the (AzAEYC) Arizona Association for the Education of Young Children Board, the local chapter of the NAEYC. I am also an active member of the Christian Directors of the East Valley group.
 </p>
 <p>
   My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children. Our daughter Laura graduated from The University of Arizona and The University of Charleston in West Virginia and is now a Physician Assistant at a local ENT practice. Our son Jake, also a graduate of The University of Arizona, is studying to be a teacher at Grand Canyon University while working as a teacher's aide at a Title 1 elementary school in Tucson.
@@ -61,10 +61,10 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/kathy_dolny.webp"
-    alt="Kathy Dolny" class="ui tiny circular image" />
+  <img src="{{ site.baseurl }}/assets/images/teachers/katrin_guete.jpg"
+    alt="Katrin Guete" class="ui tiny circular image" />
   <div class="content">
-    Kathy Dolny
+    Katrin Guete
     <div class="sub header">Toddler Lead Teacher</div>
   </div>
 </h3>
@@ -72,23 +72,19 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! I’m Kathy Dolny and I absolutely adore Toddlers! Talkative, tender, tenacious, tiny, timid, trusting, and thoughtful two-year olds make this teacher very thankful for the opportunity to work with your children.  This is my sixth year teaching at Children of Hope in the Toddler room.
+  My name is Katrin Guete and working at Children of Hope is a dream come true. I love our school, the staff, and foremost the students in this wonderful community. Toddlers are truly amazing—full of curiosity, joy and spectacular ideas.
 </p>
 
 <p>
-  I was born in Goose Bay, Canada and 6 weeks later moved to Texas.  I grew up mainly in the south and for three years lived in Japan where my dad was stationed in the Air Force. I graduated from Stephen F. Austin in Nacogdoches, TX with a Bachelor of Science in Interdisciplinary Studies (Early Childhood).  In adddition to my years at COH, I’ve also enjoyed teaching Kindergarten, 2nd grade, 4th grade, and Pre-K (4’s).
+  I grew up in Germany near the beautiful Lake of Constance. I always enjoyed teaching—my parents and brother are teachers too (it might run in the family ;-)). Previously I was an assistant teacher at Ahwatukee Preschool in the toddler room, and I offered weekly German lessons to 2nd through 5th grade bilingual children of the German community here in the valley. Back in Germany I was an English teacher for elementary students at a community college. While in school myself I was assistant coach at our local gymnastics club. I’m also a certified yoga instructor – dating back to my time living in Asia. My other passion is photography—I graduated with a Bachelor of Arts at Lazi Academy, Stuttgart (Germany).
 </p>
 
 <p>
-  Bill and I celebrated our 25th  anniversary in January.  His job has moved us to Phoenix, Fort Worth, Ahwatukee, Singapore, and back to Ahwatukee.  As you can see Arizona keeps pulling us back.  We have 3 amazing children. Emily is employed by Caterpillar and lives in Illinios. Robert and Billy (twins) will be starting their senior years at Arizona State University and University of Arizona.
+  Our journey has taken our family around the world. We moved in 2009 from Munich to Seoul, onwards in 2012 to Hong Kong, to arrive in Phoenix in 2014. Today my husband Andreas and I, our kids Tom, Lias, and Elli, and our dog Luna are happy residents of Ahwatukee.
 </p>
 
 <p>
-  I enjoy spending time with friends, cheering on the Dallas Cowboys, baking, hiking, eating at “foodie” restaurants, and traveling with our family.
-</p>
-
-<p>
-  I’m very excited and blessed to be a part of the Children of Hope staff and look forward to watching your children flourish in our class.
+  Our daughter Elli just graduated from the COH in May 2024. Sending her here was the best decision ever. I love hiking, painting, baking sourdough bread, and drinking coffee preferably with friends. I can’t wait to see these young minds bloom in and outside of our classroom!
 </p>
 
 <div class="ui section divider"></div>
@@ -105,7 +101,7 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  It has been my pleasure to work at Children of Hope in Mrs. Krach’s class for ten years.
+  It has been my pleasure to work at Children of Hope in the PreK classroom since 2010.
   I also enjoy teaching a Science Enrichment class in the spring.
 </p>
 
@@ -126,7 +122,7 @@ Teachers & Staff
   <img src="{{ site.baseurl }}/assets/images/teachers/connie_rose-kamprath.jpg"
     alt="Connie Rose-Kamprath" class="ui tiny circular image" />
   <div class="content">
-    Connie Rose-Kamprath
+    Deacon Connie Rose-Kamprath
     <div class="sub header">Assistant Teacher</div>
   </div>
 </h3>
@@ -134,7 +130,7 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! I am thrilled about being a part of the Children of Hope Preschool.  I will be an assistant teacher in the Duckling class.  Children bring such joy and adventure. I look forward to watching your amazing children grow.
+  Hello! I am thrilled about being a part of the Children of Hope Preschool.  I will be an assistant teacher in the Duckling class.  I have been an assistant in the toddler classroom since 2022. I look forward to watching your amazing children grow.
 </p>
 
 <p>
@@ -176,7 +172,7 @@ Teachers & Staff
   I am currently a basketball coach at Desert Vista. I spend my mornings with my littles and head over to high school in the afternoon with my big girls. I love both age groups!
 </p>
 <p>
-  My husband, Tyler, is also from Oregon though we didn’t know each other when we both lived there. We met at NAU. We have two children, Grace is my volleyball player and currently attends The University of New England in Maine. My son, Ryan is my baseball and golf guy and a senior at DV. In my very sparse minutes of free time, I love to take pictures and make cards.
+  My husband, Tyler, is also from Oregon though we didn’t know each other when we both lived there. We met at NAU. We have two children, Grace is my volleyball player and currently attends The University of New England in Maine. My son, Ryan, is my baseball and golf guy. He graduated from DV in May 2024 and will be attending the University of Oregon. In my very sparse minutes of free time, I love to take pictures and make cards.
 </p>
 <p>
   I look forward to a wonderful year with our Froggies, watching them learn and grow!
@@ -195,7 +191,7 @@ Teachers & Staff
 
 <div class="ui hidden divider"></div>
 <p>
-  Hello Parents! My name is Rebecca Paterson and I am excited to return for my third year at Children of Hope as an Assistant Teacher. I truly adore working with preschool aged kiddos as each day is full of colorful imagination, growing independence and amazing discovery.
+  Hello Parents! My name is Rebecca Paterson and I have been an Assistant Teacher at Children of Hope since 2019. I truly adore working with preschool aged kiddos as each day is full of colorful imagination, growing independence and amazing discovery.
 </p>
 <p>
   My husband, Todd, and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with the beautiful state of Arizona ever since. We have two children, Brody and Sophie. Brody is a Freshman at ASU and Sophie is in 7th grade at Altadena Middle School. Sophie is a proud alumni of Children of Hope. She started in the Toddler Class (Mrs. Pierce was a teacher in her class☺) and continued until graduating from Pre-K. Children of Hope has always held a very special place in our family’s heart, and we have so many fond memories of when Sophie attended.
@@ -207,9 +203,7 @@ Teachers & Staff
   I am thankful for the opportunity to be a part of all the exciting experiences your child will enjoy this year and I look forward to helping create wonderful memories for your child and family!
 </p>
 <p>
-  I am excited to join Children of Hope as an Assistant Teacher in the Toddler Class.
-  I truly adore this age as it is full of colorful imagination, amazing discovery and
-  growing independence.
+  I am excited to work as an Assistant Teacher with our young learners. I truly adore this age as it is full of colorful imagination, amazing discovery and growing independence.
 </p>
 
 
@@ -241,7 +235,7 @@ Teachers & Staff
   preschool board. I truly love this school and want to see all the best for this little place!
 </p>
 <p>
-  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. Chase is 9 years old and a 4th grader at Monte Vista. He attended Children of Hope for 3 years. He made some best friends for life in his time there. Charlie is 7 and is in 2nd grade at Monte Vista. He also attended COH for 3 years. Both boys play baseball and I enjoy coaching their teams.
+  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. Chase is 10 years old and a 5th grader at Monte Vista. He attended Children of Hope for 3 years. He made some best friends for life in his time there. Charlie is 8 and is in 3rd grade at Monte Vista. He also attended COH for 3 years. Both boys play baseball and I enjoy coaching their teams.
 </p>
 <p>
   Outside of the classroom, I also am a consultant for Usborne Books & More because I love their
