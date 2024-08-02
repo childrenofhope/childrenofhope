@@ -22,8 +22,12 @@ School District or we might make.
     <td><b>No School</b> &mdash; Labor Day</td>
   </tr>
   <tr>
-    <td><b>Sept. 30 - Oct. 11</b></td>
+    <td><b>Sept. 30 - Oct. 14</b></td>
     <td><b>No School</b> &mdash; Fall Break</td>
+  </tr>
+  <tr>
+    <td><b>October 15</b></td>
+    <td>Classes Resume</td>
   </tr>
   <tr>
     <td><b>November 11</b></td>
@@ -34,11 +38,11 @@ School District or we might make.
     <td><b>No School</b> &mdash; Thanksgiving</td>
   </tr>
   <tr>
-    <td><b>Dec. 23 - Jan. 3</b></td>
+    <td><b>Dec. 23 - Jan. 6</b></td>
     <td><b>No School</b> &mdash; Christmas Break</td>
   </tr>
   <tr>
-    <td><b>January 6</b></td>
+    <td><b>January 7</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
@@ -50,8 +54,12 @@ School District or we might make.
     <td><b>No School</b> &mdash; President’s Day</td>
   </tr>
   <tr>
-    <td><b>March 10 - 21</b></td>
+    <td><b>March 10 - 24</b></td>
     <td><b>No School</b> &mdash; Spring Break</td>
+  </tr>
+  <tr>
+    <td><b>March 25</b></td>
+    <td>Classes Resume</td>
   </tr>
   <tr>
     <td><b>May 22</b></td>
