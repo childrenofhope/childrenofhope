@@ -91,7 +91,7 @@ Teachers & Staff
 
 <h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.webp"
-    alt="Lisa Krach" class="ui tiny circular image" />
+    alt="Cindy Gerrish" class="ui tiny circular image" />
   <div class="content">
     Cindy Gerrish
     <div class="sub header">Assistant Teacher</div>
@@ -245,3 +245,31 @@ Teachers & Staff
   to take a summer trip to Iowa for the boys to have extended time with grandparents and cousins!
 </p>
 
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/vanessa_smith.jpg"
+    alt="Vanessa Smith" class="ui tiny circular image" />
+  <div class="content">
+    Vanessa Smith
+    <div class="sub header">Assistant Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  Hello! My name is Vanessa Smith and I am truly delighted to be joining the Children of Hope family! This school and these magical ladies are one of a kind! I can’t wait to get to know you and your kiddos!
+</p>
+
+<p>
+  Both my daughter, Charlee, and my son, Milo attended COH and had a wonderful experience. In fact, it was with the loving guidance of the teachers here at COH that our son Milo was eventually diagnosed with Autism and is now thriving with the supports he receives.
+</p>
+
+<p>
+  I have learned so much about the Neurodivergent brain on this journey with Milo, and have taken trainings on sensory strategies, ABA therapy, Pivotal Response Treatment (PRT), Social Emotional Reciprocity, Hyper or Hypo Reactivity to Sensory Input, and recognizing Challenging Behaviors. I work closely with his Board Certified Behavior Analyst to continue to educate myself on how to meet his needs. Advocating is a large part of my everyday and I’m incredibly thankful for the resources available and to be a resource to others. I so respect the importance of these early years as a child’s brain is developing and I will nurture your child’s growth and development, laying the critical foundation that sets them up for success.
+</p>
+
+<p>
+  I am a native to Arizona (a unicorn) I know! I grew up in North Phoenix and have lived all over the valley, finally landing in Ahwatukee where my family and I have fallen in love with the community In my free time I enjoy spending time with my husband, Josh and our kids, going to the gym, iced coffee, going to concerts and meeting new people. I look forward to an incredible year with this wonderful community!
+</p>
