@@ -9,61 +9,45 @@ Newsletters
 
 <h3 class="ui header">Current School Year</h3>
 <div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_May_2024_Newsletter.pdf">
-    May 2024
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_April_2024_Newsletter.pdf">
-    April 2024
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_March_2024_Newsletter.pdf">
-    March 2024
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_February_2024_Newsletter.pdf">
-    February 2024
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_January_2024_Newsletter.pdf">
-    January 2024
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_December_2023_Newsletter.pdf">
-    December 2023
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_November_2023_Newsletter.pdf">
-    November 2023
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_October_2023_Newsletter.pdf">
-    October 2023
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_September_2023_Newsletter.pdf">
-    September 2023
-  </a>
-</div>
-<div class="ui newsletter list">
-  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_August_2023_Newsletter.pdf">
-    August 2023
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2024-2025/COH_August_2024_Newsletter.pdf">
+    August 2024
   </a>
 </div>
 
 <div class="ui hidden divider"></div>
-
 <h3 class="ui header">Archive</h3>
 
 <div class="ui newsletter list">
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_May_2024_Newsletter.pdf">
+    May 2024
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_April_2024_Newsletter.pdf">
+    April 2024
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_March_2024_Newsletter.pdf">
+    March 2024
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_February_2024_Newsletter.pdf">
+    February 2024
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_January_2024_Newsletter.pdf">
+    January 2024
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_December_2023_Newsletter.pdf">
+    December 2023
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_November_2023_Newsletter.pdf">
+    November 2023
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_October_2023_Newsletter.pdf">
+    October 2023
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_September_2023_Newsletter.pdf">
+    September 2023
+  </a>
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_August_2023_Newsletter.pdf">
+    August 2023
+  </a>
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2022-2023/COH_May_2023_Newsletter.pdf">
     May 2023
   </a>
