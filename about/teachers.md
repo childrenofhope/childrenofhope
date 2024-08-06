@@ -130,23 +130,23 @@ Teachers & Staff
 <div class="ui hidden divider"></div>
 
 <p>
-  Hello! I am thrilled about being a part of the Children of Hope Preschool.  I will be an assistant teacher in the Duckling class.  I have been an assistant in the toddler classroom since 2022. I look forward to watching your amazing children grow.
+  Hello! My name is Deacon Connie Rose-Kamprath I am thrilled about being a part of the Children of Hope Preschool. I have been an assistant teacher in the toddler classroom since 2022. I look forward to watching your amazing children grow.
 </p>
 
 <p>
-  I was born in Chicago, Illinois and moved to Arizona when I was 12. I left Arizona to attend California Lutheran University and received a Bachelor of Science degree in Sociology and Religion. I continued my education at the Lutheran School of Theology at Chicago and received a Masters degree in Theology.  I spent 30 years in youth and family ministry in the Evangelical Lutheran Church.  In 2015 I joined the staff of Creative Arts School for Youth teaching 3-year-olds through Pre-K.  In 2020 I joined the staff of Esperanza Lutheran as the Children's Ministry Director.
+  I was born in Chicago, Illinois and moved to Arizona when I was 12. I left Arizona to attend California Lutheran University and received a Bachelor of Science degree in Sociology and Religion. I continued my education at the Lutheran School of Theology at Chicago and received a Masters degree in Theology. I spent 30 years in youth and family ministry in the Evangelical Lutheran Church. In 2015 I joined the staff of Creative Arts School for Youth teaching 3-year-olds through Pre-K. In 2020 I joined the staff of Esperanza Lutheran as the Children's Ministry Director.
 </p>
 
 <p>
-  My Husband Peter and I have three wonderful children.  Joel is a pediatric resident in Austin Texas, Caleb a college student studying education at Scottsdale Community College, and Johanna a 2nd grade teacher at Redfield Elementary in Scottsdale, Arizona.
+  My husband, Peter, and I have three wonderful children. Joel is a pediatric resident in Austin Texas, Caleb a college student studying education at Scottsdale Community College, and Johanna is a 2nd grade teacher at Redfield Elementary in Scottsdale, Arizona.
 </p>
 
 <p>
-  We are sports people! We cheer for the St. Louis Cardinals baseball, University of Michigan football and love to watch golf.  I enjoy hiking and exploring the beautiful state of Arizona. One of my favorite things is to play pickleball with my family.
+  We are sports people! We cheer for the St. Louis Cardinals baseball, University of Michigan football and love to watch golf. I enjoy hiking and exploring the beautiful state of Arizona. One of my favorite things is to play pickleball with my family.
 </p>
 
 <p>
-  I am very excited to be part of an amazing Duckling team with Mrs. Dolny and Mrs. Angilletta, it is going to be a great year!
+  I am very excited to be part of an amazing toddler team! It’s going to be a great year!
 </p>
 
 <div class="ui section divider"></div>
