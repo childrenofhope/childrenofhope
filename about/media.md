@@ -12,6 +12,14 @@ In The News
 <div class="ui media very relaxed divided list">
   <div class="item">
     <div class="header">
+      <a target="_blank" href="https://elcaschools.org/children-of-hope-child-development-center-shaping-futures-with-love-and-learning/">
+        Spotlight on Children of Hope Child Development Center: Shaping Futures Every Day
+      </a>
+    </div>
+    <i><b>December 2024</b> - ELCA Schools and Learning Centers</i>
+  </div>
+  <div class="item">
+    <div class="header">
       <a target="_blank" href="https://www.firstthingsfirst.org/2022/09/parents-say-quality-first-arizona-preschool-helped-their-children/">
         Parents say Quality First helped their children with a strong start for kindergarten
       </a>
