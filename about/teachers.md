@@ -153,10 +153,10 @@ Teachers & Staff
 
 <h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/jessica_mueller.jpg"
-    alt="Lori Palomaa" class="ui tiny circular image" />
+    alt="Jessica Mueller" class="ui tiny circular image" />
   <div class="content">
     Jessica Mueller
-    <div class="sub header">Pre-K Lead dTeacher</div>
+    <div class="sub header">Pre-K Lead Teacher</div>
   </div>
 </h3>
 
