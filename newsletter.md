@@ -9,6 +9,15 @@ Newsletters
 
 <h3 class="ui header">Current School Year</h3>
 <div class="ui newsletter list">
+  <a class="item" href="{{ site.baseurl }}/assets/newsletters/2025-2026/COH_August_2025_Newsletter.pdf">
+    August 2025
+  </a>
+</div>
+
+<div class="ui hidden divider"></div>
+<h3 class="ui header">Archive</h3>
+
+<div class="ui newsletter list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2024-2025/COH_May_2025_Newsletter.pdf">
     May 2025
   </a>
@@ -39,12 +48,6 @@ Newsletters
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2024-2025/COH_August_2024_Newsletter.pdf">
     August 2024
   </a>
-</div>
-
-<div class="ui hidden divider"></div>
-<h3 class="ui header">Archive</h3>
-
-<div class="ui newsletter list">
   <a class="item" href="{{ site.baseurl }}/assets/newsletters/2023-2024/COH_May_2024_Newsletter.pdf">
     May 2024
   </a>

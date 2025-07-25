@@ -9,53 +9,36 @@ Teachers & Staff
 
 
 <h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/lynn_hockenberger.webp"
+  <img src="{{ site.baseurl }}/assets/images/teachers/jessica_mueller.jpg"
     alt="Lynn Hockenberger" class="ui tiny circular image" />
   <div class="content">
-    Lynn Hockenberger (Mrs. H)
+    Jessica Mueller
     <div class="sub header">Preschool Director</div>
   </div>
 </h3>
 
 <div class="ui hidden divider"></div>
 
-<p>
-  Hello! My name is Lynn Hockenberger and it is a true joy for me to come to work every day at Children of Hope Preschool! I have been privileged to serve as Director of this wonderful school since 2009 and have been a teacher here since the school opened in 2007. I have enjoyed being an early childhood educator since moving to the Valley in 2000.
-</p>
-<p>
-  I grew up in a suburb of Pittsburgh, Pennsylvania and graduated from the University of Pittsburgh with a degree in Children’s Literature with a focus in Elementary Education. I continue to take courses in the field of Early Childhood Education and have completed the Aim 4 Excellence National Director’s Credential sponsored by Arizona’s First Things First initiative. I serve as the Faith Representative on the First Things First East Maricopa Regional Council, I am the Secretary of the Evangelical Lutheran Education Association (ELEA) Board, and am a Member-at-Large on the (AzAEYC) Arizona Association for the Education of Young Children Board, the local chapter of the NAEYC. I am also an active member of the Christian Directors of the East Valley group.
-</p>
-<p>
-  My husband, Fritz, is a pilot with American Airlines and we are the proud parents of two adult children. Our daughter Laura graduated from The University of Arizona and The University of Charleston in West Virginia and is now a Physician Assistant at a local ENT practice. Our son Jake, also a graduate of The University of Arizona, is studying to be a teacher at Grand Canyon University while working as a teacher's aide at a Title 1 elementary school in Tucson.
-</p>
-<p>
-  I am so proud to be a part of this wonderful preschool and to work with such a great staff. I so believe in this special ministry and am very thankful to have the opportunity to work with God’s precious children each day.
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/amy_angilletta.webp"
-    alt="Amy Angilletta" class="ui tiny circular image" />
-  <div class="content">
-    Amy Angilletta
-    <div class="sub header">Assistant Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
+<p>Hello and Welcome!</p>
 
 <p>
-  My name is Amy Angilletta and it is an absolute joy for me to work at Children of Hope! I have been an assistant teacher here at Hope since 2014 and have had the privilege of working with all our littles, from the Toddlers through the Pre-K classes.
+  My name is Jessica Mueller, and I’m so glad you’ve found our happy little place here at Children of Hope. I have been in the field of education since 2001, with a focus on Early Childhood Education since 2008. It is truly an honor to step into the role of Director and follow in the incredible footsteps of Lynn Hockenberger.
 </p>
+
 <p>
-  Prior to coming to Children of Hope, I worked at the elementary school level, for several years, as a substitute teacher, special education assistant, and a K-3 Instructional Assistant at Estrella.
+  Originally from Oregon, I still miss the rain and cozy weather of the Pacific Northwest. I earned my degree in Elementary Education from Northern Arizona University and began my teaching career at Gethsemane Lutheran School, where I taught middle school for several years. I later joined Family of Christ, spending many rewarding years in the 3’s classroom. My journey at Children of Hope has included time in both the 2’s and Pre-K classrooms—shout-out to all my Lil Froggies!
 </p>
+
 <p>
-  I grew up in New Jersey, where I graduated from The College of New Jersey with a bachelor’s degree in Biology and a minor in Psychology.  My husband, Mike and I have two great adult kids.  Our daughter Taylor graduated from ASU in May 2020 and is currently working as a licensed Music Therapist here in the East Valley.  Our son Kyle is starting his junior year at ASU this fall majoring in Jazz Performance (drum set) with a business minor. We moved to Ahwatukee in the summer of 2010 for my husband’s job as a professor at ASU. Go Sun Devils! In my spare time I enjoy traveling, hiking, spending time with my girlfriends, attending live music events and watching my kids performances.
+  My husband, Tyler, is an electrical engineer, and we have two amazing children. Our daughter, Grace, recently graduated from the University of New England and is now coaching at Desert Vista. Our son, Ryan, lives in Oregon and is beginning his studies in Horticulture Science at Oregon State University.
 </p>
+
 <p>
-  I look forward to another wonderful year getting to know and nurture our little Ducklings!
+  When I’m not on campus, you’ll likely find me at Desert Vista, where I coach volleyball and basketball.
+</p>
+
+<p>
+  I am humbled and honored to be leading Children of Hope. It is truly a gift to do what you love each and every day. Please stop by and say hello &mdash; I’d love to meet or catch up with you!
 </p>
 
 <div class="ui section divider"></div>
@@ -94,7 +77,7 @@ Teachers & Staff
     alt="Cindy Gerrish" class="ui tiny circular image" />
   <div class="content">
     Cindy Gerrish
-    <div class="sub header">Assistant Teacher</div>
+    <div class="sub header">Pre-K Lead Teacher</div>
   </div>
 </h3>
 
@@ -147,35 +130,6 @@ Teachers & Staff
 
 <p>
   I am very excited to be part of an amazing toddler team! It’s going to be a great year!
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/jessica_mueller.jpg"
-    alt="Jessica Mueller" class="ui tiny circular image" />
-  <div class="content">
-    Jessica Mueller
-    <div class="sub header">Pre-K Lead Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  Hello! I am very excited to be the Lead Teacher in the Frog Pre-K classroom! I originally helped in the Ducklings class when I first came to COH. I was a 3’s lead teacher for the previous 12 years and a middle school teacher before that.
-</p>
-<p>
-  I was born and raised in the great state of Oregon before coming to Arizona to play basketball at NAU. I earned my degree in Elementary Education with an emphasis in Health, PE and Coaching. Once I retired from playing basketball I began teaching and coaching.
-</p>
-<p>
-  I am currently a basketball coach at Desert Vista. I spend my mornings with my littles and head over to high school in the afternoon with my big girls. I love both age groups!
-</p>
-<p>
-  My husband, Tyler, is also from Oregon though we didn’t know each other when we both lived there. We met at NAU. We have two children, Grace is my volleyball player and currently attends The University of New England in Maine. My son, Ryan, is my baseball and golf guy. He graduated from DV in May 2024 and will be attending the University of Oregon. In my very sparse minutes of free time, I love to take pictures and make cards.
-</p>
-<p>
-  I look forward to a wonderful year with our Froggies, watching them learn and grow!
 </p>
 
 <div class="ui section divider"></div>

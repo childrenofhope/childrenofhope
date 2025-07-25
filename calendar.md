@@ -4,7 +4,7 @@ title: Calendar - Children of Hope | Child Development Center Preschool
 permalink: /calendar
 ---
 
-Preschool Calendar 2024 - 2025
+Preschool Calendar 2025 - 2026
 ===
 
 The following is a list of notable days and holidays for the Preschool Academic
@@ -14,19 +14,19 @@ School District or we might make.
 
 <table class="ui basic events table">
   <tr>
-    <td><b>August 5 & 6</b></td>
+    <td><b>August 4 & 5</b></td>
     <td>First Day of Classes</td>
   </tr>
   <tr>
-    <td><b>September 2</b></td>
+    <td><b>September 1</b></td>
     <td><b>No School</b> &mdash; Labor Day</td>
   </tr>
   <tr>
-    <td><b>Sept. 30 - Oct. 14</b></td>
+    <td><b>Sept. 29 - Oct. 13</b></td>
     <td><b>No School</b> &mdash; Fall Break</td>
   </tr>
   <tr>
-    <td><b>October 15</b></td>
+    <td><b>October 14</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
@@ -34,35 +34,35 @@ School District or we might make.
     <td><b>No School</b> &mdash; Veteran's Day</td>
   </tr>
   <tr>
-    <td><b>November 27 - 29</b></td>
+    <td><b>November 26 - 28</b></td>
     <td><b>No School</b> &mdash; Thanksgiving</td>
   </tr>
   <tr>
-    <td><b>Dec. 23 - Jan. 6</b></td>
+    <td><b>Dec. 22 - Jan. 5</b></td>
     <td><b>No School</b> &mdash; Christmas Break</td>
   </tr>
   <tr>
-    <td><b>January 7</b></td>
+    <td><b>January 6</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
-    <td><b>January 20</b></td>
+    <td><b>January 19</b></td>
     <td><b>No School</b> &mdash; Martin Luther King Jr. Holiday</td>
   </tr>
   <tr>
-    <td><b>February 17</b></td>
+    <td><b>February 16</b></td>
     <td><b>No School</b> &mdash; President’s Day</td>
   </tr>
   <tr>
-    <td><b>March 10 - 24</b></td>
+    <td><b>March 9 - 23</b></td>
     <td><b>No School</b> &mdash; Spring Break</td>
   </tr>
   <tr>
-    <td><b>March 25</b></td>
+    <td><b>March 24</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
-    <td><b>May 22</b></td>
+    <td><b>May 21</b></td>
     <td>Last Day of Preschool</td>
   </tr>
 </table>

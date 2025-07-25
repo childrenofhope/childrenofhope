@@ -9,10 +9,10 @@ Contact Us
 
 <div class="ui hidden divider"></div>
 
-For all inquiries, please contact Children of Hope Preschool Director, Lynn Hockenberger.
+For all inquiries, please contact Children of Hope Preschool Director, Jessica Mueller.
 
 <div class="ui compact segment">
-  <div class="item">Lynn Hockenberger</div>
+  <div class="item">Jessica Mueller</div>
   <div class="item">
     <a href="tel:4807591515">(480) 759-1515</a>
   </div>
