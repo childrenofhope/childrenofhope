@@ -44,11 +44,49 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.webp"
+    alt="Cindy Gerrish" class="ui tiny circular image" />
+  <div class="content">
+    Cindy Gerrish
+    <div class="sub header">Lead Pre-Kindergarten Teacher</div>
+  </div>
+</h3>
+<div class="ui hidden divider"></div>
+<p>
+  It has been my pleasure to work at Children of Hope in the pre-k class for 15 years. I’ve had fun being the assistant teacher and teaching a Science Enrichment class in the spring sometimes too. I’m a member of the church here and have enjoyed working with our Sunday School and VBS programs through the years. It has always been fun to teach as an assistant but I am so excited to be the lead this year and use all the knowledge that has been building from so many years in the classroom.
+ </p>
+ <p>
+  I am originally from New Mexico. I received a BBS from UNM and have lived in the valley with my husband Paul since our marriage. I worked at the American Cancer Society until my daughter Heidi was born, at which time I became a stay-at-home-mom. I have had the privilege of raising three fantastic children, Heidi, Julie and Stephen and now I have a daughter-in-law, Kathryn. I have always loved being a mom and I love being a teacher too. I look forward to another exciting year here at COH, I am really excited to be a lead teacher!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/jess_pierce.webp"
+    alt="Jess Pierce" class="ui tiny circular image" />
+  <div class="content">
+    Jess Pierce
+    <div class="sub header">Lead Penguin Teacher</div>
+  </div>
+</h3>
+
+<div class="ui hidden divider"></div>
+
+<p>
+  I’m Jess Pierce, and I am originally from Iowa, although I did spend some of my elementary years in Ahwatukee. I earned my BA in Exercise Science/Athletic Training from Central College in Pella, IA, in 2004 and my MS in Athletic Training from UNI in Cedar Falls, IA, in 2006. I moved to Phoenix in 2006 and worked as an athletic trainer at Mountain Pointe High School in Ahwatukee for 10 years and taught Sports Med/PE for 4 of those. In October of 2007, I found a new preschool that was looking for teachers and I started working at Children of Hope in the 2s class. I stayed for 7 years with Mrs. K in the 2s and 3s classes until my oldest son was born in 2014, and I took on more hours at the high school. Then I returned as a parent in 2016! This is my sixth year back as a lead teacher. I truly love this school and want to see all the best for this little place!
+</p>
+<p>
+  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. They both attended Children of Hope for 3 years. Chase is 11 and is in 6th grade at Altadena Middle School this year. He made some best friends for life in his time here. Charlie is 9 and in 4th grade at Monte Vista this year with some of his Children of Hope friends! Outside of the classroom, I have coached both boys in Little League over the past 7 years with many of the Children of Hope friends. As a family, we love to get out of the heat and enjoy some time in the mountains exploring and trying to burn off the never-ending boy energy we have!! We also like to take a summer trip to Iowa for the boys to have extended time with grandparents and cousins!
+</p>
+
+<div class="ui section divider"></div>
+
+<h3 class="ui header">
   <img src="{{ site.baseurl }}/assets/images/teachers/katrin_guete.jpg"
     alt="Katrin Guete" class="ui tiny circular image" />
   <div class="content">
     Katrin Guete
-    <div class="sub header">Toddler Lead Teacher</div>
+    <div class="sub header">Lead Owlet Teacher</div>
   </div>
 </h3>
 
@@ -57,46 +95,14 @@ Teachers & Staff
 <p>
   My name is Katrin Guete and working at Children of Hope is a dream come true. I love our school, the staff, and foremost the students in this wonderful community. Toddlers are truly amazing—full of curiosity, joy and spectacular ideas.
 </p>
-
 <p>
   I grew up in Germany near the beautiful Lake of Constance. I always enjoyed teaching—my parents and brother are teachers too (it might run in the family ;-)). Previously I was an assistant teacher at Ahwatukee Preschool in the toddler room, and I offered weekly German lessons to 2nd through 5th grade bilingual children of the German community here in the valley. Back in Germany I was an English teacher for elementary students at a community college. While in school myself I was assistant coach at our local gymnastics club. I’m also a certified yoga instructor – dating back to my time living in Asia. My other passion is photography—I graduated with a Bachelor of Arts at Lazi Academy, Stuttgart (Germany).
 </p>
-
 <p>
   Our journey has taken our family around the world. We moved in 2009 from Munich to Seoul, onwards in 2012 to Hong Kong, to arrive in Phoenix in 2014. Today my husband Andreas and I, our kids Tom, Lias, and Elli, and our dog Luna are happy residents of Ahwatukee.
 </p>
-
 <p>
-  Our daughter Elli just graduated from the COH in May 2024. Sending her here was the best decision ever. I love hiking, painting, baking sourdough bread, and drinking coffee preferably with friends. I can’t wait to see these young minds bloom in and outside of our classroom!
-</p>
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/cindy_gerrish.webp"
-    alt="Cindy Gerrish" class="ui tiny circular image" />
-  <div class="content">
-    Cindy Gerrish
-    <div class="sub header">Pre-K Lead Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  It has been my pleasure to work at Children of Hope in the PreK classroom since 2010.
-  I also enjoy teaching a Science Enrichment class in the spring.
-</p>
-
-<p>
-  I have been a member of Esperanza Lutheran Church for over 20 years and have enjoyed working
-  with our Sunday School and Vacation Bible School programs through the years. I am originally from
-  New Mexico; I grew up on the Navajo Reservation where my parents were missionaries for the
-  Christian Reformed Church.
-</p>
-
-<p>
-  I received a BS from the University of New Mexico and have lived in the Phoenix area with my husband Paul for many years. I worked at the American Cancer Society until my first daughter was born. I have three grown children, Heidi, Julie and Stephen (married to Kat). I love teaching little children and watching them grow and learn.
+  Our daughter Elli graduated from the COH in May 2024. Sending her here was the best decision ever. I love hiking, painting, baking sourdough bread, and drinking coffee preferably with friends. I can’t wait to see these young minds bloom in and outside of our classroom!
 </p>
 
 <div class="ui section divider"></div>
@@ -160,44 +166,6 @@ Teachers & Staff
   I am excited to work as an Assistant Teacher with our young learners. I truly adore this age as it is full of colorful imagination, amazing discovery and growing independence.
 </p>
 
-
-<div class="ui section divider"></div>
-
-<h3 class="ui header">
-  <img src="{{ site.baseurl }}/assets/images/teachers/jess_pierce.webp"
-    alt="Jess Pierce" class="ui tiny circular image" />
-  <div class="content">
-    Jess Pierce
-    <div class="sub header">3's Lead Teacher</div>
-  </div>
-</h3>
-
-<div class="ui hidden divider"></div>
-
-<p>
-  I am originally from Iowa, although I did spend some of my elementary years in Ahwatukee. I
-  earned my BA in Exercise Science/Athletic Training from Central College in Pella, IA, in 2004
-  and my MS in Athletic Training from UNI in Cedar Falls, IA, in 2006. I moved to Phoenix in 2006
-  and worked as an athletic trainer at Mountain Pointe High School in Ahwatukee for 10 years.
-</p>
-<p>
-  During that time, I also earned my teaching certificate and taught Sports Medicine and a few PE
-  classes for 4 of those years. In October of 2007, I found a new preschool that was looking for
-  teachers and I started working at Children of Hope in the 2s class. I stayed for 7 years with
-  Mrs. K in the 2s and 3s classes until my oldest son was born in 2014 and I took on more hours
-  at the high school. Then I returned as a parent in 2016! The past 2 years I have served on the
-  preschool board. I truly love this school and want to see all the best for this little place!
-</p>
-<p>
-  I was married to my husband, Nathan, in 2012. We have 2 boys, Chase and Charlie. Chase is 10 years old and a 5th grader at Monte Vista. He attended Children of Hope for 3 years. He made some best friends for life in his time there. Charlie is 8 and is in 3rd grade at Monte Vista. He also attended COH for 3 years. Both boys play baseball and I enjoy coaching their teams.
-</p>
-<p>
-  Outside of the classroom, I also am a consultant for Usborne Books & More because I love their
-  books so much! I also have coached both boys in Little League for the past 3 years with many of
-  the Children of Hope friends. As a family, we love to get out of the heat and enjoy some time in
-  the mountains exploring and trying to burn off the never-ending boy energy we have!! We also like
-  to take a summer trip to Iowa for the boys to have extended time with grandparents and cousins!
-</p>
 
 <div class="ui section divider"></div>
 
