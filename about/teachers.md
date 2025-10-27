@@ -170,6 +170,8 @@ Teachers & Staff
 <div class="ui section divider"></div>
 
 <h3 class="ui header">
+  <img src="{{ site.baseurl }}/assets/images/teachers/kristin_baldwin.jpg"
+    alt="Rebecca Paterson" class="ui tiny circular image" />
   <div class="content">
     Kristin Baldwin
     <div class="sub header">Assistant Teacher</div>
