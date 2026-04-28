@@ -31,7 +31,7 @@ The Difference
 
 Excellence in education is a priority at Children of Hope. As a Quality First enrolled
 school, we hold ourselves to the highest industry standards and implement research
-backed best practices. All faculty participate in 18 hours of continuing education each
+backed best practices. All faculty participate in 24 hours of continuing education each
 year, with Lead Teachers possessing bachelors or masters degrees. Every teacher is
 CPR/First Aid certified, background checked and licensed through the state of Arizona.
 Our curriculum supports both the academic and the social/emotional growth of each

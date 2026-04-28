@@ -11,14 +11,14 @@ Children of Hope is committed to providing a positive and hands-on Christian lea
 
 We form a true partnership with the family to build a strong foundation that will foster a life-long love of learning. A strong Christian foundation is developed through participation in Chapel, Bible stories, songs and prayers.
 
-Children of Hope is an active member of the Evangelical Lutheran Education Association .
+Children of Hope is an active member of the Evangelical Lutheran Education Association.
 
 <div class="ui hidden divider"></div>
 
 2-Year-Old Program
 ---
 
-Our two year old class is a three-hour class that meets two days a week in which a variety of developmentally appropriate learning activities occur. Structuring the environment and planning activities for self-directed play and learning is a fundamental part of the program.
+Our two year old class is a 3.5 hour class that meets three days a week in which a variety of developmentally appropriate learning activities occur. Structuring the environment and planning activities for self-directed play and learning is a fundamental part of the program.
 
 Curriculum activities include dramatic play, open-ended creative and sensory experiences (painting, sand and water play, modeling clay, collage activities, etc), construction activities with blocks and manipulative toys, gardening, cooking and outdoor activities.
 
@@ -27,7 +27,7 @@ Curriculum activities include dramatic play, open-ended creative and sensory exp
 3-Year-Old Program
 ---
 
-Our three year old classes meet for 3 hours each day, three days per week. The class works toward helping the children verbalize their feelings and needs and in developing positive social relations. “Tell him how you feel” is heard often with three-year-olds.
+Our three year old classes meet for 3.5 hours each day, three days per week. The class works toward helping the children verbalize their feelings and needs and in developing positive social relations. “Tell him how you feel” is heard often with three-year-olds.
 
 At three, there is more role-play and more cooperative play. By the end of the year, playgroups have often increased in size with four or five children interacting in the housekeeping corner or on the playground with imaginative play. There are group times, which include songs, stories, finger plays, art, music, and fun body movement activities. In addition, basic introduction into early childhood academics is explored.
 
@@ -36,7 +36,7 @@ At three, there is more role-play and more cooperative play. By the end of the y
 4-Year-Old Program (Pre-K)
 ---
 
-Our four year old pre-kindergarten classes meet for a three-hour block of time and includes a wide variety of school experiences made possible by 4 school days per week. All children in this group, by age, will be eligible for Kindergarten the following year.
+Our four year old pre-kindergarten classes go to school 4 days per week.  We have found that having two long days and two short days really helps to prepare them for Kindergarten. Monday and Wednesday go from 8:30-2:00 and Tuesday and Thursday go from 8:30-12:00. All children in this group, by age, will be eligible for Kindergarten the following year.
 
 A typical day in this program will provide developmentally appropriate experiences in all domains: cognitive, social, emotional, physical and spiritual. This theme and center-based program allows children to utilize materials in more complex and extended ways. Near the end of the year, the staff discusses with the parents their perception of the children’s readiness for Kindergarten.
 
@@ -49,4 +49,20 @@ _(Optional Friday Class for Pre-K Students)_
 In this optional class, offered on Fridays in one month blocks, teachers will guide the children through in-depth investigation of one single topic of their choosing. For example, if a child is interested in dinosaurs or flowers or camping, these ideas would be discussed and together the class will choose a topic to explore. Through research, hands-on activities and investigation the children will work together to learn more about this single topic. The collaboration will grow each week, culminating in a final outcome in the 4 th week.
 
 This approach to learning enables the children to dig deeper and ask more questions about topics that really interest them. These skills help them become independent thinkers and eager lifelong learners.
+
+<div class="ui hidden divider"></div>
+
+Lunch Bunch
+---
+_(Optional later release)_
+
+Lunch Bunch is offered each Tuesday, Wednesday and Thursday except for one day a month that it is not offered due to a Staff Meeting. Children pack their own lunch and can stay till 2:00 daily. There is an additional charge for lunch bunch.
+
+<div class="ui hidden divider"></div>
+
+Fun Fridays
+---
+_(Optional Friday Class)_
+
+In this optional class, offered on Fridays several times throughout the year.  Each Friday will have a different theme.  We have offered Stories and Fairytales, cooking, obstacle course and heart health, spooky science and more.  This is a fun way to get to meet kids from other classes and meet all the different teachers.  There is an additional charge for Fun Friday.
 
