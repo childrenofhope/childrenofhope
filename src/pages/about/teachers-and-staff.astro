@@ -88,13 +88,15 @@ const staff: Staff[] = [
     {staff.map((p) => (
       <article class="coh-tcard member">
         <img class="photo" src={p.photo} alt={`${p.name}, ${p.role}`} width="120" height="120" loading="lazy" decoding="async" />
-        <div class="name">{p.name}</div>
-        <div class="role">{p.role}</div>
-        {p.bio.length > 0 ? (
-          <div class="bio">{p.bio.map((para) => <p>{para}</p>)}</div>
-        ) : (
-          <p class="bio-soon">Bio coming soon.</p>
-        )}
+        <div class="member-body">
+          <div class="name">{p.name}</div>
+          <div class="role">{p.role}</div>
+          {p.bio.length > 0 ? (
+            <div class="bio">{p.bio.map((para) => <p>{para}</p>)}</div>
+          ) : (
+            <p class="bio-soon">Bio coming soon.</p>
+          )}
+        </div>
       </article>
     ))}
   </section>
@@ -111,15 +113,18 @@ const staff: Staff[] = [
 </BaseLayout>
 
 <style>
-  .team { padding-top: 40px; padding-bottom: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
-  .member { background: #fff; border-radius: var(--coh-r-card); padding: 30px; box-shadow: var(--coh-shadow-card); }
-  .photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto 16px; display: block; background: var(--coh-paper-2); }
-  .name { font-weight: 800; font-size: 20px; color: var(--coh-ink); text-align: center; }
-  .role { font-size: 13px; color: var(--coh-sky); font-weight: 700; margin-top: 3px; text-align: center; }
-  .bio { margin-top: 16px; }
+  /* Horizontal cards (photo left, bio right) stacked in one column — handles
+     the very different bio lengths without the ragged heights of a 2-col grid. */
+  .team { padding-top: 40px; padding-bottom: 24px; display: flex; flex-direction: column; gap: 18px; }
+  .member { display: flex; gap: 28px; align-items: flex-start; background: #fff; border-radius: var(--coh-r-card); padding: 30px; box-shadow: var(--coh-shadow-card); }
+  .photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex: none; display: block; background: var(--coh-paper-2); }
+  .member-body { flex: 1; min-width: 0; }
+  .name { font-weight: 800; font-size: 20px; color: var(--coh-ink); }
+  .role { font-size: 13px; color: var(--coh-sky); font-weight: 700; margin-top: 3px; }
+  .bio { margin-top: 12px; max-width: 68ch; }
   .bio p { font-size: 14px; line-height: 1.7; color: #6b7077; margin: 0 0 12px; }
   .bio p:last-child { margin-bottom: 0; }
-  .bio-soon { margin-top: 16px; text-align: center; font-size: 14px; color: var(--coh-muted); }
+  .bio-soon { margin-top: 12px; font-size: 14px; color: var(--coh-muted); }
 
   .tour-wrap { padding-top: 24px; padding-bottom: 72px; }
   .tour { background: var(--coh-sage); border-radius: 24px; padding: 38px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
@@ -127,7 +132,8 @@ const staff: Staff[] = [
   .tour p { font-size: 15px; line-height: 1.6; color: #3f5a47; margin: 0; }
   .tour-btn { background: var(--coh-ink); color: #fff; padding: 14px 26px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; white-space: nowrap; }
 
-  @media (max-width: 720px) {
-    .team { grid-template-columns: 1fr; }
+  @media (max-width: 640px) {
+    .member { flex-direction: column; align-items: center; text-align: center; }
+    .bio { max-width: none; text-align: left; }
   }
 </style>
