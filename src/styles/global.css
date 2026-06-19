@@ -1,0 +1,96 @@
+/* ============================================================
+   Children of Hope — global base + shared utilities
+   Pairs with tokens.css. Page markup uses these classes plus
+   inline styles ported faithfully from the "Sunny Meadow"
+   design concepts.
+   ============================================================ */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--coh-paper);
+  color: #3a3f45;
+  font-family: var(--coh-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: inherit; text-decoration: none; }
+
+img { max-width: 100%; display: block; }
+
+:focus-visible { outline: 3px solid var(--coh-sky); outline-offset: 2px; border-radius: 4px; }
+
+/* ---- Layout helpers ---- */
+.coh-wrap { max-width: 1180px; margin: 0 auto; }
+.coh-pad { padding-left: 36px; padding-right: 36px; }
+
+/* ---- Motion ---- */
+@keyframes coh-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+
+/* ---- Interactive primitives ---- */
+.coh-link { transition: color .15s var(--coh-ease); }
+.coh-link:hover { color: var(--coh-sky); }
+
+.coh-btn { transition: transform .12s var(--coh-ease), box-shadow .15s var(--coh-ease), background-color .15s var(--coh-ease); }
+.coh-btn:hover { transform: translateY(-2px); }
+
+.coh-card { transition: transform .18s var(--coh-ease), box-shadow .18s var(--coh-ease); }
+.coh-card:hover { transform: translateY(-4px); box-shadow: var(--coh-shadow-lift); }
+
+.coh-tcard { transition: transform .18s var(--coh-ease), box-shadow .18s var(--coh-ease); }
+.coh-tcard:hover { transform: translateY(-4px); box-shadow: var(--coh-shadow-lift); }
+
+.coh-doc { transition: transform .18s var(--coh-ease), box-shadow .18s var(--coh-ease); }
+.coh-doc:hover { transform: translateY(-4px); box-shadow: var(--coh-shadow-lift); }
+
+/* ---- Form inputs (Contact) ---- */
+.coh-in {
+  width: 100%;
+  border: 1.5px solid #e3ddd0;
+  border-radius: var(--coh-r-input);
+  padding: 13px 15px;
+  font: 400 15px var(--coh-sans);
+  color: var(--coh-ink);
+  background: #fff;
+  transition: border-color .15s var(--coh-ease);
+}
+.coh-in:focus { outline: none; border-color: var(--coh-sky); }
+
+/* ---- Mobile menu (toggled by checkbox hack — no JS framework) ---- */
+.coh-burger { display: none; }
+.coh-mobile-nav { display: none; }
+#coh-nav-toggle { display: none; }
+#coh-nav-toggle:checked ~ .coh-mobile-nav { display: block; }
+
+/* ---- Responsive ---- */
+@media (max-width: 860px) {
+  .coh-desktop-nav { display: none !important; }
+  .coh-burger { display: inline-flex !important; }
+  .coh-2 { grid-template-columns: 1fr !important; }
+  .coh-3 { grid-template-columns: 1fr !important; }
+  .coh-hero { grid-template-columns: 1fr !important; gap: 36px !important; }
+  .coh-pad { padding-left: 22px !important; padding-right: 22px !important; }
+  .coh-foot { flex-direction: column !important; align-items: flex-start !important; text-align: left !important; }
+  .coh-foot-r { text-align: left !important; }
+}
+
+@media (max-width: 560px) {
+  .coh-3-sm { grid-template-columns: 1fr !important; }
+}

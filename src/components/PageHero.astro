@@ -1,0 +1,22 @@
+---
+interface Props {
+  eyebrow: string;
+  title: string;
+  lead?: string;
+}
+const { eyebrow, title, lead } = Astro.props;
+---
+
+<section class="coh-pad page-hero">
+  <p class="eyebrow">{eyebrow}</p>
+  <h1>{title}</h1>
+  {lead && <p class="lead">{lead}</p>}
+  <slot name="lead" />
+</section>
+
+<style>
+  .page-hero { padding-top: 56px; padding-bottom: 12px; }
+  .eyebrow { font: 700 11px/1 var(--coh-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--coh-sky); margin: 0 0 14px; }
+  h1 { font-weight: 800; font-size: clamp(34px, 5vw, 50px); line-height: 1.05; letter-spacing: -.03em; color: var(--coh-ink); margin: 0 0 16px; max-width: 760px; }
+  .lead { font-size: 19px; line-height: 1.6; color: var(--coh-body); margin: 0; max-width: 620px; }
+</style>

@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+
+type EventType = "session" | "noschool";
+interface CalEvent { date: string; label: string; type: EventType; }
+
+const events: CalEvent[] = [
+  { date: "August 4 & 5", label: "First Day of Classes", type: "session" },
+  { date: "September 1", label: "Labor Day", type: "noschool" },
+  { date: "Sept. 29 – Oct. 13", label: "Fall Break", type: "noschool" },
+  { date: "October 14", label: "Classes Resume", type: "session" },
+  { date: "November 11", label: "Veterans Day", type: "noschool" },
+  { date: "November 26 – 28", label: "Thanksgiving", type: "noschool" },
+  { date: "Dec. 22 – Jan. 5", label: "Christmas Break", type: "noschool" },
+  { date: "January 6", label: "Classes Resume", type: "session" },
+  { date: "January 19", label: "Martin Luther King Jr. Holiday", type: "noschool" },
+  { date: "February 16", label: "Presidents' Day", type: "noschool" },
+  { date: "March 9 – 23", label: "Spring Break", type: "noschool" },
+  { date: "March 24", label: "Classes Resume", type: "session" },
+  { date: "May 21", label: "Last Day of Preschool", type: "session" },
+];
+---
+
+<BaseLayout
+  title="Calendar"
+  description="The 2025–2026 Children of Hope preschool calendar — notable days and holidays, based on the Kyrene School District calendar."
+>
+  <PageHero eyebrow="School calendar" title="Preschool Calendar 2025–2026">
+    <p slot="lead" class="lead">
+      Notable days and holidays for the preschool academic year, based on the Kyrene School
+      District. We follow this as closely as possible and will notify you of any changes the
+      district or we might make.
+    </p>
+  </PageHero>
+
+  <section class="coh-pad cal">
+    <ul class="events">
+      {events.map((e) => (
+        <li class={`event ${e.type}`}>
+          <span class="tag">{e.type === "noschool" ? "No School" : "Session"}</span>
+          <span class="date">{e.date}</span>
+          <span class="label">{e.label}</span>
+        </li>
+      ))}
+    </ul>
+    <a class="coh-btn full-cal" href="/assets/forms/2026-2027/COH_Calendar.pdf">Full 2026–27 calendar (PDF) ↓</a>
+  </section>
+</BaseLayout>
+
+<style>
+  .lead { font-size: 19px; line-height: 1.6; color: var(--coh-body); margin: 0; max-width: 640px; }
+
+  .cal { padding-top: 40px; padding-bottom: 72px; }
+  .events { list-style: none; margin: 0 0 24px; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .event {
+    display: grid;
+    grid-template-columns: 110px 200px 1fr;
+    align-items: center;
+    gap: 18px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px 22px;
+    box-shadow: var(--coh-shadow-card);
+    border-left: 5px solid var(--coh-sage);
+  }
+  .event.noschool { border-left-color: var(--coh-gold); }
+  .tag {
+    justify-self: start;
+    font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em;
+    padding: 5px 12px; border-radius: var(--coh-r-pill);
+    background: var(--coh-sage); color: #3f5a47;
+  }
+  .event.noschool .tag { background: var(--coh-peach); color: #8a5a14; }
+  .date { font-weight: 800; color: var(--coh-ink); font-size: 15px; }
+  .label { color: var(--coh-body); font-size: 15px; }
+
+  .full-cal { display: inline-block; background: var(--coh-paper-2); color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; }
+
+  @media (max-width: 640px) {
+    .event { grid-template-columns: 1fr; gap: 6px; }
+    .tag { margin-bottom: 4px; }
+  }
+</style>

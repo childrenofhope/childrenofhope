@@ -1,0 +1,99 @@
+---
+import { NAV, ENROLL_HREF, SITE } from "../consts";
+
+const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
+const isActive = (href: string) => path === href || (href !== "/" && path.startsWith(href));
+---
+
+<header class="site-header">
+  <input type="checkbox" id="coh-nav-toggle" aria-hidden="true" />
+  <div class="coh-pad bar">
+    <a href="/" class="brand" aria-label={`${SITE.name} — home`}>
+      <span class="mark" aria-hidden="true">✦</span>
+      <span class="brand-text">
+        <span class="brand-name">{SITE.name}</span>
+        <span class="brand-sub">{SITE.subtitle}</span>
+      </span>
+    </a>
+
+    <nav class="coh-desktop-nav" aria-label="Primary">
+      {NAV.map((item) => (
+        <a class="coh-link" href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>
+          {item.label}
+        </a>
+      ))}
+      <a class="coh-btn enroll" href={ENROLL_HREF}>Enroll</a>
+    </nav>
+
+    <label class="coh-burger" for="coh-nav-toggle" aria-label="Toggle menu" role="button" tabindex="0">☰</label>
+  </div>
+
+  <div class="coh-mobile-nav coh-pad">
+    {NAV.map((item) => (
+      <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>{item.label}</a>
+    ))}
+    <a class="mobile-enroll" href={ENROLL_HREF}>Enroll for 2026–27</a>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(251, 247, 239, 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(44, 62, 80, 0.08);
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--coh-sky);
+    display: grid; place-items: center;
+    color: #fff; font-size: 22px;
+    box-shadow: 0 6px 14px rgba(90, 169, 214, 0.35);
+  }
+  .brand-text { line-height: 1.05; }
+  .brand-name { display: block; font-weight: 800; font-size: 17px; color: var(--coh-ink); letter-spacing: -0.01em; }
+  .brand-sub { display: block; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--coh-muted); }
+
+  .coh-desktop-nav {
+    display: flex; align-items: center; gap: 26px;
+    font-size: 14px; font-weight: 600; color: var(--coh-body);
+  }
+  .coh-desktop-nav a[aria-current="page"] { color: var(--coh-sky); }
+
+  .enroll {
+    background: var(--coh-gold); color: #fff;
+    padding: 11px 22px; border-radius: var(--coh-r-pill);
+    font-weight: 700; font-size: 13px;
+    box-shadow: 0 6px 14px rgba(242, 165, 22, 0.35);
+  }
+
+  .coh-burger {
+    width: 44px; height: 44px;
+    align-items: center; justify-content: center;
+    background: #fff; border: 1px solid rgba(44, 62, 80, 0.12);
+    border-radius: 12px; cursor: pointer; color: var(--coh-ink); font-size: 20px;
+  }
+
+  .coh-mobile-nav { padding-top: 8px; padding-bottom: 20px; border-top: 1px solid rgba(44, 62, 80, 0.08); }
+  .coh-mobile-nav a {
+    display: block; padding: 12px 8px; border-radius: 10px;
+    font-weight: 600; font-size: 16px; color: var(--coh-ink);
+  }
+  .coh-mobile-nav a[aria-current="page"] { color: var(--coh-sky); }
+  .mobile-enroll {
+    margin-top: 8px; text-align: center;
+    background: var(--coh-gold) !important; color: #fff !important;
+    padding: 14px !important; border-radius: var(--coh-r-pill);
+    font-weight: 700;
+  }
+</style>

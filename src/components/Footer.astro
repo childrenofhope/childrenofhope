@@ -1,0 +1,78 @@
+---
+import { SITE, CONTACT, FOOTER_LINKS } from "../consts";
+const year = 2026;
+---
+
+<footer class="site-footer">
+  <div class="coh-wrap coh-pad inner">
+    <div class="coh-foot top">
+      <div class="about">
+        <div class="brand">
+          <span class="mark" aria-hidden="true">✦</span>
+          <span class="name">{SITE.name}</span>
+        </div>
+        <p>
+          An outreach ministry of Esperanza Lutheran Church, ELCA. A positive first school
+          experience within a Christian environment of understanding, acceptance and love.
+        </p>
+        <a class="coh-link fb" href={CONTACT.facebook} aria-label="Facebook">
+          <span aria-hidden="true">👍</span> Follow us on Facebook
+        </a>
+      </div>
+
+      <div class="cols">
+        <div>
+          <div class="heading">Explore</div>
+          <div class="links">
+            {FOOTER_LINKS.map((l) => <a class="coh-link" href={l.href}>{l.label}</a>)}
+          </div>
+        </div>
+        <div class="coh-foot-r visit">
+          <div class="heading">Visit us</div>
+          <address>
+            {CONTACT.addressLine1}<br />
+            {CONTACT.addressLine2}<br />
+            <a class="coh-link phone" href={CONTACT.phoneHref}>{CONTACT.phone}</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      © {year} {SITE.longName} · Ahwatukee, Phoenix AZ
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--coh-ink);
+    color: #cdd6df;
+    border-radius: 28px 28px 0 0;
+  }
+  .inner { padding-top: 48px; padding-bottom: 40px; }
+  .top {
+    display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap;
+    padding-bottom: 32px; border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .about { max-width: 320px; }
+  .brand { display: flex; align-items: center; gap: 11px; margin-bottom: 14px; }
+  .mark {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--coh-sky); display: grid; place-items: center; color: #fff; font-size: 20px;
+  }
+  .name { color: #fff; font-weight: 800; font-size: 16px; }
+  .about p { font-size: 13px; line-height: 1.7; margin: 0 0 14px; color: #9fb0c0; }
+  .fb { color: #cdd6df; font-size: 13px; font-weight: 700; }
+
+  .cols { display: flex; gap: 48px; flex-wrap: wrap; }
+  .heading {
+    color: #fff; font-weight: 700; font-size: 13px; text-transform: uppercase;
+    letter-spacing: 0.08em; margin-bottom: 14px;
+  }
+  .links { display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
+  .visit { text-align: right; }
+  .visit address { font-style: normal; font-size: 14px; line-height: 1.8; color: #cdd6df; }
+  .visit .phone { color: #fff; font-weight: 700; }
+
+  .copyright { padding-top: 22px; font-size: 12px; color: #7e8fa0; }
+</style>

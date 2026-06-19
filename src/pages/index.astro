@@ -1,0 +1,209 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ImageSlot from "../components/ImageSlot.astro";
+import { ENROLLMENT_PACKET } from "../consts";
+import { getAnnouncements, formatLongDate } from "../utils";
+
+const latest = getAnnouncements().slice(0, 3);
+---
+
+<BaseLayout
+  title="Children of Hope — Child Development Center Preschool"
+  description="A joyful first preschool experience in a Christian environment of understanding, acceptance and love — a 5-Star rated program in Ahwatukee, Phoenix AZ."
+>
+  <!-- HERO -->
+  <section class="coh-hero coh-pad hero">
+    <div>
+      <p class="marker">where every child is a miracle</p>
+      <h1>A joyful first school experience.</h1>
+      <p class="lead">
+        A positive first preschool experience in a Christian environment of understanding,
+        acceptance and love — right here in Ahwatukee.
+      </p>
+      <div class="cta-row">
+        <a class="coh-btn btn-gold" href="/contact">Schedule a tour</a>
+        <a class="coh-btn btn-outline" href="/forms">Enroll for 2026–27</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="float-circle" aria-hidden="true"></div>
+      <ImageSlot
+        label="Drop a classroom photo"
+        icon="🌟"
+        tone="sky"
+        aspect="5/4"
+        radius={28}
+        alt="Children learning and playing at Children of Hope"
+        class="hero-img"
+      />
+      <div class="badge">
+        <span class="badge-ico" aria-hidden="true">⭐</span>
+        <span>
+          <strong>5-Star Rated</strong>
+          <em>Arizona Quality First</em>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="coh-pad">
+    <div class="trust">
+      <div class="trust-item"><span class="chip sage">✓</span>Quality First Participant</div>
+      <div class="trust-item"><span class="chip peach">★</span>5-Star Rated Center</div>
+      <div class="trust-item"><span class="chip sky">✝</span>An outreach of Esperanza Lutheran</div>
+    </div>
+  </section>
+
+  <!-- WELCOME -->
+  <section class="coh-pad welcome">
+    <p class="eyebrow">Welcome to Children of Hope</p>
+    <p class="welcome-copy">
+      We understand the importance of these early years, and our staff is focused on the miracle
+      of each child. We are satisfied with nothing but the highest quality in our programs.
+    </p>
+  </section>
+
+  <!-- FEATURE CARDS -->
+  <section class="coh-3 coh-pad features">
+    <a class="coh-card feature" href="/about/philosophy">
+      <span class="f-ico sky" aria-hidden="true">💛</span>
+      <span class="f-title">Our Philosophy</span>
+      <p>Understanding, acceptance and love guide everything we do for your child.</p>
+      <span class="more">Learn more →</span>
+    </a>
+    <a class="coh-card feature" href="/about/program">
+      <span class="f-ico sage" aria-hidden="true">🎨</span>
+      <span class="f-title">Our Program</span>
+      <p>Play, discovery and gentle structure that prepare little ones for school.</p>
+      <span class="more">Learn more →</span>
+    </a>
+    <a class="coh-card feature" href="/about/teachers-and-staff">
+      <span class="f-ico peach" aria-hidden="true">🧑‍🏫</span>
+      <span class="f-title">Teachers &amp; Staff</span>
+      <p>A caring, experienced team devoted to the wellbeing of every child.</p>
+      <span class="more">Meet the team →</span>
+    </a>
+  </section>
+
+  <!-- FAITH BAND -->
+  <section class="coh-pad">
+    <div class="coh-2 faith">
+      <ImageSlot label="Drop a photo" icon="🕊️" tone="sage" fill={true} minHeight={320} radius={0} alt="Chapel and community at Children of Hope" />
+      <div class="faith-text">
+        <p class="eyebrow green">Faith &amp; community</p>
+        <h2>An outreach ministry rooted in love.</h2>
+        <p>
+          Children of Hope is an outreach ministry of Esperanza Lutheran Church, ELCA. We welcome
+          every family into a community built on understanding, acceptance and love.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANNOUNCEMENTS + ENROLL -->
+  <section class="coh-2 coh-pad ann-grid">
+    <div>
+      <div class="ann-head">
+        <h2>Announcements</h2>
+        <a class="coh-link view-all" href="/announcements">View all →</a>
+      </div>
+      <div class="ann-list">
+        {latest.map((a) => (
+          <a class="coh-card ann" href={a.href}>
+            <div class="ann-date">Posted {formatLongDate(a.date)}</div>
+            <div class="ann-title">{a.title}</div>
+          </a>
+        ))}
+      </div>
+    </div>
+    <div class="enroll-panel">
+      <p class="marker light">spots are limited!</p>
+      <div class="enroll-title">Enroll for the 2026–27 school year</div>
+      <p class="enroll-copy">
+        Enrollment is limited — register soon to secure your child's spot. Download the enrollment
+        packet to get started.
+      </p>
+      <a class="coh-btn enroll-btn" href={ENROLLMENT_PACKET}>Download enrollment packet</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .marker {
+    font-family: var(--coh-marker);
+    color: var(--coh-sky);
+    font-size: 22px;
+    transform: rotate(-2deg);
+    margin: 0 0 16px;
+  }
+
+  /* HERO */
+  .hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 44px; align-items: center; padding-top: 60px; padding-bottom: 64px; }
+  .hero h1 { font-weight: 800; font-size: clamp(36px, 5.4vw, 54px); line-height: 1.04; letter-spacing: -0.03em; color: var(--coh-ink); margin: 0 0 20px; }
+  .lead { font-size: 18px; line-height: 1.65; color: var(--coh-body); margin: 0 0 30px; max-width: 440px; }
+  .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn-gold { background: var(--coh-gold); color: #fff; padding: 15px 28px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; box-shadow: var(--coh-shadow-cta); }
+  .btn-outline { background: #fff; color: var(--coh-ink); padding: 15px 28px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; border: 1.5px solid #e3ddd0; }
+
+  .hero-media { position: relative; }
+  .float-circle { position: absolute; inset: -16px -16px auto auto; width: 140px; height: 140px; border-radius: 50%; background: var(--coh-sage); z-index: 0; animation: coh-float 6s ease-in-out infinite; }
+  .hero-media :global(.hero-img) { position: relative; z-index: 1; }
+  .badge { position: absolute; left: -18px; bottom: 24px; z-index: 2; background: #fff; border-radius: 18px; padding: 14px 18px; box-shadow: 0 12px 28px rgba(0,0,0,.12); display: flex; align-items: center; gap: 10px; }
+  .badge-ico { font-size: 24px; }
+  .badge strong { display: block; font-weight: 800; font-size: 15px; color: var(--coh-ink); }
+  .badge em { display: block; font-style: normal; font-size: 11px; color: var(--coh-muted); }
+
+  /* TRUST */
+  .trust { display: flex; gap: 40px; justify-content: center; align-items: center; padding: 24px 30px; background: var(--coh-paper-2); border-radius: 20px; flex-wrap: wrap; }
+  .trust-item { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--coh-body); font-size: 14px; }
+  .chip { width: 36px; height: 36px; border-radius: 9px; display: grid; place-items: center; }
+  .chip.sage { background: var(--coh-sage); }
+  .chip.peach { background: var(--coh-peach); }
+  .chip.sky { background: var(--coh-sky-soft); }
+
+  /* WELCOME */
+  .welcome { text-align: center; padding-top: 64px; padding-bottom: 44px; max-width: 760px; margin: 0 auto; }
+  .eyebrow { font: 700 11px/1 var(--coh-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--coh-sky); margin: 0 0 14px; }
+  .eyebrow.green { color: var(--coh-green); }
+  .welcome-copy { font-size: 22px; line-height: 1.6; color: #3a3f45; margin: 0; text-wrap: pretty; }
+
+  /* FEATURES */
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding-top: 24px; padding-bottom: 64px; }
+  .feature { background: #fff; border-radius: var(--coh-r-card); padding: 30px; box-shadow: var(--coh-shadow-card); display: block; }
+  .f-ico { width: 56px; height: 56px; border-radius: 16px; display: grid; place-items: center; font-size: 28px; margin-bottom: 18px; }
+  .f-ico.sky { background: var(--coh-sky-soft); }
+  .f-ico.sage { background: var(--coh-sage); }
+  .f-ico.peach { background: var(--coh-peach); }
+  .feature .f-title { font-weight: 800; font-size: 20px; color: var(--coh-ink); margin-bottom: 8px; display: block; }
+  .feature p { font-size: 15px; line-height: 1.6; color: #7a7f86; margin: 0 0 16px; }
+  .more { font-weight: 700; font-size: 14px; color: var(--coh-sky); }
+
+  /* FAITH */
+  .faith { display: grid; grid-template-columns: 1fr 1.1fr; gap: 0; background: #fff; border-radius: 24px; overflow: hidden; box-shadow: 0 8px 24px rgba(44,62,80,.07); padding-bottom: 0; }
+  .faith-text { padding: 44px; display: flex; flex-direction: column; justify-content: center; }
+  .faith-text h2 { font-weight: 800; font-size: 28px; line-height: 1.2; letter-spacing: -.02em; color: var(--coh-ink); margin: 0 0 14px; }
+  .faith-text p { font-size: 16px; line-height: 1.65; color: var(--coh-body); margin: 0; }
+
+  /* ANNOUNCEMENTS */
+  .ann-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 30px; padding-top: 64px; padding-bottom: 72px; align-items: start; }
+  .ann-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 18px; }
+  .ann-head h2 { font-weight: 800; font-size: 24px; color: var(--coh-ink); margin: 0; }
+  .view-all { font-size: 14px; font-weight: 700; color: var(--coh-sky); }
+  .ann-list { display: flex; flex-direction: column; gap: 14px; }
+  .ann { background: #fff; border-radius: 16px; padding: 18px 20px; box-shadow: 0 4px 12px rgba(44,62,80,.05); display: block; }
+  .ann-date { font-size: 11px; color: var(--coh-muted); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .ann-title { font-weight: 700; font-size: 16px; color: var(--coh-ink); margin-top: 5px; }
+
+  .enroll-panel { background: var(--coh-sky); border-radius: 24px; padding: 34px; color: #fff; box-shadow: var(--coh-shadow-sky); }
+  .marker.light { color: #fff; opacity: .95; font-size: 19px; }
+  .enroll-title { font-weight: 800; font-size: 24px; line-height: 1.15; margin-bottom: 12px; }
+  .enroll-copy { font-size: 15px; line-height: 1.6; opacity: .92; margin: 0 0 22px; }
+  .enroll-btn { background: #fff; color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; display: inline-block; }
+
+  @media (max-width: 860px) {
+    .hero { padding-top: 40px; padding-bottom: 40px; }
+    .faith { grid-template-columns: 1fr; }
+    .ann-grid { padding-top: 40px; }
+  }
+</style>

@@ -1,0 +1,25 @@
+{
+  "name": "childrenofhope",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Children of Hope Child Development Center — Astro static site",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource/archivo-black": "^5.2.5",
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/permanent-marker": "^5.2.5",
+    "astro": "^6.4.8"
+  }
+}

@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+
+const programs = [
+  {
+    icon: "🧸",
+    tone: "sky",
+    title: "2-Year-Old Program",
+    schedule: "3 days/week · 3.5 hours",
+    body: "A variety of developmentally appropriate learning activities in a carefully structured environment for self-directed play and learning. Curriculum includes dramatic play, open-ended creative and sensory experiences (painting, sand and water play, clay, collage), construction with blocks and manipulatives, gardening, cooking and outdoor activities.",
+  },
+  {
+    icon: "🖍️",
+    tone: "sage",
+    title: "3-Year-Old Program",
+    schedule: "3 days/week · 3.5 hours",
+    body: "We help children verbalize their feelings and needs and develop positive social relationships — “tell him how you feel” is heard often! There is more role-play and cooperative play, with group times for songs, stories, finger plays, art, music and movement, plus a basic introduction to early childhood academics.",
+  },
+  {
+    icon: "🎒",
+    tone: "peach",
+    title: "4-Year-Old Program (Pre-K)",
+    schedule: "4 days/week · 2 long + 2 short days",
+    body: "Two long days and two short days help prepare children for Kindergarten — Monday & Wednesday 8:30–2:00, Tuesday & Thursday 8:30–12:00. This theme- and center-based program provides developmentally appropriate experiences across all domains: cognitive, social, emotional, physical and spiritual. Near year's end, staff discuss each child's Kindergarten readiness with parents.",
+  },
+];
+
+const extras = [
+  {
+    icon: "🥪",
+    title: "Lunch Bunch",
+    tag: "Optional later release",
+    body: "Offered each Tuesday, Wednesday and Thursday (except one day a month for staff meetings). Children pack their own lunch and can stay until 2:00. Additional charge applies.",
+  },
+  {
+    icon: "🎉",
+    title: "Fun Fridays",
+    tag: "Optional Friday class",
+    body: "Offered several Fridays throughout the year, each with a different theme — stories and fairytales, cooking, obstacle courses and heart health, spooky science and more. A fun way to meet kids from other classes and all the teachers. Additional charge applies.",
+  },
+];
+---
+
+<BaseLayout
+  title="Our Program"
+  description="A hands-on Christian learning environment for 2s, 3s and Pre-K — nurturing each child's spiritual, social-emotional, cognitive and physical growth."
+>
+  <PageHero
+    eyebrow="Our program"
+    title="A day full of wonder."
+    lead="A positive, hands-on Christian learning environment that nurtures each child's spiritual, social-emotional, cognitive and physical growth through a child-centered developmental curriculum."
+  />
+
+  <!-- INTRO -->
+  <section class="coh-pad intro-wrap">
+    <div class="intro">
+      <p>
+        We form a true partnership with each family to build a strong foundation that fosters a
+        life-long love of learning. A strong Christian foundation is developed through participation
+        in Chapel, Bible stories, songs and prayers.
+      </p>
+      <p class="intro-note">Children of Hope is an active member of the Evangelical Lutheran Education Association.</p>
+    </div>
+  </section>
+
+  <!-- AGE PROGRAMS -->
+  <section class="coh-pad programs">
+    {programs.map((p) => (
+      <article class="program">
+        <span class={`p-ico ${p.tone}`} aria-hidden="true">{p.icon}</span>
+        <div class="p-body">
+          <div class="p-head">
+            <h2>{p.title}</h2>
+            <span class="p-chip">{p.schedule}</span>
+          </div>
+          <p>{p.body}</p>
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <!-- EXTRAS -->
+  <section class="coh-2 coh-pad extras">
+    {extras.map((e) => (
+      <article class="extra">
+        <span class="e-ico" aria-hidden="true">{e.icon}</span>
+        <div>
+          <div class="e-tag">{e.tag}</div>
+          <h3>{e.title}</h3>
+          <p>{e.body}</p>
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <!-- CTA -->
+  <section class="coh-pad cta-wrap">
+    <div class="cta">
+      <div>
+        <div class="cta-title">Ready to learn more?</div>
+        <p>Download the Family Handbook and enrollment packet for full schedules, ages and fees.</p>
+      </div>
+      <a class="coh-btn cta-btn" href="/forms">Go to Forms &amp; Handbook</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .intro-wrap { padding-top: 40px; }
+  .intro { max-width: 760px; }
+  .intro p { font-size: 17px; line-height: 1.7; color: var(--coh-body); margin: 0 0 12px; }
+  .intro-note { font-weight: 700; color: var(--coh-green) !important; font-size: 15px !important; }
+
+  .programs { padding-top: 40px; display: flex; flex-direction: column; gap: 18px; }
+  .program { display: flex; gap: 22px; background: #fff; border-radius: var(--coh-r-card); padding: 30px; box-shadow: var(--coh-shadow-card); }
+  .p-ico { width: 64px; height: 64px; flex: none; border-radius: 18px; display: grid; place-items: center; font-size: 30px; }
+  .p-ico.sky { background: var(--coh-sky-soft); }
+  .p-ico.sage { background: var(--coh-sage); }
+  .p-ico.peach { background: var(--coh-peach); }
+  .p-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }
+  .p-head h2 { font-weight: 800; font-size: 21px; color: var(--coh-ink); margin: 0; letter-spacing: -.01em; }
+  .p-chip { font-size: 12px; font-weight: 700; color: var(--coh-sky); background: var(--coh-sky-soft); padding: 5px 12px; border-radius: var(--coh-r-pill); }
+  .program p { font-size: 15px; line-height: 1.7; color: #6b7077; margin: 0; }
+
+  .extras { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding-top: 18px; }
+  .extra { display: flex; gap: 16px; background: var(--coh-paper-2); border-radius: 20px; padding: 26px; }
+  .e-ico { font-size: 30px; }
+  .e-tag { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--coh-green); margin-bottom: 4px; }
+  .extra h3 { font-weight: 800; font-size: 18px; color: var(--coh-ink); margin: 0 0 6px; }
+  .extra p { font-size: 14px; line-height: 1.6; color: #6b7077; margin: 0; }
+
+  .cta-wrap { padding-top: 48px; padding-bottom: 72px; }
+  .cta { background: var(--coh-sky); border-radius: 24px; padding: 40px; color: #fff; box-shadow: var(--coh-shadow-sky); display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .cta-title { font-weight: 800; font-size: 24px; line-height: 1.2; margin-bottom: 8px; }
+  .cta p { font-size: 15px; line-height: 1.6; opacity: .92; margin: 0; max-width: 560px; }
+  .cta-btn { background: #fff; color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; white-space: nowrap; }
+
+  @media (max-width: 860px) {
+    .program { flex-direction: column; gap: 16px; }
+  }
+</style>

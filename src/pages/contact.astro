@@ -1,0 +1,154 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import { CONTACT } from "../consts";
+
+// Optional free contact form via Web3Forms (https://web3forms.com).
+// Set PUBLIC_WEB3FORMS_KEY in the Cloudflare Pages project to activate the form.
+const web3formsKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
+const formEnabled = web3formsKey.length > 0;
+
+const mapSrc = "https://www.google.com/maps?q=2601+E+Thunderhill+Pl,+Phoenix,+AZ+85048&output=embed";
+---
+
+<BaseLayout
+  title="Contact Us"
+  description="Contact Children of Hope Child Development Center in Ahwatukee (Phoenix, AZ). Call (480) 759-1515, email us, or schedule a tour."
+>
+  <PageHero
+    eyebrow="Contact & visit"
+    title="We'd love to meet your family."
+    lead="Schedule a tour, ask a question, or just say hello. We're right here in Ahwatukee."
+  />
+
+  <section class="coh-2 coh-pad layout">
+    <!-- INFO -->
+    <div class="info">
+      <div class="info-card">
+        <span class="i-ico sky" aria-hidden="true">📍</span>
+        <div><div class="i-title">Visit us</div><div class="i-body">{CONTACT.addressLine1}<br />{CONTACT.addressLine2}</div></div>
+      </div>
+      <div class="info-card">
+        <span class="i-ico sage" aria-hidden="true">📞</span>
+        <div><div class="i-title">Call us</div><a class="i-link" href={CONTACT.phoneHref}>{CONTACT.phone}</a></div>
+      </div>
+      <div class="info-card">
+        <span class="i-ico peach" aria-hidden="true">✉️</span>
+        <div><div class="i-title">Email us</div><a class="i-link" href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a></div>
+      </div>
+      <a class="info-card coh-link" href={CONTACT.facebook} target="_blank" rel="noopener">
+        <span class="i-ico sky" aria-hidden="true">👍</span>
+        <div><div class="i-title">Follow on Facebook</div><div class="i-link">Children of Hope of Ahwatukee →</div></div>
+      </a>
+      <p class="director">For all inquiries, please contact Preschool Director <strong>Jessica Mueller</strong>.</p>
+    </div>
+
+    <!-- FORM -->
+    <div class="form-card">
+      {formEnabled ? (
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value={web3formsKey} />
+          <input type="hidden" name="subject" value="New inquiry from childrenofhopecdc.com" />
+          <input type="hidden" name="from_name" value="Children of Hope website" />
+          <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true" />
+
+          <div class="form-title">Send us a message</div>
+          <p class="form-sub">We'll reply by phone or email.</p>
+          <div class="fields">
+            <div class="row">
+              <input class="coh-in" name="name" placeholder="Your name" required aria-label="Your name" />
+              <input class="coh-in" name="contact" placeholder="Phone or email" required aria-label="Phone or email" />
+            </div>
+            <input class="coh-in" name="child_age" placeholder="Child's age (optional)" aria-label="Child's age" />
+            <textarea class="coh-in" name="message" placeholder="How can we help?" rows="4" required aria-label="Message"></textarea>
+            <button class="coh-btn submit" type="submit">Send message</button>
+          </div>
+        </form>
+        <div id="contact-success" class="success" hidden>
+          <div class="s-ico" aria-hidden="true">🎉</div>
+          <div class="s-title">Thank you!</div>
+          <p>We've received your message and will be in touch soon.</p>
+        </div>
+      ) : (
+        <div class="reach">
+          <div class="form-title">Reach us directly</div>
+          <p class="form-sub">We'd love to hear from you — call or email and we'll be in touch soon.</p>
+          <a class="coh-btn submit" href={CONTACT.phoneHref}>Call {CONTACT.phone}</a>
+          <a class="coh-btn reach-email" href={`mailto:${CONTACT.email}`}>Email us</a>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="coh-pad map-wrap">
+    <div class="map">
+      <iframe
+        title="Children of Hope location map"
+        src={mapSrc}
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <a class="coh-link map-link" href={CONTACT.mapsUrl} target="_blank" rel="noopener">Open in Google Maps →</a>
+  </section>
+</BaseLayout>
+
+{formEnabled && (
+  <script is:inline>
+    const form = document.getElementById("contact-form");
+    const success = document.getElementById("contact-success");
+    if (form && success) {
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const btn = form.querySelector("button[type=submit]");
+        if (btn) { btn.textContent = "Sending…"; btn.setAttribute("disabled", "true"); }
+        try {
+          const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+          if (res.ok) { form.hidden = true; success.hidden = false; success.scrollIntoView({ behavior: "smooth", block: "center" }); }
+          else throw new Error("Request failed");
+        } catch {
+          if (btn) { btn.textContent = "Send message"; btn.removeAttribute("disabled"); }
+          alert("Sorry — something went wrong. Please call us at (480) 759-1515.");
+        }
+      });
+    }
+  </script>
+)}
+
+<style>
+  .layout { display: grid; grid-template-columns: 1fr 1.05fr; gap: 30px; padding-top: 40px; padding-bottom: 24px; align-items: start; }
+
+  .info { display: flex; flex-direction: column; gap: 16px; }
+  .info-card { display: flex; gap: 16px; background: #fff; border-radius: 18px; padding: 24px; box-shadow: 0 4px 12px rgba(44,62,80,.05); align-items: center; }
+  .i-ico { width: 46px; height: 46px; border-radius: 13px; display: grid; place-items: center; font-size: 22px; flex: none; }
+  .i-ico.sky { background: var(--coh-sky-soft); }
+  .i-ico.sage { background: var(--coh-sage); }
+  .i-ico.peach { background: var(--coh-peach); }
+  .i-title { font-weight: 800; font-size: 16px; color: var(--coh-ink); margin-bottom: 3px; }
+  .i-body { font-size: 15px; line-height: 1.6; color: var(--coh-body); }
+  .i-link { font-size: 15px; color: var(--coh-sky); font-weight: 700; }
+  .director { font-size: 14px; color: var(--coh-body); line-height: 1.6; margin: 4px 2px 0; }
+
+  .form-card { background: #fff; border-radius: 24px; padding: 34px; box-shadow: 0 8px 24px rgba(44,62,80,.07); }
+  .form-title { font-weight: 800; font-size: 20px; color: var(--coh-ink); margin-bottom: 6px; }
+  .form-sub { font-size: 14px; color: var(--coh-muted); margin: 0 0 22px; }
+  .fields { display: flex; flex-direction: column; gap: 14px; }
+  .row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .row .coh-in { flex: 1; min-width: 140px; }
+  textarea.coh-in { resize: vertical; font-family: var(--coh-sans); }
+  .submit { background: var(--coh-gold); color: #fff; border: none; padding: 15px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; cursor: pointer; box-shadow: 0 8px 18px rgba(242,165,22,.3); text-align: center; }
+  .reach { display: flex; flex-direction: column; gap: 12px; }
+  .reach-email { background: var(--coh-paper-2); color: var(--coh-ink); border: none; padding: 15px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; text-align: center; }
+
+  .success { text-align: center; padding: 40px 10px; }
+  .s-ico { font-size: 48px; margin-bottom: 14px; }
+  .s-title { font-weight: 800; font-size: 22px; color: var(--coh-ink); margin-bottom: 8px; }
+  .success p { font-size: 15px; line-height: 1.6; color: #7a7f86; margin: 0; }
+
+  .map-wrap { padding-top: 24px; padding-bottom: 72px; }
+  .map { border-radius: 24px; overflow: hidden; box-shadow: 0 8px 24px rgba(44,62,80,.07); height: 340px; background: #E6E1D6; }
+  .map iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .map-link { display: inline-block; margin-top: 12px; font-weight: 700; color: var(--coh-sky); font-size: 14px; }
+</style>

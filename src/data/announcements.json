@@ -1,0 +1,39 @@
+[
+  {
+    "date": "2026-04-27",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2026.",
+    "href": "/assets/newsletters/2025-2026/COH_May_2026_Newsletter.pdf"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2026.",
+    "href": "/assets/newsletters/2025-2026/COH_April_2026_Newsletter.pdf"
+  },
+  {
+    "date": "2026-02-25",
+    "title": "Registration for the 2026–2027 school year is open",
+    "summary": "Registration opened to everyone on Monday, March 2nd. Enrollment is limited, so be sure to register soon to secure your child's spot!",
+    "href": "/forms",
+    "featured": true
+  },
+  {
+    "date": "2026-02-25",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2026.",
+    "href": "/assets/newsletters/2025-2026/COH_March_2026_Newsletter.pdf"
+  },
+  {
+    "date": "2025-06-13",
+    "title": "Welcoming our new Preschool Director",
+    "summary": "We are delighted to introduce Jessica Mueller as our new Preschool Director. Meet Jessica and the rest of our team.",
+    "href": "/about/teachers-and-staff"
+  },
+  {
+    "date": "2024-12-22",
+    "title": "Spotlight on Children of Hope: Shaping Futures with Love and Learning",
+    "summary": "Children of Hope was featured by ELCA Schools and Learning Centers.",
+    "href": "https://elcaschools.org/children-of-hope-child-development-center-shaping-futures-with-love-and-learning/"
+  }
+]

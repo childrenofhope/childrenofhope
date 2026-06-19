@@ -1,0 +1,133 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+
+interface Staff {
+  name: string;
+  role: string;
+  photo: string;
+  bio: string[];
+}
+
+const staff: Staff[] = [
+  {
+    name: "Jessica Mueller",
+    role: "Preschool Director",
+    photo: "/assets/images/teachers/jessica_mueller.jpg",
+    bio: [
+      `Hello and welcome! My name is Jessica Mueller, and I'm so glad you've found our happy little place here at Children of Hope. I have been in the field of education since 2001, with a focus on Early Childhood Education since 2008. It is truly an honor to step into the role of Director and follow in the incredible footsteps of Lynn Hockenberger.`,
+      `Originally from Oregon, I still miss the rain and cozy weather of the Pacific Northwest. I earned my degree in Elementary Education from Northern Arizona University and began my teaching career at Gethsemane Lutheran School, where I taught middle school for several years. I later joined Family of Christ, spending many rewarding years in the 3's classroom. My journey at Children of Hope has included time in both the 2's and Pre-K classrooms — shout-out to all my Lil Froggies!`,
+      `My husband, Tyler, is an electrical engineer, and we have two amazing children. When I'm not on campus, you'll likely find me at Desert Vista, where I coach volleyball and basketball. I am humbled and honored to be leading Children of Hope — please stop by and say hello!`,
+    ],
+  },
+  {
+    name: "Cindy Gerrish",
+    role: "Lead Pre-Kindergarten Teacher",
+    photo: "/assets/images/teachers/cindy_gerrish.webp",
+    bio: [
+      `It has been my pleasure to work at Children of Hope in the Pre-K class for 15 years. I've had fun being the assistant teacher and teaching a Science Enrichment class in the spring. I'm a member of the church here and have enjoyed working with our Sunday School and VBS programs through the years. I am so excited to be the lead this year and use all the knowledge that has been building from so many years in the classroom.`,
+      `I am originally from New Mexico. I received a BBS from UNM and have lived in the valley with my husband Paul since our marriage. I have had the privilege of raising three fantastic children, Heidi, Julie and Stephen. I have always loved being a mom and I love being a teacher too. I look forward to another exciting year here at COH!`,
+    ],
+  },
+  {
+    name: "Jess Pierce",
+    role: "Lead Penguin Teacher",
+    photo: "/assets/images/teachers/jess_pierce.webp",
+    bio: [
+      `I'm Jess Pierce, originally from Iowa, although I did spend some of my elementary years in Ahwatukee. I earned my BA in Exercise Science/Athletic Training and my MS in Athletic Training in Iowa. I moved to Phoenix in 2006 and worked as an athletic trainer at Mountain Pointe High School for 10 years. In October 2007 I started at Children of Hope in the 2s class, staying for 7 years with Mrs. K. I returned as a parent in 2016, and this is my sixth year back as a lead teacher. I truly love this school!`,
+      `I married my husband, Nathan, in 2012. We have two boys, Chase and Charlie, who both attended Children of Hope for 3 years. As a family, we love to get out of the heat and explore the mountains, and we take a summer trip to Iowa for time with grandparents and cousins.`,
+    ],
+  },
+  {
+    name: "Katrin Guete",
+    role: "Lead Owlet Teacher",
+    photo: "/assets/images/teachers/katrin_guete.jpg",
+    bio: [
+      `My name is Katrin Guete and working at Children of Hope is a dream come true. I love our school, the staff, and foremost the students in this wonderful community. Toddlers are truly amazing — full of curiosity, joy and spectacular ideas.`,
+      `I grew up in Germany near the beautiful Lake of Constance. I always enjoyed teaching — my parents and brother are teachers too. I'm also a certified yoga instructor and graduated with a Bachelor of Arts in photography. Our journey took our family from Munich to Seoul, to Hong Kong, and to Phoenix in 2014. Today my husband Andreas and I, our kids, and our dog Luna are happy residents of Ahwatukee. I can't wait to see these young minds bloom!`,
+    ],
+  },
+  {
+    name: "Deacon Connie Rose-Kamprath",
+    role: "Assistant Teacher",
+    photo: "/assets/images/teachers/connie_rose-kamprath.jpg",
+    bio: [
+      `Hello! My name is Deacon Connie Rose-Kamprath and I am thrilled to be a part of Children of Hope Preschool. I have been an assistant teacher in the toddler classroom since 2022, and I look forward to watching your amazing children grow.`,
+      `I received a Bachelor of Science in Sociology and Religion from California Lutheran University and a Master's in Theology from the Lutheran School of Theology at Chicago. I spent 30 years in youth and family ministry in the Evangelical Lutheran Church, and in 2020 I joined the staff of Esperanza Lutheran as the Children's Ministry Director. My husband, Peter, and I have three wonderful children. It's going to be a great year!`,
+    ],
+  },
+  {
+    name: "Rebecca Paterson",
+    role: "Assistant Teacher",
+    photo: "/assets/images/teachers/rebecca_paterson.jpg",
+    bio: [
+      `Hello parents! My name is Rebecca Paterson and I have been an Assistant Teacher at Children of Hope since 2019. I truly adore working with preschool-aged kiddos, as each day is full of colorful imagination, growing independence and amazing discovery.`,
+      `My husband, Todd, and I moved to Ahwatukee from St. Louis in 2001 and we have been in love with Arizona ever since. We have two children, Brody and Sophie — Sophie is a proud alumni of Children of Hope. I hold a B.S. in Management Information Systems and later pivoted into Social Work. I am thankful to be part of all the exciting experiences your child will enjoy this year!`,
+    ],
+  },
+  {
+    name: "Kristin Baldwin",
+    role: "Assistant Teacher",
+    photo: "/assets/images/teachers/kristin_baldwin.jpg",
+    bio: [],
+  },
+];
+---
+
+<BaseLayout
+  title="Teachers & Staff"
+  description="Meet the caring, experienced team at Children of Hope — devoted to the wellbeing of every child."
+>
+  <PageHero
+    eyebrow="Teachers & staff"
+    title="The caring people behind every day."
+    lead="An experienced, loving team focused on the wellbeing of every child. CPR/First Aid certified, background checked and licensed through the State of Arizona."
+  />
+
+  <section class="coh-pad team">
+    {staff.map((p) => (
+      <article class="coh-tcard member">
+        <img class="photo" src={p.photo} alt={`${p.name}, ${p.role}`} width="120" height="120" loading="lazy" decoding="async" />
+        <div class="name">{p.name}</div>
+        <div class="role">{p.role}</div>
+        {p.bio.length > 0 ? (
+          <div class="bio">{p.bio.map((para) => <p>{para}</p>)}</div>
+        ) : (
+          <p class="bio-soon">Bio coming soon.</p>
+        )}
+      </article>
+    ))}
+  </section>
+
+  <section class="coh-pad tour-wrap">
+    <div class="tour">
+      <div>
+        <div class="tour-title">Come meet the team in person.</div>
+        <p>Schedule a tour and see our classrooms and teachers in action.</p>
+      </div>
+      <a class="coh-btn tour-btn" href="/contact">Schedule a tour</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .team { padding-top: 40px; padding-bottom: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+  .member { background: #fff; border-radius: var(--coh-r-card); padding: 30px; box-shadow: var(--coh-shadow-card); }
+  .photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto 16px; display: block; background: var(--coh-paper-2); }
+  .name { font-weight: 800; font-size: 20px; color: var(--coh-ink); text-align: center; }
+  .role { font-size: 13px; color: var(--coh-sky); font-weight: 700; margin-top: 3px; text-align: center; }
+  .bio { margin-top: 16px; }
+  .bio p { font-size: 14px; line-height: 1.7; color: #6b7077; margin: 0 0 12px; }
+  .bio p:last-child { margin-bottom: 0; }
+  .bio-soon { margin-top: 16px; text-align: center; font-size: 14px; color: var(--coh-muted); }
+
+  .tour-wrap { padding-top: 24px; padding-bottom: 72px; }
+  .tour { background: var(--coh-sage); border-radius: 24px; padding: 38px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .tour-title { font-weight: 800; font-size: 23px; color: var(--coh-ink); margin-bottom: 8px; }
+  .tour p { font-size: 15px; line-height: 1.6; color: #3f5a47; margin: 0; }
+  .tour-btn { background: var(--coh-ink); color: #fff; padding: 14px 26px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; white-space: nowrap; }
+
+  @media (max-width: 720px) {
+    .team { grid-template-columns: 1fr; }
+  }
+</style>

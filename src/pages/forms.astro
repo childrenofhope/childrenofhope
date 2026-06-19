@@ -1,0 +1,95 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import { ENROLLMENT_PACKET } from "../consts";
+
+interface Doc { icon: string; tone: string; title: string; sub: string; href: string; }
+
+const docs: Doc[] = [
+  { icon: "📘", tone: "sky", title: "Family Handbook", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Family_Handbook.pdf" },
+  { icon: "📝", tone: "sage", title: "Enrollment Information Packet", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Enrollment_Packet.pdf" },
+  { icon: "✍️", tone: "peach", title: "Registration Form", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Registration_Form.pdf" },
+  { icon: "🗓️", tone: "sky", title: "Preschool Calendar", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Calendar.pdf" },
+  { icon: "💵", tone: "sage", title: "Schedule and Fees", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Schedule_&_Fees.pdf" },
+  { icon: "🤝", tone: "peach", title: "Parent Participation Agreement", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Parent_Participation_Agreement.pdf" },
+  { icon: "📸", tone: "sky", title: "Photography Release Form", sub: "2026–2027 · PDF", href: "/assets/forms/2026-2027/COH_Photo_Release_Form.pdf" },
+  { icon: "🪪", tone: "sage", title: "Parental Release", sub: "PDF", href: "/assets/forms/COH_Parent_Release_Form.pdf" },
+  { icon: "🩺", tone: "peach", title: "Medical Forms", sub: "Emergency & Immunization · PDF", href: "/assets/forms/COH_Emergency_&_Immunization_Record_Card.pdf" },
+];
+---
+
+<BaseLayout
+  title="Forms"
+  description="Download the Children of Hope Family Handbook, enrollment packet, registration, calendar, fees and medical forms — all in one place."
+>
+  <PageHero
+    eyebrow="Forms & documents"
+    title="Everything you need, in one place."
+    lead="Handbooks, enrollment paperwork and policies — ready to download and print as needed."
+  />
+
+  <!-- HIGHLIGHTED ENROLLMENT -->
+  <section class="coh-pad highlight-wrap">
+    <div class="highlight">
+      <div>
+        <p class="marker">start here</p>
+        <div class="h-title">2026–27 Enrollment Packet</div>
+        <p class="h-copy">Enrollment is limited. Download, complete, and return to secure your child's spot.</p>
+      </div>
+      <a class="coh-btn h-btn" href={ENROLLMENT_PACKET}>Download packet ↓</a>
+    </div>
+  </section>
+
+  <!-- DOC GRID -->
+  <section class="coh-2 coh-pad doc-grid">
+    {docs.map((d) => (
+      <a class="coh-doc doc" href={d.href}>
+        <span class={`d-ico ${d.tone}`} aria-hidden="true">{d.icon}</span>
+        <span class="d-main">
+          <span class="d-title">{d.title}</span>
+          <span class="d-sub">{d.sub}</span>
+        </span>
+        <span class="d-arrow" aria-hidden="true">↓</span>
+      </a>
+    ))}
+    <a class="coh-doc doc" href="/newsletter">
+      <span class="d-ico sky" aria-hidden="true">📰</span>
+      <span class="d-main">
+        <span class="d-title">Monthly Newsletters</span>
+        <span class="d-sub">View the archive →</span>
+      </span>
+      <span class="d-arrow" aria-hidden="true">→</span>
+    </a>
+  </section>
+
+  <section class="coh-pad help-wrap">
+    <div class="help">
+      Need a form you don't see here, or have a question about paperwork?
+      <a class="coh-link" href="/contact">Get in touch</a> — we're happy to help.
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .highlight-wrap { padding-top: 40px; padding-bottom: 16px; }
+  .highlight { background: var(--coh-sky); border-radius: 24px; padding: 38px; color: #fff; box-shadow: var(--coh-shadow-sky); display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .marker { font-family: var(--coh-marker); font-size: 18px; transform: rotate(-2deg); opacity: .95; margin: 0 0 8px; }
+  .h-title { font-weight: 800; font-size: 25px; line-height: 1.15; margin-bottom: 8px; }
+  .h-copy { font-size: 15px; line-height: 1.6; opacity: .92; margin: 0; max-width: 600px; }
+  .h-btn { background: #fff; color: var(--coh-ink); padding: 15px 26px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; white-space: nowrap; }
+
+  .doc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding-top: 24px; padding-bottom: 16px; }
+  .doc { display: flex; gap: 18px; align-items: center; background: #fff; border-radius: 20px; padding: 26px; box-shadow: var(--coh-shadow-card); }
+  .d-ico { width: 54px; height: 64px; border-radius: 8px; display: grid; place-items: center; font-size: 26px; flex: none; }
+  .d-ico.sky { background: var(--coh-sky-soft); }
+  .d-ico.sage { background: var(--coh-sage); }
+  .d-ico.peach { background: var(--coh-peach); }
+  .d-main { flex: 1; }
+  .d-title { display: block; font-weight: 800; font-size: 18px; color: var(--coh-ink); }
+  .d-sub { display: block; font-size: 13px; color: var(--coh-muted); margin-top: 3px; }
+  .d-arrow { color: var(--coh-sky); font-weight: 700; font-size: 20px; }
+
+  .help-wrap { padding-top: 16px; padding-bottom: 72px; }
+  .help { background: var(--coh-paper-2); border-radius: 18px; padding: 22px 26px; font-size: 14px; color: var(--coh-body); line-height: 1.6; }
+  .help a { color: var(--coh-sky); font-weight: 700; }
+</style>

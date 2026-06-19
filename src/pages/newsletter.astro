@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import newsletters from "../data/newsletters.json";
+
+const current = newsletters.find((g) => g.current);
+const archive = newsletters.filter((g) => !g.current);
+---
+
+<BaseLayout
+  title="Newsletters"
+  description="Read the monthly Children of Hope preschool newsletter — current issues and a full archive back to 2015."
+>
+  <PageHero
+    eyebrow="Monthly newsletters"
+    title="Catch up on every issue."
+    lead="Our monthly newsletter keeps families in the loop on classroom happenings, events and reminders."
+  />
+
+  {current && (
+    <section class="coh-pad current-wrap">
+      <h2 class="year-h">{current.year} <span class="badge">Current year</span></h2>
+      <div class="chips">
+        {current.issues.map((n) => (
+          <a class="coh-card chip" href={n.href}>
+            <span class="chip-ico" aria-hidden="true">📄</span>
+            <span>{n.label}</span>
+            <span class="chip-dl" aria-hidden="true">↓</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="coh-pad archive-wrap">
+    <h2 class="section-h">Archive</h2>
+    <div class="years">
+      {archive.map((g) => (
+        <div class="year-card">
+          <div class="year-title">{g.year}</div>
+          <div class="year-links">
+            {g.issues.map((n) => (
+              <a class="coh-link year-link" href={n.href}>
+                <span>📄 {n.label}</span><span class="dl" aria-hidden="true">↓</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .current-wrap { padding-top: 40px; }
+  .year-h { font-weight: 800; font-size: 24px; color: var(--coh-ink); margin: 0 0 18px; display: flex; align-items: center; gap: 12px; }
+  .badge { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #3f5a47; background: var(--coh-sage); padding: 5px 12px; border-radius: var(--coh-r-pill); }
+
+  .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+  .chip { display: flex; align-items: center; gap: 10px; background: #fff; border-radius: var(--coh-r-md); padding: 16px 18px; box-shadow: var(--coh-shadow-card); font-weight: 700; color: var(--coh-ink); }
+  .chip-ico { font-size: 18px; }
+  .chip span:nth-child(2) { flex: 1; }
+  .chip-dl { color: var(--coh-sky); font-weight: 700; }
+
+  .archive-wrap { padding-top: 56px; padding-bottom: 72px; }
+  .section-h { font-weight: 800; font-size: 22px; color: var(--coh-ink); margin: 0 0 20px; }
+  .years { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; align-items: start; }
+  .year-card { background: #fff; border-radius: var(--coh-r-card); padding: 24px; box-shadow: var(--coh-shadow-card); }
+  .year-title { font-weight: 800; font-size: 17px; color: var(--coh-ink); margin-bottom: 8px; }
+  .year-links { display: flex; flex-direction: column; }
+  .year-link { display: flex; justify-content: space-between; align-items: center; padding: 11px 0; border-bottom: 1px solid rgba(10,10,10,.07); font-size: 15px; font-weight: 600; color: var(--coh-ink); }
+  .year-link:last-child { border-bottom: none; }
+  .year-link .dl { color: var(--coh-sky); }
+</style>

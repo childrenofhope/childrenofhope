@@ -1,0 +1,134 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ImageSlot from "../../components/ImageSlot.astro";
+---
+
+<BaseLayout
+  title="Our Philosophy"
+  description="Children learn best by doing. Our philosophy nurtures the whole child within a Christian environment of understanding, acceptance and love."
+>
+  <PageHero
+    eyebrow="About us"
+    title="Focused on the miracle of each child."
+    lead="Children of Hope Child Development Center provides a positive first school experience within a Christian environment of understanding, acceptance and love."
+  />
+
+  <!-- PHILOSOPHY BAND -->
+  <section class="coh-pad band-wrap">
+    <div class="coh-2 band">
+      <div class="band-text">
+        <p class="eyebrow green">Our philosophy</p>
+        <h2>Children learn best by doing.</h2>
+        <p>
+          Learning by doing requires active thinking and experimenting — finding out how things
+          work and learning first-hand about the world we live in. Our curriculum includes the
+          components needed to nurture the learning and development that leads to kindergarten
+          readiness.
+        </p>
+        <p>
+          Our methodology is based on the standards and practices endorsed by the First Things
+          First Quality First Program, The Creative Curriculum, the Arizona Department of
+          Education's Early Learning Standards and the National Association for the Education of
+          Young Children (NAEYC). Every lesson is grounded in early childhood research and
+          developmentally appropriate best practices.
+        </p>
+      </div>
+      <ImageSlot label="Drop a photo" icon="🎨" tone="sage" fill={true} minHeight={340} radius={0} alt="Children learning through play" />
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="coh-3 coh-pad values">
+    <div class="value">
+      <span class="v-ico sky" aria-hidden="true">🤝</span>
+      <div class="v-title">Acceptance</div>
+      <p>Every child and family is welcomed into a warm, inclusive community.</p>
+    </div>
+    <div class="value">
+      <span class="v-ico sage" aria-hidden="true">🌱</span>
+      <div class="v-title">Growth</div>
+      <p>Play, discovery and gentle structure that nurture the whole child.</p>
+    </div>
+    <div class="value">
+      <span class="v-ico peach" aria-hidden="true">✝️</span>
+      <div class="v-title">Faith</div>
+      <p>An outreach ministry of Esperanza Lutheran Church, ELCA.</p>
+    </div>
+  </section>
+
+  <!-- LEARNING THROUGH GOD'S LOVE -->
+  <section class="coh-pad faith-quote-wrap">
+    <div class="faith-quote">
+      <p class="eyebrow">Learning through God's love</p>
+      <p class="quote">
+        We understand the importance of these early years, and our staff is focused on the miracle
+        of each child. We are satisfied with nothing but the highest quality in our programs.
+      </p>
+    </div>
+  </section>
+
+  <!-- THE DIFFERENCE -->
+  <section class="coh-pad diff-wrap">
+    <p class="eyebrow">The difference</p>
+    <h2 class="diff-h">Excellence in education is our priority.</h2>
+    <p class="diff-copy">
+      As a Quality First enrolled school, we hold ourselves to the highest industry standards and
+      implement research-backed best practices. All faculty participate in 24 hours of continuing
+      education each year, with Lead Teachers holding bachelor's or master's degrees. Every teacher
+      is CPR/First Aid certified, background checked, and licensed through the State of Arizona. Our
+      curriculum supports both the academic and the social-emotional growth of each child.
+    </p>
+  </section>
+
+  <!-- CTA -->
+  <section class="coh-pad cta-wrap">
+    <div class="cta">
+      <div>
+        <div class="cta-title">Want the full picture?</div>
+        <p>Download the Family Handbook for program details, policies and what a day looks like.</p>
+      </div>
+      <a class="coh-btn cta-btn" href="/forms">Go to Forms &amp; Handbook</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow { font: 700 11px/1 var(--coh-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--coh-sky); margin: 0 0 14px; }
+  .eyebrow.green { color: var(--coh-green); }
+
+  .band-wrap { padding-top: 48px; }
+  .band { display: grid; grid-template-columns: 1.1fr 1fr; gap: 0; background: #fff; border-radius: 24px; overflow: hidden; box-shadow: 0 8px 24px rgba(44,62,80,.07); }
+  .band-text { padding: 48px; display: flex; flex-direction: column; justify-content: center; }
+  .band-text h2 { font-weight: 800; font-size: 30px; line-height: 1.18; letter-spacing: -.02em; color: var(--coh-ink); margin: 0 0 16px; }
+  .band-text p { font-size: 16px; line-height: 1.7; color: var(--coh-body); margin: 0 0 14px; }
+  .band-text p:last-child { margin-bottom: 0; }
+
+  .values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding-top: 48px; padding-bottom: 16px; }
+  .value { background: #fff; border-radius: var(--coh-r-card); padding: 30px; box-shadow: var(--coh-shadow-card); }
+  .v-ico { width: 54px; height: 54px; border-radius: 16px; display: grid; place-items: center; font-size: 26px; margin-bottom: 16px; }
+  .v-ico.sky { background: var(--coh-sky-soft); }
+  .v-ico.sage { background: var(--coh-sage); }
+  .v-ico.peach { background: var(--coh-peach); }
+  .v-title { font-weight: 800; font-size: 19px; color: var(--coh-ink); margin-bottom: 8px; }
+  .value p { font-size: 14px; line-height: 1.6; color: #7a7f86; margin: 0; }
+
+  .faith-quote-wrap { padding-top: 40px; }
+  .faith-quote { text-align: center; max-width: 760px; margin: 0 auto; }
+  .quote { font-size: 22px; line-height: 1.6; color: #3a3f45; margin: 0; text-wrap: pretty; }
+
+  .diff-wrap { padding-top: 56px; }
+  .diff-h { font-weight: 800; font-size: 30px; letter-spacing: -.02em; color: var(--coh-ink); margin: 0 0 14px; max-width: 640px; }
+  .diff-copy { font-size: 16px; line-height: 1.75; color: var(--coh-body); margin: 0; max-width: 760px; }
+
+  .cta-wrap { padding-top: 48px; padding-bottom: 72px; }
+  .cta { background: var(--coh-sky); border-radius: 24px; padding: 40px; color: #fff; box-shadow: var(--coh-shadow-sky); display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .cta-title { font-weight: 800; font-size: 24px; line-height: 1.2; margin-bottom: 8px; }
+  .cta p { font-size: 15px; line-height: 1.6; opacity: .92; margin: 0; max-width: 560px; }
+  .cta-btn { background: #fff; color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; white-space: nowrap; }
+
+  @media (max-width: 860px) {
+    .band { grid-template-columns: 1fr; }
+    .band-text { padding: 32px; }
+  }
+</style>

@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects.
+# Preserve the old Jekyll feed URL and a couple of legacy aliases.
+/feed.xml            /rss.xml                     301
+/about/teachers      /about/teachers-and-staff    301
+/about/teachers/     /about/teachers-and-staff    301

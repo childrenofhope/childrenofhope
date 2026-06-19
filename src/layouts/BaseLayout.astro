@@ -1,0 +1,117 @@
+---
+// Self-hosted brand fonts (Fontsource) — replaces the old Google Fonts / Semantic UI stack.
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/inter/800.css";
+import "@fontsource/archivo-black/400.css";
+import "@fontsource/permanent-marker/400.css";
+
+import "../styles/tokens.css";
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE, CONTACT } from "../consts";
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Path-relative or absolute OG image; defaults to the logo. */
+  ogImage?: string;
+}
+
+const { title, description = SITE.defaultDescription, ogImage = SITE.ogImage } = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, SITE.url).href.replace(/\.html$/, "");
+const ogImageUrl = new URL(ogImage, SITE.url).href;
+const fullTitle = title.includes(SITE.name) ? title : `${title} · ${SITE.name}`;
+
+// Cloudflare Web Analytics (free, cookieless). Set PUBLIC_CF_BEACON_TOKEN in the
+// Cloudflare Pages project to activate; otherwise nothing is emitted.
+const cfBeacon = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Preschool",
+  name: SITE.longName,
+  description: SITE.defaultDescription,
+  url: SITE.url,
+  image: ogImageUrl,
+  telephone: CONTACT.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: CONTACT.addressLine1,
+    addressLocality: "Phoenix",
+    addressRegion: "AZ",
+    postalCode: "85048",
+    addressCountry: "US",
+  },
+  sameAs: [CONTACT.facebook],
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#FBF7EF" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href={SITE.ogImage} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.longName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} announcements`} href="/rss.xml" />
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    {cfBeacon && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: cfBeacon })}
+      ></script>
+    )}
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <Header />
+    <main id="main" class="coh-wrap">
+      <slot />
+    </main>
+    <Footer />
+
+    <style>
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        background: var(--coh-sky);
+        color: #fff;
+        padding: 10px 16px;
+        border-radius: 0 0 10px 0;
+        font-weight: 700;
+        z-index: 100;
+      }
+      .skip-link:focus { left: 0; }
+    </style>
+  </body>
+</html>

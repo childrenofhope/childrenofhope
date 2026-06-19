@@ -1,0 +1,43 @@
+/* ============================================================
+   Children of Hope — "Sunny Meadow" design tokens
+   Self-contained namespace.  Namespace: COH · prefix: --coh-*
+   Fonts are loaded via Fontsource (see BaseLayout.astro).
+   ============================================================ */
+
+:root {
+  /* ---- Surfaces & ink ---- */
+  --coh-paper:    #FBF7EF;  /* default page background — soft warm cream */
+  --coh-paper-2:  #F3EDE0;  /* secondary / strip surfaces */
+  --coh-surface:  #FFFFFF;  /* cards */
+  --coh-ink:      #2C3E50;  /* primary text + dark footer (slate navy) */
+  --coh-body:     #5B5F66;  /* body copy */
+  --coh-muted:    #9AA0A6;  /* captions, meta, placeholders */
+
+  /* ---- Brand color ---- */
+  --coh-sky:       #5AA9D6;  /* primary — links, eyebrows, primary surfaces */
+  --coh-sky-soft:  #BFE0F2;  /* tints, icon chips */
+  --coh-gold:      #F2A516;  /* the call-to-action color (Enroll, tour) */
+  --coh-sage:      #CDE7B0;  /* soft green accent / float shapes */
+  --coh-green:     #7BA889;  /* deeper green for eyebrows on light */
+  --coh-peach:     #F8D8B0;  /* warm accent chip */
+
+  /* ---- Type ---- */
+  --coh-sans:     "Inter", system-ui, sans-serif;        /* body, headings (700–800) */
+  --coh-display:  "Archivo Black", Impact, sans-serif;   /* heavy display moments */
+  --coh-marker:   "Permanent Marker", cursive;           /* playful accent — ≤4 words, rotate −2° */
+
+  /* ---- Radii ---- */
+  --coh-r-card:   22px;   /* feature cards, hero photo */
+  --coh-r-md:     16px;   /* list rows, smaller cards */
+  --coh-r-input:  12px;   /* inputs, small buttons */
+  --coh-r-pill:   999px;  /* buttons, badges */
+
+  /* ---- Elevation — soft, blurred ---- */
+  --coh-shadow-card:  0 6px 18px rgba(44,62,80,.06);   /* resting card */
+  --coh-shadow-lift:  0 16px 34px rgba(44,62,80,.12);  /* hover lift */
+  --coh-shadow-cta:   0 8px 18px rgba(242,165,22,.35); /* gold CTA glow */
+  --coh-shadow-sky:   0 14px 30px rgba(90,169,214,.35);/* sky panels */
+
+  /* ---- Motion ---- */
+  --coh-ease:   cubic-bezier(.25,.1,.25,1);
+}
