@@ -47,7 +47,23 @@ const style = [
 ---
 
 {
-  src ? (
+  src && fill ? (
+    // Cover-fill a flexible cell (e.g. the faith / philosophy bands): the wrapper
+    // takes its height from the grid row (min-height floor), the image covers it —
+    // it must NOT dictate height from its own aspect ratio.
+    <div
+      class={`img-slot fill ${className}`}
+      style={`position:relative;overflow:hidden;border-radius:${radius}px;${minHeight ? `min-height:${minHeight}px;` : ""}`}
+    >
+      <img
+        src={src}
+        alt={alt}
+        loading="lazy"
+        decoding="async"
+        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;"
+      />
+    </div>
+  ) : src ? (
     <img
       src={src}
       alt={alt}
