@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHero from "../../components/PageHero.astro";
+import ImageSlot from "../../components/ImageSlot.astro";
 
 const programs = [
   {
@@ -51,6 +52,11 @@ const extras = [
     title="A day full of wonder."
     lead="A positive, hands-on Christian learning environment that nurtures each child's spiritual, social-emotional, cognitive and physical growth through a child-centered developmental curriculum."
   />
+
+  <!-- BANNER -->
+  <section class="coh-pad" style="padding-top:28px;">
+    <ImageSlot src="/assets/images/play.jpg" alt="Children at play at Children of Hope" aspect="16/6" radius={22} />
+  </section>
 
   <!-- INTRO -->
   <section class="coh-pad intro-wrap">
