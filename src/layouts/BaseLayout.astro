@@ -31,6 +31,11 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} · ${SITE.name}`
 // Cloudflare Pages project to activate; otherwise nothing is emitted.
 const cfBeacon = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
 
+// Staging guard. Set PUBLIC_NOINDEX in a non-production Pages project (e.g. the
+// new.childrenofhopecdc.com preview site) so search engines skip it and it never
+// competes with the live site. Unset on production — nothing is emitted.
+const noindex = import.meta.env.PUBLIC_NOINDEX === "true";
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Preschool",
@@ -59,6 +64,7 @@ const jsonLd = {
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="theme-color" content="#FBF7EF" />
 
     <link rel="icon" href="/favicon.ico" sizes="any" />

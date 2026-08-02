@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://childrenofhopecdc.com/sitemap-index.xml

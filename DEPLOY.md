@@ -3,7 +3,7 @@
 This site is built with **[Astro](https://astro.build)** (a modern static-site generator) and
 designed to be hosted on **Cloudflare Pages** (free tier). It replaces the old Jekyll/Ruby setup.
 
-- **No Ruby.** You only need Node.js 20+.
+- **No Ruby.** You only need Node.js 22+ (Astro 6 requires 22.12 or newer).
 - **Output:** a folder of plain static HTML/CSS in `dist/` that Cloudflare serves worldwide.
 - **Design:** the "Sunny Meadow" system (`src/styles/tokens.css`).
 
@@ -12,7 +12,7 @@ designed to be hosted on **Cloudflare Pages** (free tier). It replaces the old J
 ## 1. Run it locally
 
 ```bash
-nvm use            # uses Node 20 (see .nvmrc), or install Node 20+ any way you like
+nvm use            # uses Node 22 (see .nvmrc), or install Node 22.12+ any way you like
 npm install        # one time
 npm run dev        # live preview at http://localhost:4321
 npm run build      # produces the production site in dist/
@@ -29,17 +29,28 @@ npm run preview    # serves the built dist/ to double-check before deploying
    - **Framework preset:** Astro
    - **Build command:** `npm run build`
    - **Build output directory:** `dist`
-   - **Environment variable:** `NODE_VERSION = 20`
-4. Save & Deploy. Every push to the main branch auto-deploys; every branch/PR gets its own
-   **preview URL** so changes can be checked before going live.
+   - **Environment variable:** `NODE_VERSION = 22`
+   - **Production branch:** the branch holding this Astro site. Do **not** point it at `master`
+     until the cutover below — `master` is still the old Jekyll site and has no `package.json`,
+     so the build would fail.
+4. Save & Deploy. Every push to the production branch auto-deploys; every other branch/PR gets its
+   own **preview URL** so changes can be checked before going live.
 
-### Custom domain + DNS cutover
-1. In the Pages project → **Custom domains → Set up a custom domain** → `childrenofhopecdc.com`
-   (and `www` if desired).
-2. Point DNS at Cloudflare. Easiest: move the domain's **nameservers** to Cloudflare (free plan),
-   then the custom domain attaches automatically with free SSL. (The `public/CNAME` file is a
-   leftover from GitHub Pages and is harmless — Cloudflare ignores it.)
-3. Verify the site on the Pages preview URL **before** repointing DNS, so there's zero downtime.
+### Staging at new.childrenofhopecdc.com
+The domain's nameservers already point at Cloudflare, so a staging subdomain is just:
+
+1. Pages project → **Custom domains → Set up a custom domain** → `new.childrenofhopecdc.com`.
+   Cloudflare creates the proxied DNS record and issues SSL automatically.
+2. Add the environment variable `PUBLIC_NOINDEX = true` to that project. This emits
+   `<meta name="robots" content="noindex, nofollow">` and serves a `Disallow: /` robots.txt, so
+   the staging copy never competes with the live site in search results.
+3. Leave `PUBLIC_CF_BEACON_TOKEN` unset here so staging traffic stays out of the analytics.
+
+### DNS cutover (when staging looks right)
+1. Merge the Astro branch into `master` and switch the Pages project's production branch to `master`.
+2. Add `childrenofhopecdc.com` (and `www`) as custom domains — Cloudflare repoints the existing
+   proxied records away from GitHub Pages.
+3. Remove `PUBLIC_NOINDEX`, and turn off the GitHub Pages source in the repo settings.
 
 ---
 
