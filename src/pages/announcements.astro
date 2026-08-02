@@ -2,7 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/PageHero.astro";
 import { getAnnouncements, formatLongDate, isExternal } from "../utils";
-import { ENROLLMENT_PACKET } from "../consts";
 import newsletters from "../data/newsletters.json";
 
 const all = getAnnouncements();
@@ -27,7 +26,6 @@ const current = newsletters.find((g) => g.current);
         <div class="f-badge">Posted {formatLongDate(featured.date)}</div>
         <div class="f-title">{featured.title}</div>
         <p class="f-copy">{featured.summary}</p>
-        <a class="coh-btn f-btn" href={ENROLLMENT_PACKET}>Download enrollment packet</a>
       </div>
     </section>
   )}
@@ -67,7 +65,6 @@ const current = newsletters.find((g) => g.current);
   .f-badge { display: inline-block; background: rgba(255,255,255,.22); padding: 5px 12px; border-radius: var(--coh-r-pill); font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 14px; }
   .f-title { font-weight: 800; font-size: 26px; line-height: 1.2; margin-bottom: 10px; max-width: 680px; }
   .f-copy { font-size: 16px; line-height: 1.65; opacity: .95; margin: 0 0 22px; max-width: 640px; }
-  .f-btn { background: #fff; color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; display: inline-block; }
 
   .layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px; padding-top: 24px; padding-bottom: 72px; align-items: start; }
   .col-h { font-weight: 800; font-size: 22px; color: var(--coh-ink); margin: 0 0 18px; }

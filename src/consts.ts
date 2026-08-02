@@ -22,10 +22,6 @@ export const CONTACT = {
     "https://www.facebook.com/pages/Children-of-Hope-PreschoolChild-Development-Center-of-Ahwatukee/156923364318375",
 } as const;
 
-/** Primary "Enroll" call-to-action target (the Forms page hosts the enrollment packet). */
-export const ENROLL_HREF = "/forms";
-export const ENROLLMENT_PACKET = "/assets/forms/2026-2027/COH_Enrollment_Packet.pdf";
-
 /** Primary navigation. */
 export const NAV = [
   { label: "About", href: "/about/philosophy" },

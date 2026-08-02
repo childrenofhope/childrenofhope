@@ -1,7 +1,13 @@
 [
   {
-    "year": "2025–2026",
+    "year": "2026–2027",
     "current": true,
+    "issues": [
+      { "label": "August 2026", "href": "/assets/newsletters/2026-2027/COH_August_2026_Newsletter.pdf" }
+    ]
+  },
+  {
+    "year": "2025–2026",
     "issues": [
       { "label": "May 2026", "href": "/assets/newsletters/2025-2026/COH_May_2026_Newsletter.pdf" },
       { "label": "April 2026", "href": "/assets/newsletters/2025-2026/COH_April_2026_Newsletter.pdf" },

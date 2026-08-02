@@ -1,5 +1,5 @@
 ---
-import { NAV, ENROLL_HREF, SITE } from "../consts";
+import { NAV, SITE } from "../consts";
 import SunMark from "./SunMark.astro";
 
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
@@ -23,7 +23,6 @@ const isActive = (href: string) => path === href || (href !== "/" && path.starts
           {item.label}
         </a>
       ))}
-      <a class="coh-btn enroll" href={ENROLL_HREF}>Enroll</a>
     </nav>
 
     <label class="coh-burger" for="coh-nav-toggle" aria-label="Toggle menu" role="button" tabindex="0">☰</label>
@@ -33,7 +32,6 @@ const isActive = (href: string) => path === href || (href !== "/" && path.starts
     {NAV.map((item) => (
       <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>{item.label}</a>
     ))}
-    <a class="mobile-enroll" href={ENROLL_HREF}>Enroll for 2026–27</a>
   </div>
 </header>
 
@@ -77,13 +75,6 @@ const isActive = (href: string) => path === href || (href !== "/" && path.starts
   }
   .coh-desktop-nav a[aria-current="page"] { color: var(--coh-sky); }
 
-  .enroll {
-    background: var(--coh-gold); color: #fff;
-    padding: 11px 22px; border-radius: var(--coh-r-pill);
-    font-weight: 700; font-size: 13px;
-    box-shadow: 0 6px 14px rgba(242, 165, 22, 0.35);
-  }
-
   .coh-burger {
     width: 44px; height: 44px;
     align-items: center; justify-content: center;
@@ -97,10 +88,4 @@ const isActive = (href: string) => path === href || (href !== "/" && path.starts
     font-weight: 600; font-size: 16px; color: var(--coh-ink);
   }
   .coh-mobile-nav a[aria-current="page"] { color: var(--coh-sky); }
-  .mobile-enroll {
-    margin-top: 8px; text-align: center;
-    background: var(--coh-gold) !important; color: #fff !important;
-    padding: 14px !important; border-radius: var(--coh-r-pill);
-    font-weight: 700;
-  }
 </style>

@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/PageHero.astro";
-import { ENROLLMENT_PACKET } from "../consts";
 
 interface Doc { icon: string; tone: string; title: string; sub: string; href: string; }
 
@@ -27,18 +26,6 @@ const docs: Doc[] = [
     title="Everything you need, in one place."
     lead="Handbooks, enrollment paperwork and policies — ready to download and print as needed."
   />
-
-  <!-- HIGHLIGHTED ENROLLMENT -->
-  <section class="coh-pad highlight-wrap">
-    <div class="highlight">
-      <div>
-        <p class="marker">start here</p>
-        <div class="h-title">2026–27 Enrollment Packet</div>
-        <p class="h-copy">Enrollment is limited. Download, complete, and return to secure your child's spot.</p>
-      </div>
-      <a class="coh-btn h-btn" href={ENROLLMENT_PACKET}>Download packet ↓</a>
-    </div>
-  </section>
 
   <!-- DOC GRID -->
   <section class="coh-2 coh-pad doc-grid">
@@ -71,12 +58,6 @@ const docs: Doc[] = [
 </BaseLayout>
 
 <style>
-  .highlight-wrap { padding-top: 40px; padding-bottom: 16px; }
-  .highlight { background: var(--coh-sky); border-radius: 24px; padding: 38px; color: #fff; box-shadow: var(--coh-shadow-sky); display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-  .marker { font-family: var(--coh-marker); font-size: 18px; transform: rotate(-2deg); opacity: .95; margin: 0 0 8px; }
-  .h-title { font-weight: 800; font-size: 25px; line-height: 1.15; margin-bottom: 8px; }
-  .h-copy { font-size: 15px; line-height: 1.6; opacity: .92; margin: 0; max-width: 600px; }
-  .h-btn { background: #fff; color: var(--coh-ink); padding: 15px 26px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 15px; white-space: nowrap; }
 
   .doc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding-top: 24px; padding-bottom: 16px; }
   .doc { display: flex; gap: 18px; align-items: center; background: #fff; border-radius: 20px; padding: 26px; box-shadow: var(--coh-shadow-card); }
