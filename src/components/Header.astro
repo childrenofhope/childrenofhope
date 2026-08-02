@@ -1,5 +1,6 @@
 ---
 import { NAV, ENROLL_HREF, SITE } from "../consts";
+import SunMark from "./SunMark.astro";
 
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
 const isActive = (href: string) => path === href || (href !== "/" && path.startsWith(href));
@@ -9,7 +10,7 @@ const isActive = (href: string) => path === href || (href !== "/" && path.starts
   <input type="checkbox" id="coh-nav-toggle" aria-hidden="true" />
   <div class="coh-pad bar">
     <a href="/" class="brand" aria-label={`${SITE.name} — home`}>
-      <span class="mark" aria-hidden="true">✦</span>
+      <span class="mark"><SunMark size={52} /></span>
       <span class="brand-text">
         <span class="brand-name">{SITE.name}</span>
         <span class="brand-sub">{SITE.subtitle}</span>
@@ -52,17 +53,23 @@ const isActive = (href: string) => path === href || (href !== "/" && path.starts
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  .brand { display: flex; align-items: center; gap: 12px; }
-  .mark {
-    width: 44px; height: 44px; border-radius: 50%;
-    background: var(--coh-sky);
-    display: grid; place-items: center;
-    color: #fff; font-size: 22px;
-    box-shadow: 0 6px 14px rgba(90, 169, 214, 0.35);
-  }
+  /* Header lockup — design system "Header" scale: mark 52 · name 21 · sub 11 · gap 15. */
+  .brand { display: flex; align-items: center; gap: 15px; }
+  /* The svg lives in SunMark, so it never carries this component's scope id —
+     size the wrapper and let the mark fill it. */
+  .mark { flex: none; display: block; width: 52px; height: 52px; }
+  .mark > :global(svg) { display: block; width: 100%; height: 100%; }
   .brand-text { line-height: 1.05; }
-  .brand-name { display: block; font-weight: 800; font-size: 17px; color: var(--coh-ink); letter-spacing: -0.01em; }
-  .brand-sub { display: block; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--coh-muted); }
+  .brand-name { display: block; font-weight: 800; font-size: 21px; color: var(--coh-ink); letter-spacing: -0.015em; }
+  .brand-sub { display: block; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--coh-muted); font-weight: 600; }
+
+  /* "Compact" scale: mark 36 · name 15 · sub 9 · gap 11. */
+  @media (max-width: 720px) {
+    .brand { gap: 11px; }
+    .mark { width: 36px; height: 36px; }
+    .brand-name { font-size: 15px; }
+    .brand-sub { font-size: 9px; }
+  }
 
   .coh-desktop-nav {
     display: flex; align-items: center; gap: 26px;

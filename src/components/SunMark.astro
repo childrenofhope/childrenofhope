@@ -1,0 +1,46 @@
+---
+/**
+ * The official Children of Hope sun — the "Classic" mark adopted Jun 2026.
+ * Geometry is the design system's: 12 round rays (r 33 → 46, stroke 6.5) around
+ * a solid disc (r 22) on a 100×100 canvas.
+ *
+ * The sun is always brand gold. It reverses to white on dark or gold
+ * backgrounds — and is never recolored otherwise.
+ */
+interface Props {
+  /** Rendered size in px. Minimum 36 for the horizontal lockup. */
+  size?: number;
+  /** Set on dark or gold backgrounds, where the mark reverses to white. */
+  reverse?: boolean;
+  class?: string;
+}
+
+const { size = 52, reverse = false, class: className } = Astro.props;
+const color = reverse ? "#ffffff" : "var(--coh-gold)";
+
+// The 12 rays, precomputed so the markup stays static.
+const RAYS = Array.from({ length: 12 }, (_, i) => {
+  const a = (i * 2 * Math.PI) / 12;
+  return {
+    x1: (50 + Math.cos(a) * 33).toFixed(2),
+    y1: (50 + Math.sin(a) * 33).toFixed(2),
+    x2: (50 + Math.cos(a) * 46).toFixed(2),
+    y2: (50 + Math.sin(a) * 46).toFixed(2),
+  };
+});
+---
+
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 100 100"
+  class={className}
+  role="img"
+  aria-hidden="true"
+  focusable="false"
+>
+  <g stroke={color} stroke-width="6.5" stroke-linecap="round">
+    {RAYS.map((r) => <line x1={r.x1} y1={r.y1} x2={r.x2} y2={r.y2} />)}
+  </g>
+  <circle cx="50" cy="50" r="22" fill={color} />
+</svg>
