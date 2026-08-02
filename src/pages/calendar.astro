@@ -5,28 +5,32 @@ import PageHero from "../components/PageHero.astro";
 type EventType = "session" | "noschool";
 interface CalEvent { date: string; label: string; type: EventType; }
 
+/**
+ * Notable days and holidays, mirroring COH_Calendar.pdf for 2026–2027 — the formal
+ * holiday list. The fuller Yearly Calendar of Events PDF is linked below as well.
+ */
 const events: CalEvent[] = [
-  { date: "August 4 & 5", label: "First Day of Classes", type: "session" },
-  { date: "September 1", label: "Labor Day", type: "noschool" },
-  { date: "Sept. 29 – Oct. 13", label: "Fall Break", type: "noschool" },
-  { date: "October 14", label: "Classes Resume", type: "session" },
+  { date: "August 3 & 4", label: "First Days of Class", type: "session" },
+  { date: "September 7", label: "Labor Day", type: "noschool" },
+  { date: "Sept. 28 – Oct. 12", label: "Fall Break", type: "noschool" },
+  { date: "October 13", label: "Classes Resume", type: "session" },
   { date: "November 11", label: "Veterans Day", type: "noschool" },
-  { date: "November 26 – 28", label: "Thanksgiving", type: "noschool" },
-  { date: "Dec. 22 – Jan. 5", label: "Christmas Break", type: "noschool" },
-  { date: "January 6", label: "Classes Resume", type: "session" },
-  { date: "January 19", label: "Martin Luther King Jr. Holiday", type: "noschool" },
-  { date: "February 16", label: "Presidents' Day", type: "noschool" },
-  { date: "March 9 – 23", label: "Spring Break", type: "noschool" },
-  { date: "March 24", label: "Classes Resume", type: "session" },
-  { date: "May 21", label: "Last Day of Preschool", type: "session" },
+  { date: "November 25 – 27", label: "Thanksgiving Break", type: "noschool" },
+  { date: "Dec. 21 – Jan. 4", label: "Winter Break", type: "noschool" },
+  { date: "January 5", label: "Classes Resume", type: "session" },
+  { date: "January 18", label: "Martin Luther King Jr. Day", type: "noschool" },
+  { date: "February 15", label: "Presidents' Day", type: "noschool" },
+  { date: "March 8 – 22", label: "Spring Break", type: "noschool" },
+  { date: "March 23", label: "Classes Resume", type: "session" },
+  { date: "May 20", label: "Last Day of School", type: "session" },
 ];
 ---
 
 <BaseLayout
   title="Calendar"
-  description="The 2025–2026 Children of Hope preschool calendar — notable days and holidays, based on the Kyrene School District calendar."
+  description="The 2026–2027 Children of Hope preschool calendar — notable days and holidays, based on the Kyrene School District calendar."
 >
-  <PageHero eyebrow="School calendar" title="Preschool Calendar 2025–2026">
+  <PageHero eyebrow="School calendar" title="Preschool Calendar 2026–2027">
     <p slot="lead" class="lead">
       Notable days and holidays for the preschool academic year, based on the Kyrene School
       District. We follow this as closely as possible and will notify you of any changes the
@@ -44,7 +48,18 @@ const events: CalEvent[] = [
         </li>
       ))}
     </ul>
-    <a class="coh-btn full-cal" href="/assets/forms/2026-2027/COH_Calendar.pdf">Full 2026–27 calendar (PDF) ↓</a>
+    <div class="downloads">
+      <a class="coh-btn full-cal" href="/assets/forms/2026-2027/COH_Yearly_Calendar_of_Events.pdf">
+        Yearly calendar of events (PDF) ↓
+      </a>
+      <a class="coh-btn full-cal" href="/assets/forms/2026-2027/COH_Calendar.pdf">
+        Holidays &amp; no-school days (PDF) ↓
+      </a>
+    </div>
+    <p class="note">
+      The yearly calendar lists everything — parties, Fun Fridays, conferences, board meetings and
+      program days. Dates on it are for planning and may shift.
+    </p>
   </section>
 </BaseLayout>
 
@@ -75,7 +90,9 @@ const events: CalEvent[] = [
   .date { font-weight: 800; color: var(--coh-ink); font-size: 15px; }
   .label { color: var(--coh-body); font-size: 15px; }
 
+  .downloads { display: flex; flex-wrap: wrap; gap: 12px; }
   .full-cal { display: inline-block; background: var(--coh-paper-2); color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; }
+  .note { margin: 14px 0 0; font-size: 13.5px; line-height: 1.6; color: var(--coh-muted); max-width: 560px; }
 
   @media (max-width: 640px) {
     .event { grid-template-columns: 1fr; gap: 6px; }
