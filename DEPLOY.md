@@ -23,34 +23,52 @@ npm run preview    # serves the built dist/ to double-check before deploying
 
 ## 2. Deploy to Cloudflare Pages (free)
 
-1. Push this repo to GitHub (or GitLab).
-2. In the **Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git**, pick this repo.
-3. Build settings:
-   - **Framework preset:** Astro
-   - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-   - **Environment variable:** `NODE_VERSION = 22`
-   - **Production branch:** the branch holding this Astro site. Do **not** point it at `master`
-     until the cutover below — `master` is still the old Jekyll site and has no `package.json`,
-     so the build would fail.
-4. Save & Deploy. Every push to the production branch auto-deploys; every other branch/PR gets its
-   own **preview URL** so changes can be checked before going live.
+This site uses Cloudflare Pages in **direct upload** mode: you build on your own machine and
+upload the finished `dist/` folder. There is no Git integration, so **pushing to GitHub does not
+deploy anything** — you deploy by running the command below.
+
+The Pages project is `childrenofhope` (default URL: https://childrenofhope.pages.dev).
+
+### Deploy the staging site
+```bash
+npm install                                   # first time only
+PUBLIC_NOINDEX=true npm run build             # note the flag — see below
+npx wrangler pages deploy dist --project-name=childrenofhope --branch=modernize-astro-cloudflare
+```
+
+**Why the `PUBLIC_NOINDEX=true` prefix matters.** Astro is a static site generator: it bakes
+settings in at *build* time. Because the build runs here and not on Cloudflare, setting
+`PUBLIC_NOINDEX` in the Cloudflare dashboard would do nothing. It has to be on the build command.
+The flag makes every page emit `<meta name="robots" content="noindex, nofollow">` and serves a
+`Disallow: /` robots.txt, so the staging copy never competes with the live site in search results.
+Leave `PUBLIC_CF_BEACON_TOKEN` unset on staging so its traffic stays out of the analytics.
+
+Wrangler authenticates via the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` environment
+variables. The token needs **Account → Cloudflare Pages → Edit**; adding or changing DNS records
+additionally needs **Zone → DNS → Edit** on `childrenofhopecdc.com`.
 
 ### Staging at new.childrenofhopecdc.com
-The domain's nameservers already point at Cloudflare, so a staging subdomain is just:
+The custom domain is already attached to the project. It needs one DNS record in the
+`childrenofhopecdc.com` zone (Cloudflare dashboard → DNS → Records → Add record):
 
-1. Pages project → **Custom domains → Set up a custom domain** → `new.childrenofhopecdc.com`.
-   Cloudflare creates the proxied DNS record and issues SSL automatically.
-2. Add the environment variable `PUBLIC_NOINDEX = true` to that project. This emits
-   `<meta name="robots" content="noindex, nofollow">` and serves a `Disallow: /` robots.txt, so
-   the staging copy never competes with the live site in search results.
-3. Leave `PUBLIC_CF_BEACON_TOKEN` unset here so staging traffic stays out of the analytics.
+| Type  | Name  | Target                     | Proxy status   |
+|-------|-------|----------------------------|----------------|
+| CNAME | `new` | `childrenofhope.pages.dev` | Proxied (orange) |
+
+SSL is issued automatically once the record exists. This only adds a new subdomain — the apex and
+`www` records that serve the live site are untouched.
 
 ### DNS cutover (when staging looks right)
-1. Merge the Astro branch into `master` and switch the Pages project's production branch to `master`.
-2. Add `childrenofhopecdc.com` (and `www`) as custom domains — Cloudflare repoints the existing
-   proxied records away from GitHub Pages.
-3. Remove `PUBLIC_NOINDEX`, and turn off the GitHub Pages source in the repo settings.
+1. Merge the Astro branch into `master`.
+2. Rebuild and redeploy **without** the noindex flag:
+   ```bash
+   npm run build
+   npx wrangler pages deploy dist --project-name=childrenofhope --branch=modernize-astro-cloudflare
+   ```
+3. In the Pages project → **Custom domains**, add `childrenofhopecdc.com` and `www`. Cloudflare
+   repoints the existing proxied records away from GitHub Pages.
+4. Turn off the GitHub Pages source in the repo settings, and delete the `new` CNAME once you no
+   longer want the staging URL.
 
 ---
 
@@ -60,10 +78,11 @@ The domain's nameservers already point at Cloudflare, so a staging subdomain is 
 Option A (simplest): Pages project → **Metrics / Web Analytics → Enable**. Cloudflare auto-injects
 the beacon — nothing else to do.
 
-Option B (explicit): grab the beacon **token** from Cloudflare Web Analytics and add an environment
-variable to the Pages project:
-```
-PUBLIC_CF_BEACON_TOKEN = <your-token>
+Option B (explicit): grab the beacon **token** from Cloudflare Web Analytics and pass it on the
+build command (see the note in section 2 — dashboard environment variables have no effect in
+direct upload mode, because the build happens on your machine):
+```bash
+PUBLIC_CF_BEACON_TOKEN=<your-token> npm run build
 ```
 The site reads this in `src/layouts/BaseLayout.astro` and only emits the beacon when it's set.
 
@@ -71,12 +90,17 @@ The site reads this in `src/layouts/BaseLayout.astro` and only emits the beacon 
 The Contact page form uses [Web3Forms](https://web3forms.com) (free, unlimited, no account login —
 you just get an access key tied to an email):
 1. Get a free **access key** at web3forms.com (enter the email that should receive submissions).
-2. Add an environment variable to the Pages project:
+2. Pass it on the build command, then redeploy:
+   ```bash
+   PUBLIC_WEB3FORMS_KEY=<your-access-key> npm run build
    ```
-   PUBLIC_WEB3FORMS_KEY = <your-access-key>
-   ```
-3. Redeploy. The form on `/contact` activates. Until then, the Contact page shows a "Reach us
+3. The form on `/contact` activates. Until then, the Contact page shows a "Reach us
    directly" panel with the phone number and email instead — so it's never broken.
+
+Flags combine, so a full staging build with everything on looks like:
+```bash
+PUBLIC_NOINDEX=true PUBLIC_WEB3FORMS_KEY=<key> npm run build
+```
 
 ---
 
