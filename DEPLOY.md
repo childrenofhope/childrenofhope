@@ -124,8 +124,26 @@ and the RSS feed):
 Add `"featured": true` to highlight one at the top of the Announcements page.
 
 ### Update the calendar
-Edit the `events` array in **`src/pages/calendar.astro`**, and drop the new calendar PDF in
-`public/assets/forms/<year>/`.
+Everything lives in **`src/data/calendar.json`** — the page builds itself from it.
+
+```json
+{ "date": "2026-10-29", "label": "Halloween Party", "type": "event" }
+{ "date": "2026-09-28", "end": "2026-10-12", "label": "Fall Break", "type": "noschool" }
+```
+
+- `date` (and optional `end` for a range) must be `YYYY-MM-DD` — that's what powers the sorting,
+  the month grouping, and the "past vs upcoming" split.
+- `type` is one of `session` (school-day milestones), `noschool`, `event` (parties, programs,
+  Fun Fridays) or `notice` (board meetings, no-Lunch-Bunch days, registration). It sets the
+  colour and the tag.
+- Order doesn't matter; the page sorts by date.
+
+The page shows the next three events up top, groups the rest by month, and folds everything
+already past into a collapsed "Earlier this year" section. That split is computed at build time
+**and** re-checked in the browser on each visit, so it stays right between deploys.
+
+For a new school year, also update `year` and `pdf` at the top of the file and drop the new PDF
+in `public/assets/forms/<year>/`.
 
 ### Update teacher bios / forms
 - Teachers: edit the `staff` array in **`src/pages/about/teachers-and-staff.astro`**; put photos in

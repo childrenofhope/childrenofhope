@@ -1,101 +1,337 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/PageHero.astro";
+import calendar from "../data/calendar.json";
 
-type EventType = "session" | "noschool";
-interface CalEvent { date: string; label: string; type: EventType; }
+type EventType = "session" | "noschool" | "event" | "notice";
+interface CalEvent {
+  date: string;
+  end?: string;
+  label: string;
+  type: EventType;
+}
 
-/**
- * Notable days and holidays, mirroring COH_Calendar.pdf for 2026–2027 — the formal
- * holiday list. The fuller Yearly Calendar of Events PDF is linked below as well.
- */
-const events: CalEvent[] = [
-  { date: "August 3 & 4", label: "First Days of Class", type: "session" },
-  { date: "September 7", label: "Labor Day", type: "noschool" },
-  { date: "Sept. 28 – Oct. 12", label: "Fall Break", type: "noschool" },
-  { date: "October 13", label: "Classes Resume", type: "session" },
-  { date: "November 11", label: "Veterans Day", type: "noschool" },
-  { date: "November 25 – 27", label: "Thanksgiving Break", type: "noschool" },
-  { date: "Dec. 21 – Jan. 4", label: "Winter Break", type: "noschool" },
-  { date: "January 5", label: "Classes Resume", type: "session" },
-  { date: "January 18", label: "Martin Luther King Jr. Day", type: "noschool" },
-  { date: "February 15", label: "Presidents' Day", type: "noschool" },
-  { date: "March 8 – 22", label: "Spring Break", type: "noschool" },
-  { date: "March 23", label: "Classes Resume", type: "session" },
-  { date: "May 20", label: "Last Day of School", type: "session" },
-];
+const TAGS: Record<EventType, string> = {
+  session: "School Day",
+  noschool: "No School",
+  event: "Event",
+  notice: "Notice",
+};
+
+/** Parse a YYYY-MM-DD as a *local* date, so nothing shifts across time zones. */
+function parseDay(iso: string): Date {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+
+const fmtShort = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
+const fmtWeekday = new Intl.DateTimeFormat("en-US", { weekday: "short" });
+const fmtMonth = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" });
+
+/** "Aug 3" for a single day, "Sep 28 – Oct 12" for a range. */
+function displayDate(e: CalEvent): string {
+  const start = fmtShort.format(parseDay(e.date));
+  return e.end ? `${start} – ${fmtShort.format(parseDay(e.end))}` : start;
+}
+
+/** Same, with the weekday for single days — "Mon · Aug 3". Used by the Up next cards. */
+function displayLong(e: CalEvent): string {
+  return e.end ? displayDate(e) : `${fmtWeekday.format(parseDay(e.date))} · ${displayDate(e)}`;
+}
+
+const events = ([...calendar.events] as CalEvent[]).sort(
+  (a, b) => a.date.localeCompare(b.date) || a.label.localeCompare(b.label),
+);
+
+// Build-time split, so the page is already correct for anyone without JS. The
+// inline script below re-splits against the real current date on load, which
+// keeps it honest between deploys.
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+const isPast = (e: CalEvent) => parseDay(e.end ?? e.date) < today;
+
+const past = events.filter(isPast);
+const upcoming = events.filter((e) => !isPast(e));
+
+// Group the upcoming events by calendar month for scannability.
+const months: { key: string; title: string; events: CalEvent[] }[] = [];
+for (const e of upcoming) {
+  const key = e.date.slice(0, 7);
+  let group = months.at(-1);
+  if (!group || group.key !== key) {
+    group = { key, title: fmtMonth.format(parseDay(e.date)), events: [] };
+    months.push(group);
+  }
+  group.events.push(e);
+}
+
+const upNext = upcoming.slice(0, 3);
 ---
 
 <BaseLayout
   title="Calendar"
-  description="The 2026–2027 Children of Hope preschool calendar — notable days and holidays, based on the Kyrene School District calendar."
+  description={`The ${calendar.year} Children of Hope preschool calendar — first days, holidays, breaks, parties, conferences and program days.`}
 >
-  <PageHero eyebrow="School calendar" title="Preschool Calendar 2026–2027">
+  <PageHero eyebrow="School calendar" title={`Preschool Calendar ${calendar.year}`}>
     <p slot="lead" class="lead">
-      Notable days and holidays for the preschool academic year, based on the Kyrene School
-      District. We follow this as closely as possible and will notify you of any changes the
-      district or we might make.
+      Every date for the school year — first days and holidays, plus parties, Fun Fridays,
+      conferences and program days. Dates are for planning and may shift; we'll let you know of
+      any changes.
     </p>
   </PageHero>
 
-  <section class="coh-pad cal">
-    <ul class="events">
-      {events.map((e) => (
-        <li class={`event ${e.type}`}>
-          <span class="tag">{e.type === "noschool" ? "No School" : "Session"}</span>
-          <span class="date">{e.date}</span>
-          <span class="label">{e.label}</span>
-        </li>
-      ))}
-    </ul>
-    <div class="downloads">
-      <a class="coh-btn full-cal" href="/assets/forms/2026-2027/COH_Yearly_Calendar_of_Events.pdf">
-        Yearly calendar of events (PDF) ↓
-      </a>
-      <a class="coh-btn full-cal" href="/assets/forms/2026-2027/COH_Calendar.pdf">
-        Holidays &amp; no-school days (PDF) ↓
-      </a>
+  <section class="coh-pad cal" id="cal">
+    <!-- Up next: answers "what's coming?" without scrolling. Rebuilt on load. -->
+    <div class="upnext" id="upnext" hidden={upNext.length === 0}>
+      <h2 class="upnext-h">Up next</h2>
+      <ol class="upnext-list" id="upnext-list">
+        {upNext.map((e) => (
+          <li class={`card type-${e.type}`}>
+            <span class="rel"></span>
+            <span class="card-date">{displayLong(e)}</span>
+            <span class="card-label">{e.label}</span>
+          </li>
+        ))}
+      </ol>
     </div>
-    <p class="note">
-      The yearly calendar lists everything — parties, Fun Fridays, conferences, board meetings and
-      program days. Dates on it are for planning and may shift.
+
+    <!-- Everything already behind us, collapsed out of the way. -->
+    <details class="past" id="past" hidden={past.length === 0}>
+      <summary>
+        <span class="past-label">Earlier this year</span>
+        <span class="past-count" id="past-count">{past.length}</span>
+      </summary>
+      <ul class="events" id="past-list">
+        {past.map((e) => (
+          <li
+            class={`event type-${e.type}`}
+            data-date={e.date}
+            data-end={e.end ?? e.date}
+            data-type={e.type}
+            data-display={displayLong(e)}
+          >
+            <span class="tag">{TAGS[e.type]}</span>
+            <span class="date">{displayDate(e)}</span>
+            <span class="label">{e.label}</span>
+          </li>
+        ))}
+      </ul>
+    </details>
+
+    <div id="months">
+      {months.map((m) => (
+        <section class="month" data-month={m.key}>
+          <h2 class="month-h">{m.title}</h2>
+          <ul class="events">
+            {m.events.map((e) => (
+              <li
+                class={`event type-${e.type}`}
+                data-date={e.date}
+                data-end={e.end ?? e.date}
+                data-type={e.type}
+                data-display={displayLong(e)}
+              >
+                <span class="tag">{TAGS[e.type]}</span>
+                <span class="date">
+                  {!e.end && <span class="dow">{fmtWeekday.format(parseDay(e.date))}</span>}
+                  {displayDate(e)}
+                </span>
+                <span class="label">{e.label}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+
+    <p class="empty" id="empty" hidden>
+      That's the whole year — the {calendar.year} calendar is complete. Next year's dates will be
+      posted here over the summer.
     </p>
+
+    <a class="coh-btn full-cal" href={calendar.pdf}>Yearly calendar of events (PDF) ↓</a>
   </section>
 </BaseLayout>
+
+<script is:inline>
+  (function () {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const parseDay = (iso) => {
+      const [y, m, d] = iso.split("-").map(Number);
+      return new Date(y, m - 1, d);
+    };
+
+    const pastList = document.getElementById("past-list");
+    const pastBox = document.getElementById("past");
+    const monthsBox = document.getElementById("months");
+    if (!pastList || !pastBox || !monthsBox) return;
+
+    // Anything that finished before today belongs in the collapsed history. The
+    // build already sorted these, so appending keeps them in order.
+    monthsBox.querySelectorAll(".event").forEach((row) => {
+      if (parseDay(row.dataset.end) < today) pastList.appendChild(row);
+    });
+
+    // Drop month headings left with nothing under them.
+    monthsBox.querySelectorAll(".month").forEach((section) => {
+      if (!section.querySelector(".event")) section.remove();
+    });
+
+    const pastCount = pastList.querySelectorAll(".event").length;
+    document.getElementById("past-count").textContent = String(pastCount);
+    pastBox.hidden = pastCount === 0;
+
+    const upcoming = Array.from(monthsBox.querySelectorAll(".event"));
+    document.getElementById("empty").hidden = upcoming.length > 0;
+
+    // "Today" / "Tomorrow" / "in 9 days" reads faster than a bare date.
+    const relative = (row) => {
+      const start = parseDay(row.dataset.date);
+      const end = parseDay(row.dataset.end);
+      if (start <= today && today <= end) return "Happening now";
+      const days = Math.round((start - today) / 86400000);
+      if (days === 0) return "Today";
+      if (days === 1) return "Tomorrow";
+      if (days < 7) return `in ${days} days`;
+      if (days < 14) return "next week";
+      if (days < 60) return `in ${Math.round(days / 7)} weeks`;
+      return `in ${Math.round(days / 30)} months`;
+    };
+
+    const upnextBox = document.getElementById("upnext");
+    const upnextList = document.getElementById("upnext-list");
+    const next = upcoming.slice(0, 3);
+
+    // Clone a server-rendered card rather than building one from scratch: Astro's
+    // scoped styles key off a data-astro-cid-* attribute that createElement nodes
+    // would not carry, so a hand-built card renders unstyled.
+    const template = upnextList.querySelector(".card");
+    if (template && next.length) {
+      const proto = template.cloneNode(true);
+      upnextList.textContent = "";
+      next.forEach((row) => {
+        const card = proto.cloneNode(true);
+        card.className = "card type-" + row.dataset.type;
+        card.querySelector(".rel").textContent = relative(row);
+        card.querySelector(".card-date").textContent = row.dataset.display;
+        card.querySelector(".card-label").textContent = row.querySelector(".label").textContent;
+        upnextList.appendChild(card);
+      });
+    }
+    upnextBox.hidden = next.length === 0;
+  })();
+</script>
 
 <style>
   .lead { font-size: 19px; line-height: 1.6; color: var(--coh-body); margin: 0; max-width: 640px; }
 
   .cal { padding-top: 40px; padding-bottom: 72px; }
-  .events { list-style: none; margin: 0 0 24px; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+
+  /* ---- Up next ---- */
+  .upnext { margin-bottom: 36px; }
+  .upnext-h {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--coh-muted); margin: 0 0 12px;
+  }
+  .upnext-list {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+  }
+  .card {
+    display: flex; flex-direction: column; gap: 6px;
+    background: #fff; border-radius: var(--coh-r-card, 20px);
+    padding: 18px 20px; box-shadow: var(--coh-shadow-card);
+    border-top: 4px solid var(--coh-sage);
+  }
+  .card.type-noschool { border-top-color: var(--coh-gold); }
+  .card.type-event { border-top-color: var(--coh-sky); }
+  .card.type-notice { border-top-color: var(--coh-peach); }
+  .rel {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--coh-sky);
+  }
+  .rel:empty { display: none; }
+  .card-date { font-weight: 800; color: var(--coh-ink); font-size: 17px; }
+  .card-label { font-size: 14px; line-height: 1.5; color: var(--coh-body); }
+
+  /* ---- Past accordion ---- */
+  .past {
+    background: var(--coh-paper-2); border-radius: 16px;
+    margin-bottom: 28px; padding: 2px 6px;
+  }
+  .past summary {
+    display: flex; align-items: center; gap: 10px;
+    padding: 14px 16px; cursor: pointer;
+    font-weight: 700; font-size: 14px; color: var(--coh-body);
+    list-style: none;
+  }
+  .past summary::-webkit-details-marker { display: none; }
+  .past summary::before {
+    content: "›"; font-size: 18px; line-height: 1; color: var(--coh-muted);
+    transition: transform 0.15s ease;
+  }
+  .past[open] summary::before { transform: rotate(90deg); }
+  .past-count {
+    background: rgba(44, 62, 80, 0.08); color: var(--coh-body);
+    font-size: 12px; font-weight: 800; padding: 2px 9px; border-radius: var(--coh-r-pill);
+  }
+  .past .events { padding: 0 10px 12px; }
+  .past .event { opacity: 0.72; }
+
+  /* ---- Month sections ---- */
+  .month { margin-bottom: 30px; }
+  .month-h {
+    position: sticky; top: 84px; z-index: 5;
+    margin: 0 0 12px; padding: 8px 0;
+    font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--coh-ink);
+    background: linear-gradient(var(--coh-paper) 70%, rgba(251, 247, 239, 0));
+  }
+
+  /* ---- Event rows ---- */
+  .events { list-style: none; margin: 0 0 24px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
   .event {
     display: grid;
-    grid-template-columns: 110px 200px 1fr;
+    grid-template-columns: 110px 190px 1fr;
     align-items: center;
     gap: 18px;
     background: #fff;
     border-radius: 16px;
-    padding: 18px 22px;
+    padding: 16px 22px;
     box-shadow: var(--coh-shadow-card);
     border-left: 5px solid var(--coh-sage);
   }
-  .event.noschool { border-left-color: var(--coh-gold); }
+  .event.type-noschool { border-left-color: var(--coh-gold); }
+  .event.type-event { border-left-color: var(--coh-sky); }
+  .event.type-notice { border-left-color: var(--coh-peach); }
   .tag {
     justify-self: start;
-    font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em;
+    font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;
     padding: 5px 12px; border-radius: var(--coh-r-pill);
     background: var(--coh-sage); color: #3f5a47;
   }
-  .event.noschool .tag { background: var(--coh-peach); color: #8a5a14; }
+  .event.type-noschool .tag { background: var(--coh-peach); color: #8a5a14; }
+  .event.type-event .tag { background: #dceefa; color: #2f6c92; }
+  .event.type-notice .tag { background: rgba(44, 62, 80, 0.07); color: var(--coh-body); }
   .date { font-weight: 800; color: var(--coh-ink); font-size: 15px; }
-  .label { color: var(--coh-body); font-size: 15px; }
+  .dow { display: block; font-size: 11px; font-weight: 700; color: var(--coh-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .label { color: var(--coh-body); font-size: 15px; line-height: 1.5; }
 
-  .downloads { display: flex; flex-wrap: wrap; gap: 12px; }
-  .full-cal { display: inline-block; background: var(--coh-paper-2); color: var(--coh-ink); padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px; }
-  .note { margin: 14px 0 0; font-size: 13.5px; line-height: 1.6; color: var(--coh-muted); max-width: 560px; }
+  .empty { font-size: 15px; color: var(--coh-body); margin: 0 0 24px; }
+  .full-cal {
+    display: inline-block; background: var(--coh-paper-2); color: var(--coh-ink);
+    padding: 14px 24px; border-radius: var(--coh-r-pill); font-weight: 700; font-size: 14px;
+  }
 
+  @media (max-width: 900px) {
+    .upnext-list { grid-template-columns: 1fr; }
+  }
   @media (max-width: 640px) {
-    .event { grid-template-columns: 1fr; gap: 6px; }
-    .tag { margin-bottom: 4px; }
+    .month-h { top: 68px; }
+    .event { grid-template-columns: 1fr; gap: 6px; padding: 14px 18px; }
+    .tag { margin-bottom: 2px; }
+    .dow { display: inline; margin-right: 6px; }
   }
 </style>
