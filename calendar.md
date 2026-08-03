@@ -4,7 +4,7 @@ title: Calendar - Children of Hope | Child Development Center Preschool
 permalink: /calendar
 ---
 
-Preschool Calendar 2025 - 2026
+Preschool Calendar 2026 - 2027
 ===
 
 The following is a list of notable days and holidays for the Preschool Academic
@@ -14,56 +14,64 @@ School District or we might make.
 
 <table class="ui basic events table">
   <tr>
-    <td><b>August 4 & 5</b></td>
-    <td>First Day of Classes</td>
+    <td><b>August 3 &amp; 4</b></td>
+    <td>First Days of Class</td>
   </tr>
   <tr>
-    <td><b>September 1</b></td>
+    <td><b>September 7</b></td>
     <td><b>No School</b> &mdash; Labor Day</td>
   </tr>
   <tr>
-    <td><b>Sept. 29 - Oct. 13</b></td>
+    <td><b>Sept. 28 - Oct. 12</b></td>
     <td><b>No School</b> &mdash; Fall Break</td>
   </tr>
   <tr>
-    <td><b>October 14</b></td>
+    <td><b>October 13</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
     <td><b>November 11</b></td>
-    <td><b>No School</b> &mdash; Veteran's Day</td>
+    <td><b>No School</b> &mdash; Veteran&rsquo;s Day</td>
   </tr>
   <tr>
-    <td><b>November 26 - 28</b></td>
+    <td><b>November 25 - 26</b></td>
     <td><b>No School</b> &mdash; Thanksgiving</td>
   </tr>
   <tr>
-    <td><b>Dec. 22 - Jan. 5</b></td>
-    <td><b>No School</b> &mdash; Christmas Break</td>
+    <td><b>Dec. 18 - Jan. 4</b></td>
+    <td><b>No School</b> &mdash; Winter Break</td>
   </tr>
   <tr>
-    <td><b>January 6</b></td>
+    <td><b>January 5</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
-    <td><b>January 19</b></td>
+    <td><b>January 18</b></td>
     <td><b>No School</b> &mdash; Martin Luther King Jr. Holiday</td>
   </tr>
   <tr>
-    <td><b>February 16</b></td>
-    <td><b>No School</b> &mdash; President’s Day</td>
+    <td><b>February 15</b></td>
+    <td><b>No School</b> &mdash; President&rsquo;s Day</td>
   </tr>
   <tr>
-    <td><b>March 9 - 23</b></td>
+    <td><b>March 8 - 22</b></td>
     <td><b>No School</b> &mdash; Spring Break</td>
   </tr>
   <tr>
-    <td><b>March 24</b></td>
+    <td><b>March 23</b></td>
     <td>Classes Resume</td>
   </tr>
   <tr>
-    <td><b>May 21</b></td>
+    <td><b>May 20</b></td>
     <td>Last Day of Preschool</td>
   </tr>
 </table>
 
+<div class="ui hidden divider"></div>
+
+<p>
+  For the full year &mdash; parties, Fun Fridays, conferences, board meetings and program days
+  &mdash; download the
+  <a href="{{ site.baseurl }}/assets/forms/2026-2027/COH_Yearly_Calendar_of_Events_2026-2027.pdf">Yearly Calendar of Events</a>.
+  Those dates are for planning and may shift.
+</p>

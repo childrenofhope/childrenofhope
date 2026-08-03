@@ -26,9 +26,9 @@ The following forms are included for your convenience to download and print as n
     </td>
   </tr>
   <tr>
-    <td><b>Preschool Calendar</b></td>
+    <td><b>Yearly Calendar of Events</b></td>
     <td>
-      <a href="{{ site.baseurl }}/assets/forms/2026-2027/COH_Calendar.pdf">Download</a>
+      <a href="{{ site.baseurl }}/assets/forms/2026-2027/COH_Yearly_Calendar_of_Events_2026-2027.pdf">Download</a>
     </td>
   </tr>
   <tr>
