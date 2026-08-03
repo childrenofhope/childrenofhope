@@ -1,0 +1,144 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import AnnouncementCard from "../../components/AnnouncementCard.astro";
+import { getAnnouncements } from "../../utils";
+import newsletters from "../../data/newsletters.json";
+
+// A rest param so page one keeps living at /announcements — the URL the old
+// Jekyll site used and the one linked from the nav and the home page.
+// Astro hoists getStaticPaths into its own scope, so the page size is inlined
+// here rather than shared with a const from this frontmatter.
+export function getStaticPaths({ paginate }) {
+  return paginate(getAnnouncements(), { pageSize: 12 });
+}
+
+const { page } = Astro.props;
+const current = newsletters.find((g) => g.current);
+
+/** A compact window of page numbers, so 9 pages do not become 9 buttons on a phone. */
+function pageWindow(cur, total) {
+  const keep = new Set([1, total, cur, cur - 1, cur + 1]);
+  const out = [];
+  for (let n = 1; n <= total; n++) {
+    if (keep.has(n)) out.push(n);
+    else if (out[out.length - 1] !== "gap") out.push("gap");
+  }
+  return out;
+}
+
+const numbers = pageWindow(page.currentPage, page.lastPage);
+const pageHref = (n) => (n === 1 ? "/announcements" : `/announcements/${n}`);
+const pageLabel = page.currentPage > 1 ? ` · Page ${page.currentPage}` : "";
+---
+
+<BaseLayout
+  title={`Announcements${pageLabel}`}
+  description="The latest news and updates from Children of Hope, plus our monthly newsletter archive."
+>
+  <PageHero
+    eyebrow="News & updates"
+    title="Announcements."
+    lead="The latest news from Children of Hope, plus our monthly newsletter archive."
+  />
+
+  <section class="coh-2 coh-pad layout">
+    <div>
+      <div class="col-head">
+        <h2 class="col-h">{page.currentPage === 1 ? "Recent announcements" : "Earlier announcements"}</h2>
+        <p class="count">
+          {page.start + 1}–{page.end + 1} of {page.total}
+        </p>
+      </div>
+
+      <div class="ann-list">
+        {page.data.map((a) => <AnnouncementCard announcement={a} showSummary />)}
+      </div>
+
+      {page.lastPage > 1 && (
+        <nav class="pager" aria-label="Announcements pages">
+          {page.url.prev ? (
+            <a class="step" href={page.url.prev} rel="prev">← Newer</a>
+          ) : (
+            <span class="step disabled" aria-hidden="true">← Newer</span>
+          )}
+
+          <ol class="nums">
+            {numbers.map((n) =>
+              n === "gap" ? (
+                <li class="gap" aria-hidden="true">…</li>
+              ) : (
+                <li>
+                  <a
+                    class:list={["num", { on: n === page.currentPage }]}
+                    href={pageHref(n)}
+                    aria-current={n === page.currentPage ? "page" : undefined}
+                    aria-label={`Page ${n}`}
+                  >
+                    {n}
+                  </a>
+                </li>
+              ),
+            )}
+          </ol>
+
+          {page.url.next ? (
+            <a class="step" href={page.url.next} rel="next">Older →</a>
+          ) : (
+            <span class="step disabled" aria-hidden="true">Older →</span>
+          )}
+        </nav>
+      )}
+    </div>
+
+    {current && (
+      <aside class="archive">
+        <div class="a-title">Newsletter archive</div>
+        <p class="a-sub">{current.year} school year</p>
+        <div class="a-links">
+          {current.issues.map((n) => (
+            <a class="coh-link a-link" href={n.href}><span>📄 {n.label}</span><span class="dl" aria-hidden="true">↓</span></a>
+          ))}
+        </div>
+        <a class="coh-link a-more" href="/newsletter">View all newsletters →</a>
+      </aside>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px; padding-top: 24px; padding-bottom: 72px; align-items: start; }
+  .col-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+  .col-h { font-weight: 800; font-size: 22px; color: var(--coh-ink); margin: 0; }
+  .count { font-size: 13px; color: var(--coh-muted); margin: 0; white-space: nowrap; }
+  .ann-list { display: flex; flex-direction: column; gap: 14px; }
+
+  .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 28px; flex-wrap: wrap; }
+  .step {
+    background: #fff; color: var(--coh-ink); font-weight: 700; font-size: 14px;
+    padding: 11px 18px; border-radius: var(--coh-r-pill); box-shadow: 0 4px 12px rgba(44, 62, 80, 0.05);
+    white-space: nowrap;
+  }
+  .step.disabled { opacity: 0.38; box-shadow: none; background: transparent; }
+  .nums { display: flex; align-items: center; gap: 6px; list-style: none; margin: 0; padding: 0; }
+  .num {
+    display: grid; place-items: center; min-width: 36px; height: 36px; padding: 0 8px;
+    border-radius: 10px; font-weight: 700; font-size: 14px; color: var(--coh-body); background: #fff;
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.05);
+  }
+  .num.on { background: var(--coh-sky); color: #fff; box-shadow: var(--coh-shadow-sky); }
+  .gap { color: var(--coh-muted); padding: 0 2px; }
+
+  .archive { background: #fff; border-radius: var(--coh-r-card); padding: 28px; box-shadow: var(--coh-shadow-card); }
+  .a-title { font-weight: 800; font-size: 18px; color: var(--coh-ink); margin-bottom: 6px; }
+  .a-sub { font-size: 13px; color: var(--coh-muted); margin: 0 0 18px; }
+  .a-links { display: flex; flex-direction: column; }
+  .a-link { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid rgba(10, 10, 10, 0.08); font-size: 15px; font-weight: 600; color: var(--coh-ink); }
+  .a-link .dl { color: var(--coh-sky); }
+  .a-more { display: inline-block; margin-top: 16px; font-weight: 700; color: var(--coh-sky); font-size: 14px; }
+
+  @media (max-width: 640px) {
+    .pager { justify-content: center; }
+    .nums { order: -1; width: 100%; justify-content: center; }
+  }
+</style>

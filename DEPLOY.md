@@ -121,7 +121,17 @@ and the RSS feed):
 ```json
 { "date": "2026-08-01", "title": "First day of school is August 4", "summary": "...", "href": "/calendar" }
 ```
-Add `"featured": true` to highlight one at the top of the Announcements page.
+
+- `href` is **optional**. Leave it off and the card still renders, just without a "Read →" link —
+  a few of the older announcements never linked anywhere.
+- Order in the file doesn't matter; entries are sorted by date.
+- The full archive going back to 2016 lives here (every announcement from the old Jekyll site was
+  carried over), so the page paginates at **12 per page**. Page one stays at `/announcements` and
+  the rest are `/announcements/2`, `/announcements/3` and so on — adding entries just reflows them.
+
+To change the page size, edit `pageSize` in **`src/pages/announcements/[...page].astro`**. It is
+written inline inside `getStaticPaths` on purpose: Astro hoists that function into its own scope,
+so it cannot read a constant declared elsewhere in the same file.
 
 ### Update the calendar
 Everything lives in **`src/data/calendar.json`** — the page builds itself from it.

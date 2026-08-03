@@ -19,9 +19,9 @@
   },
   {
     "date": "2026-02-25",
-    "title": "Registration for the 2026–2027 school year is open",
-    "summary": "Registration opened to everyone on Monday, March 2nd. Enrollment is limited, so be sure to register soon to secure your child's spot!",
-    "href": "/forms"
+    "title": "Registration for the 2026-2027 School Year",
+    "summary": "Registration opens to everyone for the 2026-2027 school year on Monday, March 2nd. Enrollment is limited so be sure to register soon to secure your spot! Download Enrollment Packet",
+    "href": "/assets/forms/2026-2027/COH_Enrollment_Packet.pdf"
   },
   {
     "date": "2026-02-25",
@@ -30,15 +30,604 @@
     "href": "/assets/newsletters/2025-2026/COH_March_2026_Newsletter.pdf"
   },
   {
+    "date": "2026-01-27",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2026.",
+    "href": "/assets/newsletters/2025-2026/COH_February_2026_Newsletter.pdf"
+  },
+  {
+    "date": "2025-12-28",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2026.",
+    "href": "/assets/newsletters/2025-2026/COH_January_2026_Newsletter.pdf"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2025.",
+    "href": "/assets/newsletters/2025-2026/COH_December_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-10-27",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2025.",
+    "href": "/assets/newsletters/2025-2026/COH_November_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-09-23",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2025.",
+    "href": "/assets/newsletters/2025-2026/COH_October_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2025.",
+    "href": "/assets/newsletters/2025-2026/COH_September_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-07-25",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2025.",
+    "href": "/assets/newsletters/2025-2026/COH_August_2025_Newsletter.pdf"
+  },
+  {
     "date": "2025-06-13",
-    "title": "Welcoming our new Preschool Director",
-    "summary": "We are delighted to introduce Jessica Mueller as our new Preschool Director. Meet Jessica and the rest of our team.",
+    "title": "New Preschool Director",
+    "summary": "We are thrilled to welcome our very own Mrs. Jessica Mueller as our new Preschool Director! 🎉 · With a heart for early childhood education and a deep commitment to nurturing young learners, Mrs. Mueller brings over 15 years of early childhood experience and a passion for creating joyful, inclusive learning environments. She is also a long-time member of Esperanza where she previously served in leadership roles. Mrs. Mueller is a respected educator and coach in our community, nurturing our youngest learners and our high school athletes. · We are confident that under Mrs. Mueller's guidance, our preschool will continue to be a place where curiosity is sparked, friendships are formed, the love of God is shared, and every child is celebrated. · Please join us in giving Mrs. Mueller a warm welcome to her new role at Children of Hope! 💛 · Warmly, · Mrs. H",
     "href": "/about/teachers-and-staff"
   },
   {
+    "date": "2025-05-01",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2025.",
+    "href": "/assets/newsletters/2024-2025/COH_May_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-03-28",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2025.",
+    "href": "/assets/newsletters/2024-2025/COH_April_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-03-02",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2025.",
+    "href": "/assets/newsletters/2024-2025/COH_March_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-01-30",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2025.",
+    "href": "/assets/newsletters/2024-2025/COH_February_2025_Newsletter.pdf"
+  },
+  {
+    "date": "2025-01-05",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2025.",
+    "href": "/assets/newsletters/2024-2025/COH_January_2025_Newsletter.pdf"
+  },
+  {
     "date": "2024-12-22",
-    "title": "Spotlight on Children of Hope: Shaping Futures with Love and Learning",
-    "summary": "Children of Hope was featured by ELCA Schools and Learning Centers.",
+    "title": "Spotlight on Children of Hope",
+    "summary": "See our recent feature in an article by ELCA Schools & Learning Centers.",
     "href": "https://elcaschools.org/children-of-hope-child-development-center-shaping-futures-with-love-and-learning/"
+  },
+  {
+    "date": "2024-12-04",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2024.",
+    "href": "/assets/newsletters/2024-2025/COH_December_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-10-29",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2024.",
+    "href": "/assets/newsletters/2024-2025/COH_November_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-10-11",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2024.",
+    "href": "/assets/newsletters/2024-2025/COH_October_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-08-30",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2024.",
+    "href": "/assets/newsletters/2024-2025/COH_September_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-08-04",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2024.",
+    "href": "/assets/newsletters/2024-2025/COH_August_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-04-27",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2024.",
+    "href": "/assets/newsletters/2023-2024/COH_May_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-04-01",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2024.",
+    "href": "/assets/newsletters/2023-2024/COH_April_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-03-03",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2024.",
+    "href": "/assets/newsletters/2023-2024/COH_March_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-02-01",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2024.",
+    "href": "/assets/newsletters/2023-2024/COH_February_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2024-01-26",
+    "title": "Enrollment Packet & Forms Available",
+    "summary": "Hello! Our Enrollment Packet and Forms for the 2024-25 school year are now available.",
+    "href": "/assets/forms/2024-2025/COH_Enrollment_Packet.pdf"
+  },
+  {
+    "date": "2024-01-02",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2024.",
+    "href": "/assets/newsletters/2023-2024/COH_January_2024_Newsletter.pdf"
+  },
+  {
+    "date": "2023-12-05",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2023.",
+    "href": "/assets/newsletters/2023-2024/COH_December_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-11-02",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2023.",
+    "href": "/assets/newsletters/2023-2024/COH_November_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-10-06",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2023.",
+    "href": "/assets/newsletters/2023-2024/COH_October_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-09-05",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2023.",
+    "href": "/assets/newsletters/2023-2024/COH_September_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-08-17",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2023.",
+    "href": "/assets/newsletters/2023-2024/COH_August_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-04-30",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2023.",
+    "href": "/assets/newsletters/2022-2023/COH_May_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-02-27",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2023.",
+    "href": "/assets/newsletters/2022-2023/COH_April_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-02-08",
+    "title": "Enrollment for 2023-24 School Year",
+    "summary": "Enrollment for 2023-24 School Year will begin on March 1 for Current Families and March 3 for New Families. Please see our Enrollment Packet for forms and more information.",
+    "href": "/assets/forms/2023-2024/COH_Enrollment_Packet.pdf"
+  },
+  {
+    "date": "2023-01-31",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2023.",
+    "href": "/assets/newsletters/2022-2023/COH_February_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2023-01-04",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2023.",
+    "href": "/assets/newsletters/2022-2023/COH_January_2023_Newsletter.pdf"
+  },
+  {
+    "date": "2022-10-31",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2022.",
+    "href": "/assets/newsletters/2022-2023/COH_November_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-10-25",
+    "title": "In The News",
+    "summary": "Read our recent feature in an article by First Things First.",
+    "href": "https://www.firstthingsfirst.org/2022/09/parents-say-quality-first-arizona-preschool-helped-their-children/"
+  },
+  {
+    "date": "2022-10-18",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2022.",
+    "href": "/assets/newsletters/2022-2023/COH_October_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-08-30",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2022.",
+    "href": "/assets/newsletters/2022-2023/COH_September_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-08-19",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2022.",
+    "href": "/assets/newsletters/2022-2023/COH_August_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-05-03",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2022.",
+    "href": "/assets/newsletters/2021-2022/COH_May_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-03-28",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2022.",
+    "href": "/assets/newsletters/2021-2022/COH_April_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-02-28",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2022.",
+    "href": "/assets/newsletters/2021-2022/COH_March_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-02-21",
+    "title": "Registration for 2022-2023 School Year",
+    "summary": "Registration for new families for the 2022-2023 school year begins on Tuesday, March 1st. Download Enrollment Packet",
+    "href": "/assets/forms/2022-2023/COH_Enrollment_Packet_2022-2023.pdf"
+  },
+  {
+    "date": "2022-01-31",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2022.",
+    "href": "/assets/newsletters/2021-2022/COH_February_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2022-01-02",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2022.",
+    "href": "/assets/newsletters/2021-2022/COH_January_2022_Newsletter.pdf"
+  },
+  {
+    "date": "2021-11-29",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2021.",
+    "href": "/assets/newsletters/2021-2022/COH_December_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-11-01",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2021.",
+    "href": "/assets/newsletters/2021-2022/COH_November_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-09-28",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2021.",
+    "href": "/assets/newsletters/2021-2022/COH_October_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-09-08",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2021.",
+    "href": "/assets/newsletters/2021-2022/COH_September_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-08-13",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2021.",
+    "href": "/assets/newsletters/2021-2022/COH_August_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-05-03",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2021.",
+    "href": "/assets/newsletters/2020-2021/COH_May_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-04-05",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2021.",
+    "href": "/assets/newsletters/2020-2021/COH_April_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-03-01",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2021.",
+    "href": "/assets/newsletters/2020-2021/COH_March_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-02-15",
+    "title": "Registration for 2021-2022 School Year",
+    "summary": "Registration for the 2021 - 2022 school year begins on Wednesday, March 3rd."
+  },
+  {
+    "date": "2021-02-01",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2021.",
+    "href": "/assets/newsletters/2020-2021/COH_February_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2021-01-11",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2021.",
+    "href": "/assets/newsletters/2020-2021/COH_January_2021_Newsletter.pdf"
+  },
+  {
+    "date": "2020-11-02",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2020.",
+    "href": "/assets/newsletters/2020-2021/COH_November_2020_Newsletter.pdf"
+  },
+  {
+    "date": "2020-10-06",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2020.",
+    "href": "/assets/newsletters/2020-2021/COH_October_2020_Newsletter.pdf"
+  },
+  {
+    "date": "2020-10-06",
+    "title": "Disinfecting Process",
+    "summary": "See how we're keeping Children of Hope safe with Force Shield disinfection.",
+    "href": "https://www.youtube.com/watch?v=HBsPHWPrZ-Q"
+  },
+  {
+    "date": "2020-09-18",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2020.",
+    "href": "/assets/newsletters/2020-2021/COH_September_2020_Newsletter.pdf"
+  },
+  {
+    "date": "2020-09-02",
+    "title": "Preschool Announcement",
+    "summary": "Our first day of in-person learning will be on September 8, 2020! We have been busy preparing for a safe, healthy return with all the necessary protocols in place, while maintaining a nurturing, supportive learning environment for each child. We can’t wait to see you soon!"
+  },
+  {
+    "date": "2020-06-30",
+    "title": "Preschool Announcement",
+    "summary": "Per Governor Ducey’s announcement to delay the start of school, we have updated our calendar accordingly. We are mindfully preparing for a safe, happy return to school on August 19th with all the necessary Covid protocols in place. We can’t wait to see our students and families and wish you all good health until we can gather again in August!"
+  },
+  {
+    "date": "2020-03-04",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2020.",
+    "href": "/assets/newsletters/2019-2020/COH_March_2020_Newsletter.pdf"
+  },
+  {
+    "date": "2020-02-06",
+    "title": "Registration for 2020-2021 School Year",
+    "summary": "Registration for the 2020 - 2021 school year begins on March 4th."
+  },
+  {
+    "date": "2020-02-03",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2020.",
+    "href": "/assets/newsletters/2019-2020/COH_February_2020_Newsletter.pdf"
+  },
+  {
+    "date": "2020-01-06",
+    "title": "January Preschool Newsletter",
+    "summary": "Happy New Year! Check out our preschool newsletter for January 2020.",
+    "href": "/assets/newsletters/2019-2020/COH_January_2020_Newsletter.pdf"
+  },
+  {
+    "date": "2019-12-02",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2019.",
+    "href": "/assets/newsletters/2019-2020/COH_December_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-11-01",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2019.",
+    "href": "/assets/newsletters/2019-2020/COH_November_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-09-30",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2019.",
+    "href": "/assets/newsletters/2019-2020/COH_October_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-09-02",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2019.",
+    "href": "/assets/newsletters/2019-2020/COH_September_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-08-06",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2019.",
+    "href": "/assets/newsletters/2019-2020/COH_August_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-04-30",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2019.",
+    "href": "/assets/newsletters/2018-2019/COH_May_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-04-01",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2019.",
+    "href": "/assets/newsletters/2018-2019/COH_April_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-03-04",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2019.",
+    "href": "/assets/newsletters/2018-2019/COH_March_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-02-25",
+    "title": "Registration for 2019-2020 School Year",
+    "summary": "We are looking forward to a fun filled and enriching year! Please download and fill out the Enrollment Packet to be submitted upon registration.",
+    "href": "/assets/forms/archive/COH%20Enrollment%20Packet%202019%20-%202020.pdf"
+  },
+  {
+    "date": "2019-01-29",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2019.",
+    "href": "/assets/newsletters/2018-2019/COH_February_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2019-01-07",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2019.",
+    "href": "/assets/newsletters/2018-2019/COH_January_2019_Newsletter.pdf"
+  },
+  {
+    "date": "2018-11-30",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2018.",
+    "href": "/assets/newsletters/2018-2019/COH_December_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-11-05",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2018.",
+    "href": "/assets/newsletters/2018-2019/COH_November_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-11-01",
+    "title": "Children of Hope Family Handbook",
+    "summary": "Check out the Children of Hope Family Handbook.",
+    "href": "/assets/COH%20Family%20Handbook.pdf"
+  },
+  {
+    "date": "2018-10-02",
+    "title": "October Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for October 2018.",
+    "href": "/assets/newsletters/2018-2019/COH_October_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-08-09",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2018.",
+    "href": "/assets/newsletters/2018-2019/COH_August_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-05-07",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2018.",
+    "href": "/assets/newsletters/2017-2018/COH_May_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-04-05",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2018.",
+    "href": "/assets/newsletters/2017-2018/COH_April_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-03-02",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2018.",
+    "href": "/assets/newsletters/2017-2018/COH_March_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-02-13",
+    "title": "Registration for 2018-2019 School Year",
+    "summary": "We are looking forward to a fun filled and enriching year! Please download and fill out the Enrollment Packet to be submitted upon registration. Registration begins on the following dates: · March 5th, 2018 - Registration for Current Families March 6th, 2018 - Registration for Alumni & Church Members March 7th, 2018 - Registration for New Families",
+    "href": "/assets/forms/archive/COH%20Enrollment%20Packet%202018%20-%202019.pdf"
+  },
+  {
+    "date": "2018-02-04",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2018.",
+    "href": "/assets/newsletters/2017-2018/COH_February_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2018-01-11",
+    "title": "January Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for January 2018.",
+    "href": "/assets/newsletters/2017-2018/COH_January_2018_Newsletter.pdf"
+  },
+  {
+    "date": "2017-12-04",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2017.",
+    "href": "/assets/newsletters/2017-2018/COH_December_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-10-31",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2017.",
+    "href": "/assets/newsletters/2017-2018/COH_November_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-09-11",
+    "title": "September Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for September 2017.",
+    "href": "/assets/newsletters/2017-2018/COH_September_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-08-11",
+    "title": "August Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for August 2017.",
+    "href": "/assets/newsletters/2017-2018/COH_August_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-05-02",
+    "title": "May Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for May 2017.",
+    "href": "/assets/newsletters/2016-2017/COH_May_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-03-29",
+    "title": "April Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for April 2017.",
+    "href": "/assets/newsletters/2016-2017/COH_April_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-03-10",
+    "title": "March Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for March 2017.",
+    "href": "/assets/newsletters/2016-2017/COH_March_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2017-02-22",
+    "title": "Registration for 2017-18 School Year",
+    "summary": "Enrollment for the 2017-18 school year begins March 1st for current families and March 2nd for new families. You can download the Enrollment Information packet and related forms from our Forms page.",
+    "href": "/assets/forms/archive/COH%20Enrollment%20Information%20Packet.pdf"
+  },
+  {
+    "date": "2017-02-03",
+    "title": "February Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for February 2017.",
+    "href": "/assets/newsletters/2016-2017/COH_February_2017_Newsletter.pdf"
+  },
+  {
+    "date": "2016-11-29",
+    "title": "December Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for December 2016.",
+    "href": "/assets/newsletters/2016-2017/COH_December_2016_Newsletter.pdf"
+  },
+  {
+    "date": "2016-11-03",
+    "title": "November Preschool Newsletter",
+    "summary": "Check out our preschool newsletter for November 2016.",
+    "href": "/assets/newsletters/2016-2017/COH_November_2016_Newsletter.pdf"
+  },
+  {
+    "date": "2016-10-12",
+    "title": "Holiday Cooking Enrichment Class Starts This Friday",
+    "summary": "Bake up some holiday treats with Mrs. Hammer and Mrs. A. From pumpkin to gingerbread and many treats in between! This class not recommended for children with food allergies. Class Dates: · Friday, October 14 · Friday, October 21 · Wednesday, October 24 · Friday, November 4 · Friday, November 18 · Friday, December 2 · Friday, December 9"
   }
 ]

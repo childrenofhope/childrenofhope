@@ -1,0 +1,38 @@
+---
+import { formatLongDate, isExternal, type Announcement } from "../utils";
+
+interface Props {
+  announcement: Announcement;
+  /** Show the summary text. The home page lists titles only. */
+  showSummary?: boolean;
+}
+
+const { announcement: a, showSummary = false } = Astro.props;
+
+// Six of the archived announcements never linked anywhere, so the card has to
+// be able to render as plain content rather than always as an anchor.
+const linked = Boolean(a.href);
+const Tag = linked ? "a" : "div";
+const linkAttrs = linked
+  ? { href: a.href, ...(isExternal(a.href) ? { target: "_blank", rel: "noopener" } : {}) }
+  : {};
+---
+
+<Tag class:list={["coh-card", "ann", { "is-static": !linked }]} {...linkAttrs}>
+  <div class="ann-date">Posted {formatLongDate(a.date)}</div>
+  <div class="ann-title">{a.title}</div>
+  {showSummary && (
+    <p class="ann-sum">
+      {a.summary}
+      {linked && <span class="read">Read →</span>}
+    </p>
+  )}
+</Tag>
+
+<style>
+  .ann { display: block; background: #fff; border-radius: 18px; padding: 22px 24px; box-shadow: 0 4px 12px rgba(44, 62, 80, 0.05); }
+  .ann-date { font-size: 11px; color: var(--coh-muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+  .ann-title { font-weight: 800; font-size: 17px; color: var(--coh-ink); margin-top: 5px; }
+  .ann-sum { font-size: 14px; color: #7a7f86; margin: 6px 0 0; line-height: 1.6; }
+  .read { color: var(--coh-sky); font-weight: 700; white-space: nowrap; }
+</style>

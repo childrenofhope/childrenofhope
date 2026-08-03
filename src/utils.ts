@@ -4,7 +4,8 @@ export interface Announcement {
   date: string;
   title: string;
   summary: string;
-  href: string;
+  /** Optional — a handful of the archived announcements never linked anywhere. */
+  href?: string;
   featured?: boolean;
 }
 
@@ -24,6 +25,6 @@ export function getAnnouncements(): Announcement[] {
 }
 
 /** True for off-site links (open in a new tab). */
-export function isExternal(href: string): boolean {
-  return /^https?:\/\//.test(href);
+export function isExternal(href?: string): boolean {
+  return !!href && /^https?:\/\//.test(href);
 }

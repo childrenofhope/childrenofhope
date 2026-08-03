@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ImageSlot from "../components/ImageSlot.astro";
-import { getAnnouncements, formatLongDate } from "../utils";
+import AnnouncementCard from "../components/AnnouncementCard.astro";
+import { getAnnouncements } from "../utils";
 
 const latest = getAnnouncements().slice(0, 3);
 ---
@@ -102,12 +103,7 @@ const latest = getAnnouncements().slice(0, 3);
         <a class="coh-link view-all" href="/announcements">View all →</a>
       </div>
       <div class="ann-list">
-        {latest.map((a) => (
-          <a class="coh-card ann" href={a.href}>
-            <div class="ann-date">Posted {formatLongDate(a.date)}</div>
-            <div class="ann-title">{a.title}</div>
-          </a>
-        ))}
+        {latest.map((a) => <AnnouncementCard announcement={a} />)}
       </div>
     </div>
   </section>
@@ -172,9 +168,6 @@ const latest = getAnnouncements().slice(0, 3);
   .ann-head h2 { font-weight: 800; font-size: 24px; color: var(--coh-ink); margin: 0; }
   .view-all { font-size: 14px; font-weight: 700; color: var(--coh-sky); }
   .ann-list { display: flex; flex-direction: column; gap: 14px; }
-  .ann { background: #fff; border-radius: 16px; padding: 18px 20px; box-shadow: 0 4px 12px rgba(44,62,80,.05); display: block; }
-  .ann-date { font-size: 11px; color: var(--coh-muted); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
-  .ann-title { font-weight: 700; font-size: 16px; color: var(--coh-ink); margin-top: 5px; }
 
   @media (max-width: 860px) {
     .hero { padding-top: 40px; padding-bottom: 40px; }
